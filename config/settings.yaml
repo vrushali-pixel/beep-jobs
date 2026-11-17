@@ -7,7 +7,7 @@ llm:
   batch_size: 25                 # posts per API call (fewer calls = cheaper, fewer free-tier requests)
   seconds_between_calls: 7       # stay under the free tier's requests-per-minute limit
   max_desc_chars: 900            # only the start of the description is sent
-  prompt_file: prompts/tagger_v1.md
+  prompt_file: config/prompts/tagger_v1.md
   # Free tier = $0 actually paid. To report what it WOULD cost on the paid tier, fill these
   # from the provider's pricing page on the day you report (Gemini: ai.google.dev/pricing).
   price_input_per_mtok_usd: null

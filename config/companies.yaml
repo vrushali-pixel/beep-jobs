@@ -1,9 +1,8 @@
 # Company job boards to read. Every source here is the company's OWN official job board,
 # exposed through the board provider's public postings API (built for showing jobs publicly).
 #
-# This is a CANDIDATE list. Some slugs are guesses. Run `python -m pipeline.discover`
-# once: it checks every slug, counts India entry-level posts, and writes
-# sources/companies_verified.yaml, which the daily run uses.
+# Boards that did not exist were removed on 17 Nov 2026 (see BUILD_LOG #13).
+# `fresherjobs discover` checks every board and prints how many India entry-level posts each has.
 #
 # To add a company: find its careers page, look at the link
 #   job-boards.greenhouse.io/<slug>   -> greenhouse
@@ -138,9 +137,9 @@ smartrecruiters:
   - Bayer
 
 # Workday career sites are big MNC boards. Their search endpoint is the one the public
-# careers page itself calls, but it is NOT a documented public API, so it is OFF by default.
-# Decide before turning it on (see README: "Respecting site terms").
-workday_enabled: true      # decided 17 Nov: see README "Respecting site terms"
+# careers page itself calls, but it is NOT a documented public API. Tried on 17 Nov 2026:
+# every site answered 429 (refused) to GitHub's servers, so it stays OFF.
+workday_enabled: false     # 17 Nov: every Workday site answered 429 to GitHub servers. See docs/decisions/0003-workday.md
 workday:
   - {company: LSEG,           host: lseg.wd3.myworkdayjobs.com,               tenant: lseg,           site: Careers}
   - {company: Kaleris,        host: kaleris.wd501.myworkdayjobs.com,          tenant: kaleris,        site: kaleris_careers}

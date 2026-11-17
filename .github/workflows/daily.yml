@@ -29,13 +29,13 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - run: pip install -r requirements.txt
+      - run: pip install .
 
       - name: Fetch, filter, de-dupe, tag, publish
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python -m pipeline.run
+        run: fresherjobs run
 
       - name: Save data to the repo
         run: |
