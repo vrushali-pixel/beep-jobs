@@ -132,7 +132,7 @@ def test_tagger_uses_llm_output_and_caches(tmp_path, monkeypatch):
                                        content=[SimpleNamespace(type="tool_use", input={"posts": out})])
 
     t = tag.Tagger(CFG, RULES, cache_path=str(tmp_path / "c.json"))
-    t.client = FakeClient()
+    t.provider, t.client, t.gap = "anthropic", FakeClient(), 0
     ps, _ = dedupe([post("Data Analyst Intern", c) for c in ("Bengaluru", "Delhi")] +
                    [post("HR Intern"), post("Coding Intern")], RULES)
     res = t.tag(ps, log=lambda *a: None)
@@ -148,6 +148,38 @@ def test_tagger_uses_llm_output_and_caches(tmp_path, monkeypatch):
     assert set(calls[0]) <= real, set(calls[0]) - real
     t.tag(ps, log=lambda *a: None)                                       # cached -> only retries fallback
     assert len(calls) == 2 and len(json.loads(calls[1]["messages"][0]["content"].split("\n", 1)[1])) == 1
+
+
+def test_gemini_provider(tmp_path, monkeypatch):
+    import requests
+    sent = {}
+
+    class Resp:
+        status_code = 200
+        def raise_for_status(self): pass
+        def json(self):
+            ids = [p["id"] for p in json.loads(sent["body"]["contents"][0]["parts"][0]["text"].split("\n", 1)[1])]
+            out = {"posts": [{"id": i, "entry_level": True, "role_group": "hr", "clean_title": "HR Intern",
+                              "cities": ["Pune"], "job_type": "internship", "skills": [], "eligibility": "",
+                              "pay": "", "red_flags": []} for i in ids]}
+            return {"candidates": [{"content": {"parts": [{"text": json.dumps(out)}]}}],
+                    "usageMetadata": {"promptTokenCount": 900, "candidatesTokenCount": 150, "thoughtsTokenCount": 10}}
+
+    def fake_post(url, headers, json, timeout):
+        sent.update(url=url, headers=headers, body=json)
+        return Resp()
+
+    monkeypatch.setattr(requests, "post", fake_post)
+    monkeypatch.setenv("GEMINI_API_KEY", "test-key")
+    t = tag.Tagger(dict(CFG, llm=dict(CFG["llm"], provider="gemini")), RULES, cache_path=str(tmp_path / "g.json"))
+    t.gap = 0
+    ps, _ = dedupe([post("HR Intern", "Pune")], RULES)
+    res = t.tag(ps, log=lambda *a: None)
+    assert list(res.values())[0]["role_group"] == "hr" and t.usage == {
+        "calls": 1, "input_tokens": 900, "output_tokens": 160, "posts_llm": 1, "posts_fallback": 0}
+    schema = sent["body"]["generationConfig"]["responseSchema"]
+    assert schema["type"] == "OBJECT" and "enum" in schema["properties"]["posts"]["items"]["properties"]["role_group"]
+    assert sent["headers"]["x-goog-api-key"] == "test-key" and ":generateContent" in sent["url"]
 
 
 def test_prompt_lists_every_role_and_city():

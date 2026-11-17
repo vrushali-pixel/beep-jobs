@@ -74,8 +74,13 @@ Every rejected post and the reason is saved in `data/rejected_latest.json`.
 
 ## LLM tagging
 
-- Model: `claude-haiku-5-5` (set in `config.yaml`). Small and fast is enough for classification.
-- The model must answer through a tool with a strict JSON schema. `role_group` and `cities`
+- Model: `gemini-2.5-flash-lite` on Google's **free tier** (set in `config.yaml`). Small and fast is
+  enough for classification. Switch `provider: anthropic` + `model: claude-haiku-5-5` to use Claude;
+  the code supports both.
+- Free tier: no card needed, rate-limited. Calls are paced (`seconds_between_calls`) and the run stops
+  calling after 3 failed batches in a row (quota used up); untagged posts are retried the next day.
+  Only public job-post text is sent, never personal data.
+- The model must answer in a strict JSON schema (Gemini `responseSchema`, Claude tool schema). `role_group` and `cities`
   are **enums**, so it cannot invent a role or spell a city two ways.
 - 20 posts per call; only the first 900 characters of each description are sent.
 - Results are cached per post and prompt version, so each post is paid for once.
@@ -91,7 +96,8 @@ python -m eval.make_sample                      # eval/sample_50.csv: 50 random 
 python -m eval.score eval/sample_50_checked.csv  # % correct for role, city, both + mistakes + cost
 ```
 
-Cost per 1,000 posts = (average input tokens × input price + average output tokens × output
+On the free tier the money actually spent is **$0**. The script also reports what the same tokens
+would cost on the paid tier, so the number is comparable. Cost per 1,000 posts = (average input tokens × input price + average output tokens × output
 price) per post × 1,000. Token counts come from the API's own usage numbers saved in
 `data/runs.jsonl`. Put the model's prices in `config.yaml` (`llm.price_*_per_mtok_usd`).
 
@@ -101,8 +107,8 @@ price) per post × 1,000. Token counts come from the API's own usage numbers sav
 2. `pip install -r requirements.txt`
 3. `python -m pipeline.discover` checks the company boards and prints how many India entry-level posts exist.
    Commit the `sources/companies_verified.yaml` it writes.
-4. GitHub repo → **Settings → Secrets and variables → Actions → New secret**:
-   `ANTHROPIC_API_KEY` = your key.
+4. Get a free key at aistudio.google.com (Get API key). GitHub repo → **Settings → Secrets and
+   variables → Actions → New secret**: `GEMINI_API_KEY` = your key.
 5. **Settings → Pages → Source: GitHub Actions.**
 6. **Actions → Daily job refresh → Run workflow.** After 5–15 minutes the page is live at the URL
    shown in the run. From then on it runs by itself every morning.

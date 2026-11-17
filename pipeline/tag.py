@@ -78,18 +78,39 @@ def keyword_tag(p, cfg, rules):
             "pay": p.get("pay", ""), "red_flags": [], "tagger": "keywords"}
 
 
+def gemini_schema(schema):
+    """Convert our JSON schema to Gemini's responseSchema dialect (UPPERCASE types, no maxItems)."""
+    out = {"type": schema["type"].upper()}
+    if "enum" in schema:
+        out["enum"] = schema["enum"]
+    if "properties" in schema:
+        out["properties"] = {k: gemini_schema(v) for k, v in schema["properties"].items()}
+        out["required"] = schema.get("required", list(schema["properties"]))
+    if "items" in schema:
+        out["items"] = gemini_schema(schema["items"])
+    return out
+
+
 class Tagger:
+    """provider: gemini (free tier, needs GEMINI_API_KEY) or anthropic (needs ANTHROPIC_API_KEY)."""
+
     def __init__(self, cfg, rules, cache_path="data/tags_cache.json"):
         self.cfg, self.rules, self.cache_path = cfg, rules, cache_path
-        self.version = os.path.basename(cfg["llm"]["prompt_file"])
+        llm = cfg["llm"]
+        self.provider, self.model = llm.get("provider", "anthropic"), llm["model"]
+        self.version = os.path.basename(llm["prompt_file"])
         self.cache = json.load(open(cache_path)) if os.path.exists(cache_path) else {}
         self.usage = {"calls": 0, "input_tokens": 0, "output_tokens": 0, "posts_llm": 0, "posts_fallback": 0}
-        self.client = None
-        if os.environ.get("ANTHROPIC_API_KEY"):
+        self.client = None                  # anthropic client, or the Gemini key
+        if self.provider == "anthropic" and os.environ.get("ANTHROPIC_API_KEY"):
             import anthropic
             self.client = anthropic.Anthropic()
+        elif self.provider == "gemini" and os.environ.get("GEMINI_API_KEY"):
+            self.client = os.environ["GEMINI_API_KEY"]
         self.system = build_prompt(cfg)
         self.tool = tool_schema(cfg)
+        self.gap = float(llm.get("seconds_between_calls", 0))
+        self._last = 0.0
 
     def already_tagged(self, post_id):
         hit = self.cache.get(f"{self.version}:{post_id}")
@@ -98,19 +119,49 @@ class Tagger:
     def _key(self, p):
         return f"{self.version}:{p['id']}"
 
+    def _user_text(self, batch):
+        payload = [post_for_llm(p, self.cfg["llm"]["max_desc_chars"]) for p in batch]
+        return "Tag these posts:\n" + json.dumps(payload, ensure_ascii=False)
+
     def _call(self, batch):
-        llm = self.cfg["llm"]
-        payload = [post_for_llm(p, llm["max_desc_chars"]) for p in batch]
-        msg = self.client.messages.create(
-            model=llm["model"], max_tokens=4000,
-            system=self.system, tools=[self.tool], tool_choice={"type": "tool", "name": "save_tags"},
-            messages=[{"role": "user", "content": "Tag these posts:\n" + json.dumps(payload, ensure_ascii=False)}],
-        )
+        wait = self.gap - (time.time() - self._last)      # stay inside free-tier per-minute limits
+        if wait > 0:
+            time.sleep(wait)
+        self._last = time.time()
+        out = self._call_gemini(batch) if self.provider == "gemini" else self._call_anthropic(batch)
         self.usage["calls"] += 1
+        return out
+
+    def _call_anthropic(self, batch):
+        msg = self.client.messages.create(
+            model=self.model, max_tokens=4000,
+            system=self.system, tools=[self.tool], tool_choice={"type": "tool", "name": "save_tags"},
+            messages=[{"role": "user", "content": self._user_text(batch)}],
+        )
         self.usage["input_tokens"] += msg.usage.input_tokens
         self.usage["output_tokens"] += msg.usage.output_tokens
         block = next(b for b in msg.content if b.type == "tool_use")
         return {t["id"]: t for t in block.input.get("posts", [])}
+
+    def _call_gemini(self, batch):
+        import requests
+        r = requests.post(
+            f"https://generativelanguage.googleapis.com/v1beta/models/{self.model}:generateContent",
+            headers={"x-goog-api-key": self.client, "Content-Type": "application/json"},
+            json={"systemInstruction": {"parts": [{"text": self.system}]},
+                  "contents": [{"role": "user", "parts": [{"text": self._user_text(batch)}]}],
+                  "generationConfig": {"temperature": 0, "responseMimeType": "application/json",
+                                       "responseSchema": gemini_schema(self.tool["input_schema"])}},
+            timeout=180)
+        if r.status_code == 429:            # free-tier limit hit: wait, the caller retries once
+            time.sleep(40)
+        r.raise_for_status()
+        data = r.json()
+        u = data.get("usageMetadata", {})
+        self.usage["input_tokens"] += u.get("promptTokenCount", 0)
+        self.usage["output_tokens"] += u.get("candidatesTokenCount", 0) + u.get("thoughtsTokenCount", 0)
+        text = data["candidates"][0]["content"]["parts"][0]["text"]
+        return {t["id"]: t for t in json.loads(text).get("posts", [])}
 
     def tag(self, posts, log=print):
         def needs_tag(p):
@@ -119,21 +170,24 @@ class Tagger:
             return hit is None or (self.client and hit.get("tagger") == "keywords")
         todo = [p for p in posts if needs_tag(p)]
         size = self.cfg["llm"]["batch_size"]
+        failed_in_a_row = 0
         for i in range(0, len(todo), size):
             batch = todo[i:i + size]
             got = {}
             for attempt in range(2):
-                if not self.client:
+                if not self.client or failed_in_a_row >= 3:   # daily quota gone: stop, retry tomorrow
                     break
                 try:
                     got = self._call(batch)
+                    failed_in_a_row = 0
                     break
                 except Exception as e:
                     log(f"  ! tag batch {i // size}: {type(e).__name__} {str(e)[:300]}")
+                    failed_in_a_row += attempt     # count a batch once both tries failed
                     time.sleep(3)
             for p in batch:
                 if p["id"] in got:
-                    t = validate(dict(got[p["id"]], tagger=self.cfg["llm"]["model"]), self.cfg)
+                    t = validate(dict(got[p["id"]], tagger=self.model), self.cfg)
                     self.usage["posts_llm"] += 1
                 else:                                     # missing from reply, or no key
                     t = keyword_tag(p, self.cfg, self.rules)
