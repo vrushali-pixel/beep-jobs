@@ -129,7 +129,7 @@ class Tagger:
                     got = self._call(batch)
                     break
                 except Exception as e:
-                    log(f"  ! tag batch {i // size}: {type(e).__name__} {str(e)[:100]}")
+                    log(f"  ! tag batch {i // size}: {type(e).__name__} {str(e)[:300]}")
                     time.sleep(3)
             for p in batch:
                 if p["id"] in got:
