@@ -1,0 +1,72 @@
+# Everything you might be asked to change on the live call lives here.
+# Edit this file, not the code.
+
+llm:
+  model: claude-haiku-5-5        # small, fast model is enough for tagging
+  batch_size: 20                 # posts per API call (fewer calls = cheaper)
+  max_desc_chars: 900            # only the start of the description is sent
+  prompt_file: prompts/tagger_v1.md
+  # Fill these from https://www.anthropic.com/pricing on the day you report cost.
+  price_input_per_mtok_usd: null
+  price_output_per_mtok_usd: null
+
+refresh:
+  expire_after_days: 30          # hide a post not seen at its source for this long
+  request_delay_sec: 0.5         # pause between requests to each site (be polite)
+
+# Role groups shown to students. Key = tag the LLM must use. Label = what students see.
+roles:
+  coding:      {label: "Coding & Software",        hint: "software developer, backend, frontend, full stack, mobile, SDE, programmer"}
+  data_ai:     {label: "Data & AI",                hint: "data analyst, data science, machine learning, AI, analytics, BI"}
+  qa:          {label: "Testing & QA",             hint: "QA, test engineer, SDET, quality assurance (software)"}
+  it_cloud:    {label: "IT, Cloud & Security",     hint: "devops, cloud, network, IT support, cybersecurity, infra, SRE"}
+  core_engg:   {label: "Core Engineering",         hint: "mechanical, electrical, electronics, civil, chemical, hardware, VLSI, manufacturing"}
+  product:     {label: "Product",                  hint: "product manager, associate PM, product analyst"}
+  design:      {label: "Design & Creative",        hint: "UI/UX, graphic design, video, content design, architecture"}
+  marketing:   {label: "Marketing & Content",      hint: "marketing, social media, SEO, content writing, brand, growth marketing"}
+  sales:       {label: "Sales & Business Dev",     hint: "sales, business development, account executive, partnerships, inside sales"}
+  hr:          {label: "HR & Recruiting",          hint: "human resources, talent acquisition, recruiter, people ops"}
+  finance:     {label: "Finance & Accounting",     hint: "finance, accounting, audit, tax, CA articleship, banking ops"}
+  operations:  {label: "Operations & Strategy",    hint: "operations, founder's office, strategy, consulting, business analyst, supply chain"}
+  support:     {label: "Customer Support",         hint: "customer support, customer success, technical support, service desk"}
+  other:       {label: "Other",                    hint: "legal, research, anything that fits nowhere else"}
+
+job_types:
+  internship: "Internship"
+  fulltime:   "Full-time job"
+  apprentice: "Apprenticeship / Trainee"
+
+# Canonical city -> spellings seen in posts. The LLM is told to use the canonical names.
+cities:
+  Bengaluru: [bengaluru, bangalore, bengaluru urban, bangalore urban]
+  Hyderabad: [hyderabad, secunderabad, gachibowli, hitech city]
+  Pune: [pune, pimpri, chinchwad, hinjewadi, kharadi, baner]
+  Mumbai: [mumbai, navi mumbai, thane, bombay, powai, andheri]
+  Chennai: [chennai, madras]
+  Gurugram: [gurugram, gurgaon]
+  Noida: [noida, greater noida]
+  Delhi: [delhi, new delhi]
+  Kolkata: [kolkata, calcutta]
+  Ahmedabad: [ahmedabad, gandhinagar]
+  Jaipur: [jaipur]
+  Kochi: [kochi, cochin]
+  Thiruvananthapuram: [thiruvananthapuram, trivandrum]
+  Coimbatore: [coimbatore]
+  Indore: [indore]
+  Chandigarh: [chandigarh, mohali]
+  Vadodara: [vadodara, baroda]
+  Mysuru: [mysuru, mysore]
+  Remote: [remote, work from home, wfh]
+
+# Cheap rules that run BEFORE the LLM, so we only pay to tag likely fresher posts.
+entry_title_words: [intern, internship, trainee, apprentice, apprenticeship, graduate, fresher,
+                    "new grad", "campus", "entry level", "entry-level", junior, "associate engineer",
+                    "associate software", "analyst 1", "engineer 1", "engineer i", "sde 1", "sde-1", "sde i", "2026", "2027"]
+senior_title_words: [senior, "sr.", "sr ", lead, principal, staff, manager, director, head, architect,
+                     vp, "vice president", " ii", " iii", " iv", "sde 2", "sde-2", "sde ii", expert, specialist ii]
+fresher_desc_phrases: ["0-1 year", "0 - 1 year", "0 to 1 year", "freshers", "fresher", "recent graduate",
+                       "graduating in 2026", "graduating in 2027", "2026 batch", "2027 batch", "no experience required"]
+
+# Scam signs. A post containing any of these is rejected and logged.
+fraud_phrases: ["registration fee", "security deposit", "pay a fee", "processing fee", "training fee",
+                "refundable deposit", "pay rs", "pay ₹", "joining fee", "kit charges", "send money"]

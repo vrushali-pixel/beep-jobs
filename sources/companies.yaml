@@ -1,0 +1,265 @@
+# Company job boards to read. Every source here is the company's OWN official job board,
+# exposed through the board provider's public postings API (built for showing jobs publicly).
+#
+# This is a CANDIDATE list. Some slugs are guesses. Run `python -m pipeline.discover`
+# once: it checks every slug, counts India entry-level posts, and writes
+# sources/companies_verified.yaml, which the daily run uses.
+#
+# To add a company: find its careers page, look at the link
+#   job-boards.greenhouse.io/<slug>   -> greenhouse
+#   jobs.lever.co/<slug>              -> lever
+#   jobs.ashbyhq.com/<slug>           -> ashby
+#   jobs.smartrecruiters.com/<Slug>   -> smartrecruiters
+# and add <slug> below.
+
+greenhouse:
+  # seen with India intern/fresher posts in search results
+  - freshprints
+  - karya
+  - enterpret
+  - fourkites
+  - hackerrank
+  - rubrik
+  - smartsheet
+  - cannondesign
+  - workato
+  - stripe
+  - mongodb
+  # guesses — discover will drop the ones that do not exist
+  - phonepe
+  - groww
+  - meesho
+  - postman
+  - browserstack
+  - druva
+  - hasura
+  - chargebee
+  - innovaccer
+  - mindtickle
+  - sprinklr
+  - thoughtspot
+  - nutanix
+  - databricks
+  - coinbase
+  - twilio
+  - okta
+  - gitlab
+  - elastic
+  - confluent
+  - samsara
+  - cloudflare
+  - zscaler
+  - airbnb
+  - dropbox
+  - pinterest
+  - toast
+  - affirm
+  - robinhood
+  - doordash
+  - instacart
+  - lyft
+  - figma
+  - notion
+  - airtable
+  - asana
+  - grammarly
+  - duolingo
+  - celonis
+  - hubspot
+  - squarespace
+  - wayfair
+  - zoominfo
+  - newrelic
+  - datadog
+  - mixpanel
+  - amplitude
+  - appdynamics
+  - tekion
+  - icertis
+  - capillarytech
+  - uniphore
+  - yellowai
+  - gupshup
+  - darwinbox
+  - leadsquared
+  - moengage
+  - clevertap
+  - zluri
+  - whatfix
+  - atlassian
+  - sharechat
+  - dream11
+  - cars24
+  - spinny
+  - urbancompany
+  - unacademy
+  - upgrad
+  - physicswallah
+  - zetaglobal
+  - indmoney
+  - jar
+  - smallcase
+  - acko
+  - digit
+  - policybazaar
+  - nykaa
+  - lenskart
+  - licious
+  - ola
+  - rapido
+  - porter
+  - delhivery
+  - shiprocket
+  - blinkit
+  - zepto
+
+lever:
+  - stable-money1
+  - sprinto
+  - cred
+  - zeta
+  - jupiter
+  - slice
+  - plivo
+  - atlan
+  - fampay
+  - khatabook
+  - dukaan
+  - healthifyme
+  - pocketfm
+  - kukufm
+  - classplus
+  - scaler
+  - masaischool
+  - newtonschool
+  - simplilearn
+  - leap
+  - leapfinance
+  - inshorts
+  - paytm
+  - mpl
+  - games24x7
+  - zupee
+  - winzo
+  - rupeek
+  - open
+  - razorpay
+  - swiggy
+  - zomato
+  - urbanic
+  - bewakoof
+  - mamaearth
+  - boat
+  - sugarcosmetics
+  - pepperfry
+  - livspace
+  - nobroker
+  - housing
+  - magicbricks
+  - toplyne
+  - hevodata
+  - signeasy
+  - exotel
+  - haptik
+  - verloop
+  - observe
+  - palantir
+  - spotify
+  - netflix
+  - kraken
+
+ashby:
+  - sarvam
+  - krutrim
+  - rippling
+  - ramp
+  - deel
+  - remote
+  - linear
+  - vercel
+  - supabase
+  - posthog
+  - replit
+  - cohere
+  - perplexity
+  - lovable
+  - zepto
+  - groww
+  - composio
+  - nurix
+  - atomicwork
+  - giva
+  - setu
+  - fyle
+  - multiplier
+  - plum
+  - bureau
+  - credgenics
+  - truefoundry
+
+smartrecruiters:
+  # seen with India fresher/intern posts
+  - SikaAG
+  - AveryDennison
+  - NielsenIQ
+  # guesses
+  - Freshworks
+  - Visa
+  - BoschGroup
+  - ServiceNow
+  - Equinix
+  - Sanofi
+  - Ubisoft2
+  - Wipro
+  - Informatica
+  - Experian
+  - Cognizant
+  - Capgemini
+  - Publicis
+  - PublicisSapient
+  - Mondelez
+  - McDonalds
+  - Ikea
+  - Skechers
+  - Puma
+  - Square
+  - Linkedin3
+  - WesternDigital
+  - Continental
+  - Siemens
+  - HCLTech
+  - LTIMindtree
+  - Allegis
+  - Teleperformance
+  - Concentrix
+  - Uber
+  - Paysafe
+  - Signify
+  - Hitachi
+  - Abbott
+  - Philips
+  - Unilever
+  - Bayer
+
+# Workday career sites are big MNC boards. Their search endpoint is the one the public
+# careers page itself calls, but it is NOT a documented public API, so it is OFF by default.
+# Decide before turning it on (see README: "Respecting site terms").
+workday_enabled: false
+workday:
+  - {company: LSEG,           host: lseg.wd3.myworkdayjobs.com,               tenant: lseg,           site: Careers}
+  - {company: Kaleris,        host: kaleris.wd501.myworkdayjobs.com,          tenant: kaleris,        site: kaleris_careers}
+  - {company: Marsh McLennan, host: mmc.wd1.myworkdayjobs.com,                tenant: mmc,            site: careers}
+  - {company: NTT DATA,       host: nttlimited.wd3.myworkdayjobs.com,         tenant: nttlimited,     site: NTT_Careers}
+  - {company: Cisco,          host: cisco.wd5.myworkdayjobs.com,              tenant: cisco,          site: Cisco_Careers}
+  - {company: Genpact,        host: genpact.wd108.myworkdayjobs.com,          tenant: genpact,        site: External_Careers}
+  - {company: Smith+Nephew,   host: smithnephew.wd5.myworkdayjobs.com,        tenant: smithnephew,    site: External}
+  - {company: S&P Global,     host: spgi.wd5.myworkdayjobs.com,               tenant: spgi,           site: SPGI_Careers}
+  - {company: KLA,            host: kla.wd1.myworkdayjobs.com,                tenant: kla,            site: Search}
+  - {company: Flex,           host: flextronics.wd1.myworkdayjobs.com,        tenant: flextronics,    site: Careers}
+  - {company: Valeo,          host: valeo.wd3.myworkdayjobs.com,              tenant: valeo,          site: valeo_jobs}
+  - {company: Clarivate,      host: clarivate.wd3.myworkdayjobs.com,          tenant: clarivate,      site: Clarivate_Careers}
+  - {company: Guidehouse,     host: guidehouse.wd1.myworkdayjobs.com,         tenant: guidehouse,     site: External}
+  - {company: Piramal Pharma, host: piramalpharma.wd102.myworkdayjobs.com,    tenant: piramalpharma,  site: PIRAMAL_EXTERNAL_CAREERS}
+  - {company: FNZ,            host: fnz.wd3.myworkdayjobs.com,                tenant: fnz,            site: fnz_careers}
+  - {company: Oaktree,        host: oaktree.wd1.myworkdayjobs.com,            tenant: oaktree,        site: Oaktree}
+  - {company: Citi,           host: citi.wd5.myworkdayjobs.com,               tenant: citi,           site: "2"}
