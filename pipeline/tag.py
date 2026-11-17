@@ -62,18 +62,19 @@ def validate(t, cfg):
 
 
 def keyword_tag(p, cfg, rules):
-    """Fallback tagger (also our baseline to compare the LLM against)."""
-    title = p["title"].lower()
+    """Fallback tagger, used only without an LLM (also our baseline to compare the LLM against).
+    Scores each role by the keywords found in the title; longer phrases count more."""
+    title = " ".join(re.sub(r"[^a-z0-9&+ ]+", " ", p["title"].lower()).split())
     best, score = "other", 0
     for key, v in cfg["roles"].items():
-        words = [w.strip() for w in v["hint"].lower().split(",")]
-        s = sum(2 for w in words if w and re.search(r"\b" + re.escape(w) + r"\b", title))
+        s = sum(len(w.split()) for w in v.get("words", [])
+                if re.search(r"(?<![a-z0-9])" + re.escape(w) + r"(?![a-z0-9])", title))
         if s > score:
             best, score = key, s
     jt = "internship" if re.search(r"\bintern", title) else \
-         "apprentice" if re.search(r"trainee|apprentice|articleship", title) else "fulltime"
+         "apprentice" if re.search(r"trainee|apprentice|articleship|naps", title) else "fulltime"
     # Without the LLM we cannot read the description, so unclear titles are not published.
-    return {"id": p["id"], "entry_level": not p.get("needs_ai"), "role_group": best, "clean_title": p["title"][:60],
+    return {"id": p["id"], "entry_level": not p.get("needs_ai"), "role_group": best, "clean_title": p["title"][:60].strip(),
             "cities": rules.cities_in(p["location"]), "job_type": jt, "skills": [], "eligibility": "",
             "pay": p.get("pay", ""), "red_flags": [], "tagger": "keywords"}
 
@@ -166,8 +167,8 @@ class Tagger:
     def tag(self, posts, log=print):
         def needs_tag(p):
             hit = self.cache.get(self._key(p))
-            # retry keyword-only tags once a key is available
-            return hit is None or (self.client and hit.get("tagger") == "keywords")
+            # keyword tags are free, so always redo them (and upgrade them when an LLM is available)
+            return hit is None or hit.get("tagger") == "keywords"
         todo = [p for p in posts if needs_tag(p)]
         size = self.cfg["llm"]["batch_size"]
         failed_in_a_row = 0

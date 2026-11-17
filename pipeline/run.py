@@ -67,7 +67,8 @@ def main():
         # Workday says "3 Locations" instead of the cities, so look inside entry-level titles.
         multi = p["source"] == "workday" and MULTI_LOC.match(p["location"]) and rules.entry_level(p)[0] is True
         known = tagger.already_tagged(job_id(p["company"], p["title"], rules))   # tagged on an earlier day
-        if (why in ("", "ai") or multi) and p.get("_detail") and not p["description"] and not args.offline and not known:
+        useful = why == "" or (why == "ai" and tagger.client) or multi   # 'ai' posts need an LLM to read them
+        if useful and p.get("_detail") and not p["description"] and not args.offline and not known:
             try:
                 fetch.DETAIL[p["source"]](p)
                 time.sleep(delay)

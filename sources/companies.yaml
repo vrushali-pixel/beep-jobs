@@ -15,6 +15,8 @@
 greenhouse:
   - mthreerecruitingportal   # India graduate programme
   - mdbgeneralreferrals      # MongoDB campus roles (Gurugram)
+  - devrev                   # MTS intern, Bengaluru
+  - inizio
   # seen with India intern/fresher posts in search results
   - freshprints
   - karya
@@ -63,6 +65,7 @@ greenhouse:
 
 lever:
   - Sprinto                  # Lever slugs can be case-sensitive
+  - mindtickle               # PM intern, Pune/Bengaluru
   - stable-money1
   - cred
   - zeta
@@ -75,6 +78,7 @@ lever:
 
 ashby:
   - kong                     # Kong India internship programme
+  - elevenlabs               # marketing intern, India
   - sarvam
   - ramp
   - deel

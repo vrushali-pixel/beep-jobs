@@ -182,6 +182,20 @@ def test_gemini_provider(tmp_path, monkeypatch):
     assert sent["headers"]["x-goog-api-key"] == "test-key" and ":generateContent" in sent["url"]
 
 
+@pytest.mark.parametrize("title,role", [
+    ("Software Development Engineer Intern", "coding"),
+    ("2026/02: HW Developer for Electronic Control Unit", "core_engg"),
+    ("Associate Software Test Engineer (Playwright)", "qa"),
+    ("Product  Ops Intern", "product"),
+    ("Intern - Talent Acquisition", "hr"),
+    ("Payroll Industrial Trainee", "finance"),
+    ("Customer Experience Engineer, L1", "support"),
+    ("Machine Learning Intern", "data_ai"),
+])
+def test_keyword_fallback_roles(title, role):
+    assert tag.keyword_tag({"id": "x", "title": title, "location": "", "pay": ""}, CFG, RULES)["role_group"] == role
+
+
 def test_prompt_lists_every_role_and_city():
     p = tag.build_prompt(CFG)
     assert all(k in p for k in CFG["roles"]) and all(c in p for c in CFG["cities"]) and "{" not in p
