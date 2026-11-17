@@ -128,15 +128,15 @@
   },
   "f0c90c1d63d4": {
    "id": "f0c90c1d63d4",
-   "title": "Intern - Community & Documentation ",
+   "title": "Intern - Community & Documentation",
    "original_title": "Intern - Community & Documentation ",
    "company": "FourKites",
    "location": "Chennai",
    "cities": [
     "Chennai"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "marketing",
+   "role_label": "Marketing & Content",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -153,15 +153,15 @@
   },
   "f01a1054bb3c": {
    "id": "f01a1054bb3c",
-   "title": "Product Support - Intern ",
+   "title": "Product Support - Intern",
    "original_title": "Product Support - Intern ",
    "company": "FourKites",
    "location": "Chennai, India",
    "cities": [
     "Chennai"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "support",
+   "role_label": "Customer Support",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -367,8 +367,8 @@
    "cities": [
     "Mumbai"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "design",
+   "role_label": "Design & Creative",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -392,8 +392,8 @@
    "cities": [
     "Hyderabad"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "coding",
+   "role_label": "Coding & Software",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -442,8 +442,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "coding",
+   "role_label": "Coding & Software",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -467,8 +467,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "operations",
+   "role_label": "Operations & Strategy",
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [],
@@ -492,8 +492,8 @@
    "cities": [
     "Hyderabad"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "finance",
+   "role_label": "Finance & Accounting",
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [],
@@ -569,8 +569,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "operations",
-   "role_label": "Operations & Strategy",
+   "role": "hr",
+   "role_label": "HR & Recruiting",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -594,8 +594,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "it_cloud",
+   "role_label": "IT, Cloud & Security",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -619,8 +619,8 @@
    "cities": [
     "Noida"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "finance",
+   "role_label": "Finance & Accounting",
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [],
@@ -671,8 +671,8 @@
    "cities": [
     "Noida"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "hr",
+   "role_label": "HR & Recruiting",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -822,8 +822,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "product",
+   "role_label": "Product",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -847,8 +847,8 @@
    "cities": [
     "Delhi"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "operations",
+   "role_label": "Operations & Strategy",
    "type": "apprentice",
    "type_label": "Apprenticeship / Trainee",
    "skills": [],
@@ -872,8 +872,8 @@
    "cities": [
     "Mumbai"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "operations",
+   "role_label": "Operations & Strategy",
    "type": "apprentice",
    "type_label": "Apprenticeship / Trainee",
    "skills": [],
@@ -890,15 +890,15 @@
   },
   "b82f7e14879d": {
    "id": "b82f7e14879d",
-   "title": " HR Intern (Bangalore) Paid - 6 Months",
+   "title": "HR Intern (Bangalore) Paid - 6 Months",
    "original_title": " HR Intern (Bangalore) Paid - 6 Months",
    "company": "Avery Dennison",
    "location": "Bangalore, Karnataka, India",
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "hr",
+   "role_label": "HR & Recruiting",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -922,8 +922,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "hr",
+   "role_label": "HR & Recruiting",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -947,8 +947,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "support",
+   "role_label": "Customer Support",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -997,8 +997,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "core_engg",
+   "role_label": "Core Engineering",
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [],
@@ -1022,8 +1022,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "core_engg",
+   "role_label": "Core Engineering",
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [],
@@ -1047,8 +1047,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "it_cloud",
+   "role_label": "IT, Cloud & Security",
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [],
@@ -1072,8 +1072,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "core_engg",
+   "role_label": "Core Engineering",
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [],
@@ -1097,8 +1097,8 @@
    "cities": [
     "Coimbatore"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "core_engg",
+   "role_label": "Core Engineering",
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [],
@@ -1122,8 +1122,8 @@
    "cities": [
     "Gurugram"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "coding",
+   "role_label": "Coding & Software",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -1172,8 +1172,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "support",
+   "role_label": "Customer Support",
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [],
@@ -1197,8 +1197,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "coding",
+   "role_label": "Coding & Software",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -1222,8 +1222,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "operations",
+   "role_label": "Operations & Strategy",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -1247,8 +1247,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "finance",
+   "role_label": "Finance & Accounting",
    "type": "apprentice",
    "type_label": "Apprenticeship / Trainee",
    "skills": [],
@@ -1272,8 +1272,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "product",
+   "role_label": "Product",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -1297,8 +1297,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "coding",
+   "role_label": "Coding & Software",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -1347,8 +1347,8 @@
    "cities": [
     "Remote"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "it_cloud",
+   "role_label": "IT, Cloud & Security",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -1424,8 +1424,8 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "sales",
+   "role_label": "Sales & Business Dev",
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
@@ -1486,7 +1486,8 @@
    "tagger": "keywords",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-17",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-17"
   },
   "0b06214fdabe": {
    "id": "0b06214fdabe",
@@ -1511,7 +1512,8 @@
    "tagger": "keywords",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-17",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-17"
   },
   "2fb49e5b1d00": {
    "id": "2fb49e5b1d00",
@@ -1547,8 +1549,8 @@
    "cities": [
     "Mumbai"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "core_engg",
+   "role_label": "Core Engineering",
    "type": "apprentice",
    "type_label": "Apprenticeship / Trainee",
    "skills": [],
@@ -1583,6 +1585,156 @@
    "source": "workday",
    "board": "piramalpharma",
    "posted": "2026-10-21",
+   "tagger": "keywords",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "status": "active"
+  },
+  "82ac8f2dfd7f": {
+   "id": "82ac8f2dfd7f",
+   "title": "Technical Services Intern",
+   "original_title": "Technical Services Intern",
+   "company": "Kaleris",
+   "location": "Chennai",
+   "cities": [
+    "Chennai"
+   ],
+   "role": "other",
+   "role_label": "Other",
+   "type": "internship",
+   "type_label": "Internship",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://kaleris.wd501.myworkdayjobs.com/kaleris_careers/job/Chennai/Technical-Services-Intern_R-100668",
+   "source": "workday",
+   "board": "kaleris",
+   "posted": "2026-10-12",
+   "tagger": "keywords",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "status": "active"
+  },
+  "b78626e53c7a": {
+   "id": "b78626e53c7a",
+   "title": "Associate Consultant - Intern",
+   "original_title": "Associate Consultant - Intern",
+   "company": "Kaleris",
+   "location": "Chennai",
+   "cities": [
+    "Chennai"
+   ],
+   "role": "operations",
+   "role_label": "Operations & Strategy",
+   "type": "internship",
+   "type_label": "Internship",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://kaleris.wd501.myworkdayjobs.com/kaleris_careers/job/Chennai/Associate-Consultant---Intern_R-100667",
+   "source": "workday",
+   "board": "kaleris",
+   "posted": "2026-10-12",
+   "tagger": "keywords",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "status": "active"
+  },
+  "669e5eb9ec1a": {
+   "id": "669e5eb9ec1a",
+   "title": "Associate Software Engineer Intern",
+   "original_title": "Associate Software Engineer Intern",
+   "company": "Kaleris",
+   "location": "Chennai",
+   "cities": [
+    "Chennai"
+   ],
+   "role": "coding",
+   "role_label": "Coding & Software",
+   "type": "internship",
+   "type_label": "Internship",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://kaleris.wd501.myworkdayjobs.com/kaleris_careers/job/Chennai/Associate-Software-Engineer-Intern_R-100658",
+   "source": "workday",
+   "board": "kaleris",
+   "posted": "2026-09-28",
+   "tagger": "keywords",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "status": "active"
+  },
+  "54bef5e5c089": {
+   "id": "54bef5e5c089",
+   "title": "Engineering Intern – Transport Analytics",
+   "original_title": "Engineering Intern – Transport Analytics",
+   "company": "Kaleris",
+   "location": "Chennai",
+   "cities": [
+    "Chennai"
+   ],
+   "role": "data_ai",
+   "role_label": "Data & AI",
+   "type": "internship",
+   "type_label": "Internship",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://kaleris.wd501.myworkdayjobs.com/kaleris_careers/job/Chennai/Engineering-Intern---Transport-Analytics_R-100656",
+   "source": "workday",
+   "board": "kaleris",
+   "posted": "2026-09-28",
+   "tagger": "keywords",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "status": "active"
+  },
+  "0136fcc5ac69": {
+   "id": "0136fcc5ac69",
+   "title": "CloudOps Intern",
+   "original_title": "CloudOps Intern",
+   "company": "Kaleris",
+   "location": "Chennai",
+   "cities": [
+    "Chennai"
+   ],
+   "role": "other",
+   "role_label": "Other",
+   "type": "internship",
+   "type_label": "Internship",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://kaleris.wd501.myworkdayjobs.com/kaleris_careers/job/Chennai/CloudOps-Intern_R-100650",
+   "source": "workday",
+   "board": "kaleris",
+   "posted": "2026-09-21",
+   "tagger": "keywords",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "status": "active"
+  },
+  "0b56f64a717c": {
+   "id": "0b56f64a717c",
+   "title": "Associate Quality Assurance Engineer - Intern",
+   "original_title": "Associate Quality Assurance Engineer - Intern",
+   "company": "Kaleris",
+   "location": "Chennai",
+   "cities": [
+    "Chennai"
+   ],
+   "role": "qa",
+   "role_label": "Testing & QA",
+   "type": "internship",
+   "type_label": "Internship",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://kaleris.wd501.myworkdayjobs.com/kaleris_careers/job/Chennai/Associate-Quality-Assurance-Engineer---Intern_R-100638",
+   "source": "workday",
+   "board": "kaleris",
+   "posted": "",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-17",
