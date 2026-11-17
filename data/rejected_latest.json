@@ -4552,22 +4552,15 @@
  {
   "title": "Abuse Investigator",
   "company": "Stripe",
-  "location": "Dublin",
-  "url": "https://stripe.com/jobs/search?gh_jid=8172487",
-  "reason": "not in India"
- },
- {
-  "title": "Abuse Investigator",
-  "company": "Stripe",
   "location": "Seattle, San Francisco, New York City",
   "url": "https://stripe.com/jobs/search?gh_jid=8172510",
   "reason": "not in India"
  },
  {
-  "title": "Account Executive, AI Sales",
+  "title": "Abuse Investigator",
   "company": "Stripe",
-  "location": "San Francisco, CA",
-  "url": "https://stripe.com/jobs/search?gh_jid=8332467",
+  "location": "Dublin",
+  "url": "https://stripe.com/jobs/search?gh_jid=8172487",
   "reason": "not in India"
  },
  {
@@ -4575,6 +4568,13 @@
   "company": "Stripe",
   "location": "San Francisco, CA",
   "url": "https://stripe.com/jobs/search?gh_jid=8138044",
+  "reason": "not in India"
+ },
+ {
+  "title": "Account Executive, AI Sales",
+  "company": "Stripe",
+  "location": "San Francisco, CA",
+  "url": "https://stripe.com/jobs/search?gh_jid=8332467",
   "reason": "not in India"
  },
  {
@@ -4610,6 +4610,13 @@
   "company": "Stripe",
   "location": "Chicago",
   "url": "https://stripe.com/jobs/search?gh_jid=8123027",
+  "reason": "not in India"
+ },
+ {
+  "title": "Account Executive (Commercial Grower, Japan)",
+  "company": "Stripe",
+  "location": "Tokyo",
+  "url": "https://stripe.com/jobs/search?gh_jid=8345653",
   "reason": "not in India"
  },
  {
@@ -5322,15 +5329,15 @@
  {
   "title": "Account Executive, Startups (Grower)",
   "company": "Stripe",
-  "location": "Chicago",
-  "url": "https://stripe.com/jobs/search?gh_jid=8287920",
+  "location": "San Francisco",
+  "url": "https://stripe.com/jobs/search?gh_jid=8280266",
   "reason": "not in India"
  },
  {
   "title": "Account Executive, Startups (Grower)",
   "company": "Stripe",
-  "location": "San Francisco",
-  "url": "https://stripe.com/jobs/search?gh_jid=8280266",
+  "location": "Chicago",
+  "url": "https://stripe.com/jobs/search?gh_jid=8287920",
   "reason": "not in India"
  },
  {
@@ -5392,15 +5399,8 @@
  {
   "title": "Account Executive, Velocity Platforms (Hunter)",
   "company": "Stripe",
-  "location": "Chicago, IL; New York, NY; San Francisco, CA",
-  "url": "https://stripe.com/jobs/search?gh_jid=8267839",
-  "reason": "not in India"
- },
- {
-  "title": "Account Executive, Velocity Platforms (Hunter)",
-  "company": "Stripe",
-  "location": "San Francisco, CA",
-  "url": "https://stripe.com/jobs/search?gh_jid=8304841",
+  "location": "Chicago, IL",
+  "url": "https://stripe.com/jobs/search?gh_jid=8267841",
   "reason": "not in India"
  },
  {
@@ -5413,8 +5413,15 @@
  {
   "title": "Account Executive, Velocity Platforms (Hunter)",
   "company": "Stripe",
-  "location": "Chicago, IL",
-  "url": "https://stripe.com/jobs/search?gh_jid=8267841",
+  "location": "San Francisco, CA",
+  "url": "https://stripe.com/jobs/search?gh_jid=8304841",
+  "reason": "not in India"
+ },
+ {
+  "title": "Account Executive, Velocity Platforms (Hunter)",
+  "company": "Stripe",
+  "location": "Chicago, IL; New York, NY; San Francisco, CA",
+  "url": "https://stripe.com/jobs/search?gh_jid=8267839",
   "reason": "not in India"
  },
  {
@@ -5560,15 +5567,15 @@
  {
   "title": "Backend Engineer, Developer & End-user Experience Platform",
   "company": "Stripe",
-  "location": "Toronto Canada, San Francisco, Remote in US, Remote in Canada",
-  "url": "https://stripe.com/jobs/search?gh_jid=7292520",
+  "location": "SEA, SF, NY, Toronto",
+  "url": "https://stripe.com/jobs/search?gh_jid=7476555",
   "reason": "not in India"
  },
  {
   "title": "Backend Engineer, Developer & End-user Experience Platform",
   "company": "Stripe",
-  "location": "SEA, SF, NY, Toronto",
-  "url": "https://stripe.com/jobs/search?gh_jid=7476555",
+  "location": "Toronto Canada, San Francisco, Remote in US, Remote in Canada",
+  "url": "https://stripe.com/jobs/search?gh_jid=7292520",
   "reason": "not in India"
  },
  {
@@ -5833,15 +5840,15 @@
  {
   "title": "Customer Success Manager, Enterprise",
   "company": "Stripe",
-  "location": "New York, NY; Seattle, WA; San Francisco, CA; Chicago, IL; Atlanta, GA",
-  "url": "https://stripe.com/jobs/search?gh_jid=8178692",
+  "location": "Chicago, US",
+  "url": "https://stripe.com/jobs/search?gh_jid=8208521",
   "reason": "not in India"
  },
  {
   "title": "Customer Success Manager, Enterprise",
   "company": "Stripe",
-  "location": "Chicago, US",
-  "url": "https://stripe.com/jobs/search?gh_jid=8208521",
+  "location": "New York, NY; Seattle, WA; San Francisco, CA; Chicago, IL; Atlanta, GA",
+  "url": "https://stripe.com/jobs/search?gh_jid=8178692",
   "reason": "not in India"
  },
  {
@@ -5924,6 +5931,13 @@
  {
   "title": "Data Scientist",
   "company": "Stripe",
+  "location": "Toronto",
+  "url": "https://stripe.com/jobs/search?gh_jid=5895430",
+  "reason": "not in India"
+ },
+ {
+  "title": "Data Scientist",
+  "company": "Stripe",
   "location": "Seattle, WA",
   "url": "https://stripe.com/jobs/search?gh_jid=8222149",
   "reason": "not in India"
@@ -5933,13 +5947,6 @@
   "company": "Stripe",
   "location": "N/A",
   "url": "https://stripe.com/jobs/search?gh_jid=5601879",
-  "reason": "not in India"
- },
- {
-  "title": "Data Scientist",
-  "company": "Stripe",
-  "location": "Toronto",
-  "url": "https://stripe.com/jobs/search?gh_jid=5895430",
   "reason": "not in India"
  },
  {
@@ -6232,15 +6239,15 @@
  {
   "title": "Enterprise Account Executive - Grower",
   "company": "Stripe",
-  "location": "Sydney Or Melbourne",
-  "url": "https://stripe.com/jobs/search?gh_jid=8336023",
+  "location": "Auckland, New Zealand",
+  "url": "https://stripe.com/jobs/search?gh_jid=8330789",
   "reason": "not in India"
  },
  {
   "title": "Enterprise Account Executive - Grower",
   "company": "Stripe",
-  "location": "Auckland, New Zealand",
-  "url": "https://stripe.com/jobs/search?gh_jid=8330789",
+  "location": "Sydney Or Melbourne",
+  "url": "https://stripe.com/jobs/search?gh_jid=8336023",
   "reason": "not in India"
  },
  {
@@ -6953,15 +6960,15 @@
  {
   "title": "Integration Engineer",
   "company": "Stripe",
-  "location": "Mexico City, MX",
-  "url": "https://stripe.com/jobs/search?gh_jid=8203966",
+  "location": "Dublin",
+  "url": "https://stripe.com/jobs/search?gh_jid=8267102",
   "reason": "not in India"
  },
  {
   "title": "Integration Engineer",
   "company": "Stripe",
-  "location": "Dublin",
-  "url": "https://stripe.com/jobs/search?gh_jid=8267102",
+  "location": "Mexico City, MX",
+  "url": "https://stripe.com/jobs/search?gh_jid=8203966",
   "reason": "not in India"
  },
  {
@@ -6981,15 +6988,15 @@
  {
   "title": "Integration Engineer, Metronome",
   "company": "Stripe",
-  "location": "Remote",
-  "url": "https://stripe.com/jobs/search?gh_jid=8080454",
+  "location": "London",
+  "url": "https://stripe.com/jobs/search?gh_jid=8338849",
   "reason": "not in India"
  },
  {
   "title": "Integration Engineer, Metronome",
   "company": "Stripe",
-  "location": "London",
-  "url": "https://stripe.com/jobs/search?gh_jid=8338849",
+  "location": "Remote",
+  "url": "https://stripe.com/jobs/search?gh_jid=8080454",
   "reason": "not in India"
  },
  {
@@ -7002,15 +7009,15 @@
  {
   "title": "Integration Engineer, Professional Services",
   "company": "Stripe",
-  "location": "Seattle, San Francisco, or New York",
-  "url": "https://stripe.com/jobs/search?gh_jid=8075570",
+  "location": "United States",
+  "url": "https://stripe.com/jobs/search?gh_jid=8203973",
   "reason": "not in India"
  },
  {
   "title": "Integration Engineer, Professional Services",
   "company": "Stripe",
-  "location": "United States",
-  "url": "https://stripe.com/jobs/search?gh_jid=8203973",
+  "location": "Seattle, San Francisco, or New York",
+  "url": "https://stripe.com/jobs/search?gh_jid=8075570",
   "reason": "not in India"
  },
  {
@@ -7037,15 +7044,15 @@
  {
   "title": "Integration Reliability Engineer, Technical Operations",
   "company": "Stripe",
-  "location": "Toronto",
-  "url": "https://stripe.com/jobs/search?gh_jid=8360332",
+  "location": "Singapore",
+  "url": "https://stripe.com/jobs/search?gh_jid=8186445",
   "reason": "not in India"
  },
  {
   "title": "Integration Reliability Engineer, Technical Operations",
   "company": "Stripe",
-  "location": "Singapore",
-  "url": "https://stripe.com/jobs/search?gh_jid=8186445",
+  "location": "Toronto",
+  "url": "https://stripe.com/jobs/search?gh_jid=8360332",
   "reason": "not in India"
  },
  {
@@ -7084,6 +7091,13 @@
   "reason": "not in India"
  },
  {
+  "title": "Japan Enterprise Account Manager",
+  "company": "Stripe",
+  "location": "Tokyo",
+  "url": "https://stripe.com/jobs/search?gh_jid=8351589",
+  "reason": "not in India"
+ },
+ {
   "title": "Japan Sales Manager, Mid Market (Hunter)",
   "company": "Stripe",
   "location": "Tokyo",
@@ -7101,14 +7115,14 @@
   "title": "Large User Sales Managers, Platform Partnerships",
   "company": "Stripe",
   "location": "New York, NY; Chicago, IL or San Francisco, CA",
-  "url": "https://stripe.com/jobs/search?gh_jid=8209647",
+  "url": "https://stripe.com/jobs/search?gh_jid=8368638",
   "reason": "not in India"
  },
  {
   "title": "Large User Sales Managers, Platform Partnerships",
   "company": "Stripe",
   "location": "New York, NY; Chicago, IL or San Francisco, CA",
-  "url": "https://stripe.com/jobs/search?gh_jid=8368638",
+  "url": "https://stripe.com/jobs/search?gh_jid=8209647",
   "reason": "not in India"
  },
  {
@@ -7156,15 +7170,15 @@
  {
   "title": "Machine Learning Engineer, Radar",
   "company": "Stripe",
-  "location": "Seattle, South San Francisco ",
-  "url": "https://stripe.com/jobs/search?gh_jid=7983456",
+  "location": "Seattle",
+  "url": "https://stripe.com/jobs/search?gh_jid=8243617",
   "reason": "not in India"
  },
  {
   "title": "Machine Learning Engineer, Radar",
   "company": "Stripe",
-  "location": "Seattle",
-  "url": "https://stripe.com/jobs/search?gh_jid=8243617",
+  "location": "Seattle, South San Francisco ",
+  "url": "https://stripe.com/jobs/search?gh_jid=7983456",
   "reason": "not in India"
  },
  {
@@ -7485,6 +7499,13 @@
  {
   "title": "Partner Development Manager",
   "company": "Stripe",
+  "location": "Singapore ",
+  "url": "https://stripe.com/jobs/search?gh_jid=8234703",
+  "reason": "not in India"
+ },
+ {
+  "title": "Partner Development Manager",
+  "company": "Stripe",
   "location": "Mexico",
   "url": "https://stripe.com/jobs/search?gh_jid=8096790",
   "reason": "not in India"
@@ -7494,13 +7515,6 @@
   "company": "Stripe",
   "location": "London",
   "url": "https://stripe.com/jobs/search?gh_jid=8104427",
-  "reason": "not in India"
- },
- {
-  "title": "Partner Development Manager",
-  "company": "Stripe",
-  "location": "Singapore ",
-  "url": "https://stripe.com/jobs/search?gh_jid=8234703",
   "reason": "not in India"
  },
  {
@@ -7604,15 +7618,15 @@
  {
   "title": "Payments Fraud Investigator",
   "company": "Stripe",
-  "location": "Remote - US",
-  "url": "https://stripe.com/jobs/search?gh_jid=8261213",
+  "location": "Ireland",
+  "url": "https://stripe.com/jobs/search?gh_jid=7554002",
   "reason": "not in India"
  },
  {
   "title": "Payments Fraud Investigator",
   "company": "Stripe",
-  "location": "Ireland",
-  "url": "https://stripe.com/jobs/search?gh_jid=7554002",
+  "location": "Remote - US",
+  "url": "https://stripe.com/jobs/search?gh_jid=8261213",
   "reason": "not in India"
  },
  {
@@ -7632,15 +7646,15 @@
  {
   "title": "People Consultant",
   "company": "Stripe",
-  "location": "Toronto",
-  "url": "https://stripe.com/jobs/search?gh_jid=8262027",
+  "location": "Chicago",
+  "url": "https://stripe.com/jobs/search?gh_jid=7866374",
   "reason": "not in India"
  },
  {
   "title": "People Consultant",
   "company": "Stripe",
-  "location": "Chicago",
-  "url": "https://stripe.com/jobs/search?gh_jid=7866374",
+  "location": "Toronto",
+  "url": "https://stripe.com/jobs/search?gh_jid=8262027",
   "reason": "not in India"
  },
  {
@@ -7688,22 +7702,15 @@
  {
   "title": "PhD Data Scientist, Intern",
   "company": "Stripe",
-  "location": "Toronto",
-  "url": "https://stripe.com/jobs/search?gh_jid=8194285",
-  "reason": "not in India"
- },
- {
-  "title": "PhD Data Scientist, Intern",
-  "company": "Stripe",
   "location": "New York, Seattle, South San Francisco HQ",
   "url": "https://stripe.com/jobs/search?gh_jid=8194283",
   "reason": "not in India"
  },
  {
-  "title": "PhD Machine Learning Engineer, Intern",
+  "title": "PhD Data Scientist, Intern",
   "company": "Stripe",
-  "location": "San Francisco, New York City, Seattle",
-  "url": "https://stripe.com/jobs/search?gh_jid=8328662",
+  "location": "Toronto",
+  "url": "https://stripe.com/jobs/search?gh_jid=8194285",
   "reason": "not in India"
  },
  {
@@ -7711,6 +7718,13 @@
   "company": "Stripe",
   "location": "Toronto",
   "url": "https://stripe.com/jobs/search?gh_jid=8328664",
+  "reason": "not in India"
+ },
+ {
+  "title": "PhD Machine Learning Engineer, Intern",
+  "company": "Stripe",
+  "location": "San Francisco, New York City, Seattle",
+  "url": "https://stripe.com/jobs/search?gh_jid=8328662",
   "reason": "not in India"
  },
  {
@@ -7821,15 +7835,15 @@
  {
   "title": "Product Design Intern",
   "company": "Stripe",
-  "location": "San Francisco, Seattle, New York City",
-  "url": "https://stripe.com/jobs/search?gh_jid=8332681",
+  "location": "Toronto",
+  "url": "https://stripe.com/jobs/search?gh_jid=8332683",
   "reason": "not in India"
  },
  {
   "title": "Product Design Intern",
   "company": "Stripe",
-  "location": "Toronto",
-  "url": "https://stripe.com/jobs/search?gh_jid=8332683",
+  "location": "San Francisco, Seattle, New York City",
+  "url": "https://stripe.com/jobs/search?gh_jid=8332681",
   "reason": "not in India"
  },
  {
@@ -8241,15 +8255,15 @@
  {
   "title": "Recruiting Scheduler",
   "company": "Stripe",
-  "location": "Chicago",
-  "url": "https://stripe.com/jobs/search?gh_jid=8351504",
+  "location": "New York",
+  "url": "https://stripe.com/jobs/search?gh_jid=8337362",
   "reason": "not in India"
  },
  {
   "title": "Recruiting Scheduler",
   "company": "Stripe",
-  "location": "New York",
-  "url": "https://stripe.com/jobs/search?gh_jid=8337362",
+  "location": "Chicago",
+  "url": "https://stripe.com/jobs/search?gh_jid=8351504",
   "reason": "not in India"
  },
  {
@@ -8612,15 +8626,15 @@
  {
   "title": "Security Engineer, Bridge",
   "company": "Stripe",
-  "location": "Luxembourg",
-  "url": "https://stripe.com/jobs/search?gh_jid=8209307",
+  "location": "SF, New York, Seattle",
+  "url": "https://stripe.com/jobs/search?gh_jid=7776179",
   "reason": "not in India"
  },
  {
   "title": "Security Engineer, Bridge",
   "company": "Stripe",
-  "location": "SF, New York, Seattle",
-  "url": "https://stripe.com/jobs/search?gh_jid=7776179",
+  "location": "Luxembourg",
+  "url": "https://stripe.com/jobs/search?gh_jid=8209307",
   "reason": "not in India"
  },
  {
@@ -8717,15 +8731,15 @@
  {
   "title": "Senior Staff Product Manager, Risk",
   "company": "Stripe",
-  "location": "London",
-  "url": "https://stripe.com/jobs/search?gh_jid=8273741",
+  "location": "Dublin",
+  "url": "https://stripe.com/jobs/search?gh_jid=8264005",
   "reason": "not in India"
  },
  {
   "title": "Senior Staff Product Manager, Risk",
   "company": "Stripe",
-  "location": "Dublin",
-  "url": "https://stripe.com/jobs/search?gh_jid=8264005",
+  "location": "London",
+  "url": "https://stripe.com/jobs/search?gh_jid=8273741",
   "reason": "not in India"
  },
  {
@@ -8927,34 +8941,6 @@
  {
   "title": "Software Engineer, New Grad",
   "company": "Stripe",
-  "location": "San Francisco, Seattle, New York",
-  "url": "https://stripe.com/jobs/search?gh_jid=8128744",
-  "reason": "not in India"
- },
- {
-  "title": "Software Engineer, New Grad",
-  "company": "Stripe",
-  "location": "Singapore",
-  "url": "https://stripe.com/jobs/search?gh_jid=8160776",
-  "reason": "not in India"
- },
- {
-  "title": "Software Engineer, New Grad",
-  "company": "Stripe",
-  "location": "Dublin",
-  "url": "https://stripe.com/jobs/search?gh_jid=8130881",
-  "reason": "not in India"
- },
- {
-  "title": "Software Engineer, New Grad",
-  "company": "Stripe",
-  "location": "Bucharest",
-  "url": "https://stripe.com/jobs/search?gh_jid=8130922",
-  "reason": "not in India"
- },
- {
-  "title": "Software Engineer, New Grad",
-  "company": "Stripe",
   "location": "Toronto",
   "url": "https://stripe.com/jobs/search?gh_jid=8157838",
   "reason": "not in India"
@@ -8969,8 +8955,36 @@
  {
   "title": "Software Engineer, New Grad",
   "company": "Stripe",
+  "location": "Dublin",
+  "url": "https://stripe.com/jobs/search?gh_jid=8130881",
+  "reason": "not in India"
+ },
+ {
+  "title": "Software Engineer, New Grad",
+  "company": "Stripe",
   "location": "Taiwan",
   "url": "https://stripe.com/jobs/search?gh_jid=8202299",
+  "reason": "not in India"
+ },
+ {
+  "title": "Software Engineer, New Grad",
+  "company": "Stripe",
+  "location": "San Francisco, Seattle, New York",
+  "url": "https://stripe.com/jobs/search?gh_jid=8128744",
+  "reason": "not in India"
+ },
+ {
+  "title": "Software Engineer, New Grad",
+  "company": "Stripe",
+  "location": "Singapore",
+  "url": "https://stripe.com/jobs/search?gh_jid=8160776",
+  "reason": "not in India"
+ },
+ {
+  "title": "Software Engineer, New Grad",
+  "company": "Stripe",
+  "location": "Bucharest",
+  "url": "https://stripe.com/jobs/search?gh_jid=8130922",
   "reason": "not in India"
  },
  {
@@ -9228,15 +9242,15 @@
  {
   "title": "Solutions Architect, Metronome (Startups)",
   "company": "Stripe",
-  "location": "London",
-  "url": "https://stripe.com/jobs/search?gh_jid=8179419",
+  "location": "US-NYC, US-SF, US-Chicago",
+  "url": "https://stripe.com/jobs/search?gh_jid=8072257",
   "reason": "not in India"
  },
  {
   "title": "Solutions Architect, Metronome (Startups)",
   "company": "Stripe",
-  "location": "US-NYC, US-SF, US-Chicago",
-  "url": "https://stripe.com/jobs/search?gh_jid=8072257",
+  "location": "London",
+  "url": "https://stripe.com/jobs/search?gh_jid=8179419",
   "reason": "not in India"
  },
  {
@@ -9571,8 +9585,8 @@
  {
   "title": "Staff Security Engineer, Abuse Control",
   "company": "Stripe",
-  "location": "Dublin",
-  "url": "https://stripe.com/jobs/search?gh_jid=8174963",
+  "location": "Barcelona",
+  "url": "https://stripe.com/jobs/search?gh_jid=8356917",
   "reason": "not in India"
  },
  {
@@ -9585,22 +9599,22 @@
  {
   "title": "Staff Security Engineer, Abuse Control",
   "company": "Stripe",
-  "location": "London",
-  "url": "https://stripe.com/jobs/search?gh_jid=8211180",
-  "reason": "not in India"
- },
- {
-  "title": "Staff Security Engineer, Abuse Control",
-  "company": "Stripe",
-  "location": "Barcelona",
-  "url": "https://stripe.com/jobs/search?gh_jid=8356917",
-  "reason": "not in India"
- },
- {
-  "title": "Staff Security Engineer, Abuse Control",
-  "company": "Stripe",
   "location": "Bucharest",
   "url": "https://stripe.com/jobs/search?gh_jid=8356912",
+  "reason": "not in India"
+ },
+ {
+  "title": "Staff Security Engineer, Abuse Control",
+  "company": "Stripe",
+  "location": "Dublin",
+  "url": "https://stripe.com/jobs/search?gh_jid=8174963",
+  "reason": "not in India"
+ },
+ {
+  "title": "Staff Security Engineer, Abuse Control",
+  "company": "Stripe",
+  "location": "London",
+  "url": "https://stripe.com/jobs/search?gh_jid=8211180",
   "reason": "not in India"
  },
  {
@@ -9746,16 +9760,16 @@
  {
   "title": "Strategy and Analytics Business Partner",
   "company": "Stripe",
-  "location": "Bangalore",
-  "url": "https://stripe.com/jobs/search?gh_jid=8245230",
-  "reason": "unclear title (no LLM key to check)"
+  "location": "Dublin, Ireland",
+  "url": "https://stripe.com/jobs/search?gh_jid=8326579",
+  "reason": "not in India"
  },
  {
   "title": "Strategy and Analytics Business Partner",
   "company": "Stripe",
-  "location": "Dublin, Ireland",
-  "url": "https://stripe.com/jobs/search?gh_jid=8326579",
-  "reason": "not in India"
+  "location": "Bangalore",
+  "url": "https://stripe.com/jobs/search?gh_jid=8245230",
+  "reason": "unclear title (no LLM key to check)"
  },
  {
   "title": "Strategy & Operations Business Partner, Customer Success",
@@ -9816,15 +9830,15 @@
  {
   "title": "Technical Account Manager",
   "company": "Stripe",
-  "location": "Mexico City",
-  "url": "https://stripe.com/jobs/search?gh_jid=8023524",
+  "location": "San Francisco",
+  "url": "https://stripe.com/jobs/search?gh_jid=8160699",
   "reason": "not in India"
  },
  {
   "title": "Technical Account Manager",
   "company": "Stripe",
-  "location": "San Francisco",
-  "url": "https://stripe.com/jobs/search?gh_jid=8160699",
+  "location": "Mexico City",
+  "url": "https://stripe.com/jobs/search?gh_jid=8023524",
   "reason": "not in India"
  },
  {
@@ -9914,22 +9928,15 @@
  {
   "title": "Technical Recruiter (Fixed Term Contract)",
   "company": "Stripe",
-  "location": "SF, SEA, NYC, CHI, ATL",
-  "url": "https://stripe.com/jobs/search?gh_jid=8154525",
-  "reason": "not in India"
- },
- {
-  "title": "Technical Recruiter (Fixed Term Contract)",
-  "company": "Stripe",
   "location": "Singapore",
   "url": "https://stripe.com/jobs/search?gh_jid=8142856",
   "reason": "not in India"
  },
  {
-  "title": "Technical Solutions Engineer",
+  "title": "Technical Recruiter (Fixed Term Contract)",
   "company": "Stripe",
-  "location": "Seattle, WA, Remote-US",
-  "url": "https://stripe.com/jobs/search?gh_jid=7377101",
+  "location": "SF, SEA, NYC, CHI, ATL",
+  "url": "https://stripe.com/jobs/search?gh_jid=8154525",
   "reason": "not in India"
  },
  {
@@ -9937,6 +9944,13 @@
   "company": "Stripe",
   "location": "Singapore",
   "url": "https://stripe.com/jobs/search?gh_jid=8368656",
+  "reason": "not in India"
+ },
+ {
+  "title": "Technical Solutions Engineer",
+  "company": "Stripe",
+  "location": "Seattle, WA, Remote-US",
+  "url": "https://stripe.com/jobs/search?gh_jid=7377101",
   "reason": "not in India"
  },
  {
@@ -22066,15 +22080,22 @@
  {
   "title": "Category Manager, Technology Sourcing",
   "company": "Okta",
-  "location": "San Francisco, California",
-  "url": "https://www.okta.com/company/careers/opportunity/8355883?gh_jid=8355883",
+  "location": "Bellevue, Washington",
+  "url": "https://www.okta.com/company/careers/opportunity/8355916?gh_jid=8355916",
   "reason": "not in India"
  },
  {
   "title": "Category Manager, Technology Sourcing",
   "company": "Okta",
-  "location": "Bellevue, Washington",
-  "url": "https://www.okta.com/company/careers/opportunity/8355916?gh_jid=8355916",
+  "location": "San Francisco, California",
+  "url": "https://www.okta.com/company/careers/opportunity/8355883?gh_jid=8355883",
+  "reason": "not in India"
+ },
+ {
+  "title": "Commercial Account Executive",
+  "company": "Okta",
+  "location": "Singapore",
+  "url": "https://www.okta.com/company/careers/opportunity/8288348?gh_jid=8288348",
   "reason": "not in India"
  },
  {
@@ -22083,13 +22104,6 @@
   "location": "Bengaluru, India",
   "url": "https://www.okta.com/company/careers/opportunity/8288466?gh_jid=8288466",
   "reason": "unclear title (no LLM key to check)"
- },
- {
-  "title": "Commercial Account Executive",
-  "company": "Okta",
-  "location": "Singapore",
-  "url": "https://www.okta.com/company/careers/opportunity/8288348?gh_jid=8288348",
-  "reason": "not in India"
  },
  {
   "title": "Corporate New Business Account Executive",
@@ -22164,15 +22178,15 @@
  {
   "title": "Director, M&A People Strategy & Integration",
   "company": "Okta",
-  "location": "Chicago, Illinois",
-  "url": "https://www.okta.com/company/careers/opportunity/8275286?gh_jid=8275286",
+  "location": "Bellevue, Washington",
+  "url": "https://www.okta.com/company/careers/opportunity/8275287?gh_jid=8275287",
   "reason": "not in India"
  },
  {
   "title": "Director, M&A People Strategy & Integration",
   "company": "Okta",
-  "location": "Bellevue, Washington",
-  "url": "https://www.okta.com/company/careers/opportunity/8275287?gh_jid=8275287",
+  "location": "Chicago, Illinois",
+  "url": "https://www.okta.com/company/careers/opportunity/8275286?gh_jid=8275286",
   "reason": "not in India"
  },
  {
@@ -22262,15 +22276,15 @@
  {
   "title": "Enterprise Account Executive ",
   "company": "Okta",
-  "location": "Singapore",
-  "url": "https://www.okta.com/company/careers/opportunity/8288308?gh_jid=8288308",
+  "location": "Toronto, Ontario, Canada",
+  "url": "https://www.okta.com/company/careers/opportunity/8285002?gh_jid=8285002",
   "reason": "not in India"
  },
  {
   "title": "Enterprise Account Executive ",
   "company": "Okta",
-  "location": "Toronto, Ontario, Canada",
-  "url": "https://www.okta.com/company/careers/opportunity/8285002?gh_jid=8285002",
+  "location": "Singapore",
+  "url": "https://www.okta.com/company/careers/opportunity/8288308?gh_jid=8288308",
   "reason": "not in India"
  },
  {
@@ -22283,15 +22297,15 @@
  {
   "title": "Enterprise Account Executive, Auth0",
   "company": "Okta",
-  "location": "New York, New York; Pennsylvania; Washington, DC",
-  "url": "https://www.okta.com/company/careers/opportunity/8248575?gh_jid=8248575",
+  "location": "Tokyo, Japan",
+  "url": "https://www.okta.com/company/careers/opportunity/8288480?gh_jid=8288480",
   "reason": "not in India"
  },
  {
   "title": "Enterprise Account Executive, Auth0",
   "company": "Okta",
-  "location": "Tokyo, Japan",
-  "url": "https://www.okta.com/company/careers/opportunity/8288480?gh_jid=8288480",
+  "location": "New York, New York; Pennsylvania; Washington, DC",
+  "url": "https://www.okta.com/company/careers/opportunity/8248575?gh_jid=8248575",
   "reason": "not in India"
  },
  {
@@ -22627,13 +22641,6 @@
   "title": "Principal Software Engineer",
   "company": "Okta",
   "location": "Bengaluru, India",
-  "url": "https://www.okta.com/company/careers/opportunity/7849955?gh_jid=7849955",
-  "reason": "senior title"
- },
- {
-  "title": "Principal Software Engineer",
-  "company": "Okta",
-  "location": "Bengaluru, India",
   "url": "https://www.okta.com/company/careers/opportunity/7741663?gh_jid=7741663",
   "reason": "senior title"
  },
@@ -22642,6 +22649,13 @@
   "company": "Okta",
   "location": "Bengaluru, India",
   "url": "https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674",
+  "reason": "senior title"
+ },
+ {
+  "title": "Principal Software Engineer",
+  "company": "Okta",
+  "location": "Bengaluru, India",
+  "url": "https://www.okta.com/company/careers/opportunity/7849955?gh_jid=7849955",
   "reason": "senior title"
  },
  {
@@ -22878,16 +22892,16 @@
  {
   "title": "Senior Data Analyst (Auth0)",
   "company": "Okta",
-  "location": "Chicago, Illinois; New York, New York; Seattle, Washington; Washington, DC",
-  "url": "https://www.okta.com/company/careers/opportunity/8304288?gh_jid=8304288",
-  "reason": "not in India"
+  "location": "Bengaluru, India",
+  "url": "https://www.okta.com/company/careers/opportunity/7780488?gh_jid=7780488",
+  "reason": "senior title"
  },
  {
   "title": "Senior Data Analyst (Auth0)",
   "company": "Okta",
-  "location": "Bengaluru, India",
-  "url": "https://www.okta.com/company/careers/opportunity/7780488?gh_jid=7780488",
-  "reason": "senior title"
+  "location": "Chicago, Illinois; New York, New York; Seattle, Washington; Washington, DC",
+  "url": "https://www.okta.com/company/careers/opportunity/8304288?gh_jid=8304288",
+  "reason": "not in India"
  },
  {
   "title": "Senior Database Reliability Engineer (DBRE)",
@@ -22941,15 +22955,15 @@
  {
   "title": "Senior Director, R&D Planning & Operations",
   "company": "Okta",
-  "location": "Bellevue, Washington; Chicago, Illinois",
-  "url": "https://www.okta.com/company/careers/opportunity/8293675?gh_jid=8293675",
+  "location": "San Francisco, California",
+  "url": "https://www.okta.com/company/careers/opportunity/8287639?gh_jid=8287639",
   "reason": "not in India"
  },
  {
   "title": "Senior Director, R&D Planning & Operations",
   "company": "Okta",
-  "location": "San Francisco, California",
-  "url": "https://www.okta.com/company/careers/opportunity/8287639?gh_jid=8287639",
+  "location": "Bellevue, Washington; Chicago, Illinois",
+  "url": "https://www.okta.com/company/careers/opportunity/8293675?gh_jid=8293675",
   "reason": "not in India"
  },
  {
@@ -23081,15 +23095,15 @@
  {
   "title": "Senior Product Manager - Agentic Security (Auth0)",
   "company": "Okta",
-  "location": "Toronto, Ontario, Canada",
-  "url": "https://www.okta.com/company/careers/opportunity/8041551?gh_jid=8041551",
+  "location": "Chicago, Illinois; New York, New York; Seattle, Washington; Washington, DC",
+  "url": "https://www.okta.com/company/careers/opportunity/8038929?gh_jid=8038929",
   "reason": "not in India"
  },
  {
   "title": "Senior Product Manager - Agentic Security (Auth0)",
   "company": "Okta",
-  "location": "Chicago, Illinois; New York, New York; Seattle, Washington; Washington, DC",
-  "url": "https://www.okta.com/company/careers/opportunity/8038929?gh_jid=8038929",
+  "location": "Toronto, Ontario, Canada",
+  "url": "https://www.okta.com/company/careers/opportunity/8041551?gh_jid=8041551",
   "reason": "not in India"
  },
  {
@@ -23193,20 +23207,6 @@
  {
   "title": "Senior Site Reliability Engineer",
   "company": "Okta",
-  "location": "Bengaluru, India",
-  "url": "https://www.okta.com/company/careers/opportunity/8242984?gh_jid=8242984",
-  "reason": "senior title"
- },
- {
-  "title": "Senior Site Reliability Engineer",
-  "company": "Okta",
-  "location": "Bengaluru, India",
-  "url": "https://www.okta.com/company/careers/opportunity/7963271?gh_jid=7963271",
-  "reason": "senior title"
- },
- {
-  "title": "Senior Site Reliability Engineer",
-  "company": "Okta",
   "location": "Dublin, Ireland",
   "url": "https://www.okta.com/company/careers/opportunity/8184826?gh_jid=8184826",
   "reason": "not in India"
@@ -23216,6 +23216,20 @@
   "company": "Okta",
   "location": "Bengaluru, India",
   "url": "https://www.okta.com/company/careers/opportunity/8260950?gh_jid=8260950",
+  "reason": "senior title"
+ },
+ {
+  "title": "Senior Site Reliability Engineer",
+  "company": "Okta",
+  "location": "Bengaluru, India",
+  "url": "https://www.okta.com/company/careers/opportunity/8242984?gh_jid=8242984",
+  "reason": "senior title"
+ },
+ {
+  "title": "Senior Site Reliability Engineer",
+  "company": "Okta",
+  "location": "Bengaluru, India",
+  "url": "https://www.okta.com/company/careers/opportunity/7963271?gh_jid=7963271",
   "reason": "senior title"
  },
  {
@@ -23270,16 +23284,16 @@
  {
   "title": "Senior Software Engineer",
   "company": "Okta",
-  "location": "Bengaluru, India",
-  "url": "https://www.okta.com/company/careers/opportunity/8263823?gh_jid=8263823",
-  "reason": "senior title"
+  "location": "Toronto, Ontario, Canada",
+  "url": "https://www.okta.com/company/careers/opportunity/8237695?gh_jid=8237695",
+  "reason": "not in India"
  },
  {
   "title": "Senior Software Engineer",
   "company": "Okta",
-  "location": "Toronto, Ontario, Canada",
-  "url": "https://www.okta.com/company/careers/opportunity/8237695?gh_jid=8237695",
-  "reason": "not in India"
+  "location": "Bengaluru, India",
+  "url": "https://www.okta.com/company/careers/opportunity/8263823?gh_jid=8263823",
+  "reason": "senior title"
  },
  {
   "title": "Senior Software Engineer",
@@ -23294,6 +23308,13 @@
   "location": "Bengaluru, India",
   "url": "https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312",
   "reason": "senior title"
+ },
+ {
+  "title": "Senior Software Engineer ",
+  "company": "Okta",
+  "location": "Toronto, ON, Canada",
+  "url": "https://www.okta.com/company/careers/opportunity/8384032?gh_jid=8384032",
+  "reason": "not in India"
  },
  {
   "title": "Senior Software engineer - Advanced Threat Protection",
@@ -23564,15 +23585,15 @@
  {
   "title": "Senior Solutions Engineer, Okta",
   "company": "Okta",
-  "location": "Chicago, Illinois",
-  "url": "https://www.okta.com/company/careers/opportunity/8201177?gh_jid=8201177",
+  "location": "Warsaw, Poland",
+  "url": "https://www.okta.com/company/careers/opportunity/8236758?gh_jid=8236758",
   "reason": "not in India"
  },
  {
   "title": "Senior Solutions Engineer, Okta",
   "company": "Okta",
-  "location": "Warsaw, Poland",
-  "url": "https://www.okta.com/company/careers/opportunity/8236758?gh_jid=8236758",
+  "location": "Chicago, Illinois",
+  "url": "https://www.okta.com/company/careers/opportunity/8201177?gh_jid=8201177",
   "reason": "not in India"
  },
  {
@@ -23669,16 +23690,16 @@
  {
   "title": "Solutions Engineer, Okta",
   "company": "Okta",
-  "location": "Bellevue, Washington; Los Angeles, California; Oregon; San Francisco, California",
-  "url": "https://www.okta.com/company/careers/opportunity/7103874?gh_jid=7103874",
-  "reason": "not in India"
+  "location": "Bengaluru, India",
+  "url": "https://www.okta.com/company/careers/opportunity/8168822?gh_jid=8168822",
+  "reason": "unclear title (no LLM key to check)"
  },
  {
   "title": "Solutions Engineer, Okta",
   "company": "Okta",
-  "location": "Bengaluru, India",
-  "url": "https://www.okta.com/company/careers/opportunity/8168822?gh_jid=8168822",
-  "reason": "unclear title (no LLM key to check)"
+  "location": "Bellevue, Washington; Los Angeles, California; Oregon; San Francisco, California",
+  "url": "https://www.okta.com/company/careers/opportunity/7103874?gh_jid=7103874",
+  "reason": "not in India"
  },
  {
   "title": "Solutions Engineer, Okta (Enterprise West)",
@@ -23978,35 +23999,7 @@
   "title": "Staff Software Engineer",
   "company": "Okta",
   "location": "Bengaluru, India",
-  "url": "https://www.okta.com/company/careers/opportunity/7892783?gh_jid=7892783",
-  "reason": "senior title"
- },
- {
-  "title": "Staff Software Engineer",
-  "company": "Okta",
-  "location": "Bengaluru, India",
-  "url": "https://www.okta.com/company/careers/opportunity/8345801?gh_jid=8345801",
-  "reason": "senior title"
- },
- {
-  "title": "Staff Software Engineer",
-  "company": "Okta",
-  "location": "Bengaluru, India",
   "url": "https://www.okta.com/company/careers/opportunity/8263825?gh_jid=8263825",
-  "reason": "senior title"
- },
- {
-  "title": "Staff Software Engineer",
-  "company": "Okta",
-  "location": "Toronto, Ontario, Canada",
-  "url": "https://www.okta.com/company/careers/opportunity/8243158?gh_jid=8243158",
-  "reason": "not in India"
- },
- {
-  "title": "Staff Software Engineer",
-  "company": "Okta",
-  "location": "Bengaluru, India",
-  "url": "https://www.okta.com/company/careers/opportunity/8220634?gh_jid=8220634",
   "reason": "senior title"
  },
  {
@@ -24014,6 +24007,13 @@
   "company": "Okta",
   "location": "San Francisco, California",
   "url": "https://www.okta.com/company/careers/opportunity/8243997?gh_jid=8243997",
+  "reason": "not in India"
+ },
+ {
+  "title": "Staff Software Engineer",
+  "company": "Okta",
+  "location": "Toronto, Ontario, Canada",
+  "url": "https://www.okta.com/company/careers/opportunity/8243158?gh_jid=8243158",
   "reason": "not in India"
  },
  {
@@ -24031,17 +24031,31 @@
   "reason": "senior title"
  },
  {
-  "title": "Staff Software Engineer ",
+  "title": "Staff Software Engineer",
   "company": "Okta",
-  "location": "Tel Aviv, Israel",
-  "url": "https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857",
-  "reason": "not in India"
+  "location": "Bengaluru, India",
+  "url": "https://www.okta.com/company/careers/opportunity/8220634?gh_jid=8220634",
+  "reason": "senior title"
+ },
+ {
+  "title": "Staff Software Engineer",
+  "company": "Okta",
+  "location": "Bengaluru, India",
+  "url": "https://www.okta.com/company/careers/opportunity/7892783?gh_jid=7892783",
+  "reason": "senior title"
+ },
+ {
+  "title": "Staff Software Engineer",
+  "company": "Okta",
+  "location": "Bengaluru, India",
+  "url": "https://www.okta.com/company/careers/opportunity/8345801?gh_jid=8345801",
+  "reason": "senior title"
  },
  {
   "title": "Staff Software Engineer ",
   "company": "Okta",
   "location": "Bengaluru, India",
-  "url": "https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016",
+  "url": "https://www.okta.com/company/careers/opportunity/8071502?gh_jid=8071502",
   "reason": "senior title"
  },
  {
@@ -24054,8 +24068,15 @@
  {
   "title": "Staff Software Engineer ",
   "company": "Okta",
+  "location": "Tel Aviv, Israel",
+  "url": "https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857",
+  "reason": "not in India"
+ },
+ {
+  "title": "Staff Software Engineer ",
+  "company": "Okta",
   "location": "Bengaluru, India",
-  "url": "https://www.okta.com/company/careers/opportunity/8071502?gh_jid=8071502",
+  "url": "https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016",
   "reason": "senior title"
  },
  {
@@ -24125,13 +24146,6 @@
   "title": "Staff Software Engineer - Full Stack",
   "company": "Okta",
   "location": "Bengaluru, India",
-  "url": "https://www.okta.com/company/careers/opportunity/8242301?gh_jid=8242301",
-  "reason": "senior title"
- },
- {
-  "title": "Staff Software Engineer - Full Stack",
-  "company": "Okta",
-  "location": "Bengaluru, India",
   "url": "https://www.okta.com/company/careers/opportunity/8236508?gh_jid=8236508",
   "reason": "senior title"
  },
@@ -24141,6 +24155,13 @@
   "location": "Tel Aviv, Israel",
   "url": "https://www.okta.com/company/careers/opportunity/8203628?gh_jid=8203628",
   "reason": "not in India"
+ },
+ {
+  "title": "Staff Software Engineer - Full Stack",
+  "company": "Okta",
+  "location": "Bengaluru, India",
+  "url": "https://www.okta.com/company/careers/opportunity/8242301?gh_jid=8242301",
+  "reason": "senior title"
  },
  {
   "title": "Staff Software Engineer, Identity Administration (Full Stack)",
@@ -24290,13 +24311,6 @@
   "reason": "not in India"
  },
  {
-  "title": "Staff, Third Party Risk Management",
-  "company": "Okta",
-  "location": "Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Seattle, Washington; Washington, DC",
-  "url": "https://www.okta.com/company/careers/opportunity/8299845?gh_jid=8299845",
-  "reason": "not in India"
- },
- {
   "title": "Staff UX Designer",
   "company": "Okta",
   "location": "Bengaluru, India",
@@ -24313,8 +24327,8 @@
  {
   "title": "Strategic Account Executive",
   "company": "Okta",
-  "location": "Kansas City, Missouri",
-  "url": "https://www.okta.com/company/careers/opportunity/8289602?gh_jid=8289602",
+  "location": "San Francisco, California",
+  "url": "https://www.okta.com/company/careers/opportunity/8289589?gh_jid=8289589",
   "reason": "not in India"
  },
  {
@@ -24327,22 +24341,8 @@
  {
   "title": "Strategic Account Executive",
   "company": "Okta",
-  "location": "San Francisco, California",
-  "url": "https://www.okta.com/company/careers/opportunity/8289589?gh_jid=8289589",
-  "reason": "not in India"
- },
- {
-  "title": "Strategic Account Executive ",
-  "company": "Okta",
-  "location": "Sydney, Australia",
-  "url": "https://www.okta.com/company/careers/opportunity/8287817?gh_jid=8287817",
-  "reason": "not in India"
- },
- {
-  "title": "Strategic Account Executive ",
-  "company": "Okta",
-  "location": "Los Angeles, California",
-  "url": "https://www.okta.com/company/careers/opportunity/8289582?gh_jid=8289582",
+  "location": "Kansas City, Missouri",
+  "url": "https://www.okta.com/company/careers/opportunity/8289602?gh_jid=8289602",
   "reason": "not in India"
  },
  {
@@ -24355,8 +24355,22 @@
  {
   "title": "Strategic Account Executive ",
   "company": "Okta",
+  "location": "Los Angeles, California",
+  "url": "https://www.okta.com/company/careers/opportunity/8289582?gh_jid=8289582",
+  "reason": "not in India"
+ },
+ {
+  "title": "Strategic Account Executive ",
+  "company": "Okta",
   "location": "Minnesota",
   "url": "https://www.okta.com/company/careers/opportunity/8289576?gh_jid=8289576",
+  "reason": "not in India"
+ },
+ {
+  "title": "Strategic Account Executive ",
+  "company": "Okta",
+  "location": "Sydney, Australia",
+  "url": "https://www.okta.com/company/careers/opportunity/8287817?gh_jid=8287817",
   "reason": "not in India"
  },
  {
@@ -24376,15 +24390,15 @@
  {
   "title": "Strategic Account Executive, Auth0",
   "company": "Okta",
-  "location": "San Francisco, California",
-  "url": "https://www.okta.com/company/careers/opportunity/7463779?gh_jid=7463779",
+  "location": "Georgia",
+  "url": "https://www.okta.com/company/careers/opportunity/8289915?gh_jid=8289915",
   "reason": "not in India"
  },
  {
   "title": "Strategic Account Executive, Auth0",
   "company": "Okta",
-  "location": "Georgia",
-  "url": "https://www.okta.com/company/careers/opportunity/8289915?gh_jid=8289915",
+  "location": "San Francisco, California",
+  "url": "https://www.okta.com/company/careers/opportunity/7463779?gh_jid=7463779",
   "reason": "not in India"
  },
  {
@@ -42401,8 +42415,8 @@
  {
   "title": "Analytics Lead, Full Stack",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8011130003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8003170003",
   "reason": "not in India"
  },
  {
@@ -42415,8 +42429,8 @@
  {
   "title": "Analytics Lead, Full Stack",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8003170003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8011130003",
   "reason": "not in India"
  },
  {
@@ -42436,15 +42450,15 @@
  {
   "title": "Compensation Analyst II (Programs & Partnerships)",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8048119003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8048121003",
   "reason": "not in India"
  },
  {
   "title": "Compensation Analyst II (Programs & Partnerships)",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8048121003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8048119003",
   "reason": "not in India"
  },
  {
@@ -42548,15 +42562,15 @@
  {
   "title": "Group Product Manager - Zero to One Labs",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8041932003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8041930003",
   "reason": "not in India"
  },
  {
   "title": "Group Product Manager - Zero to One Labs",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8041930003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8041932003",
   "reason": "not in India"
  },
  {
@@ -42583,15 +42597,15 @@
  {
   "title": "Leadership Development Manager",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8043921003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8043923003",
   "reason": "not in India"
  },
  {
   "title": "Leadership Development Manager",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8043923003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8043921003",
   "reason": "not in India"
  },
  {
@@ -42618,15 +42632,15 @@
  {
   "title": "Manager, Fraud Operations",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7821076003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7821078003",
   "reason": "not in India"
  },
  {
   "title": "Manager, Fraud Operations",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7821078003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7821076003",
   "reason": "not in India"
  },
  {
@@ -42695,22 +42709,15 @@
  {
   "title": "Manager, Software Engineering (Resilience Engineering)",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7701909003",
-  "reason": "not in India"
- },
- {
-  "title": "Manager, Software Engineering (Resilience Engineering)",
-  "company": "Affirm",
   "location": "Remote Canada",
   "url": "https://job-boards.greenhouse.io/affirm/jobs/7701911003",
   "reason": "not in India"
  },
  {
-  "title": "Operations Enablement Lead",
+  "title": "Manager, Software Engineering (Resilience Engineering)",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7860705003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7701909003",
   "reason": "not in India"
  },
  {
@@ -42721,10 +42728,10 @@
   "reason": "not in India"
  },
  {
-  "title": "Operations Enablement Manager",
+  "title": "Operations Enablement Lead",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8009629003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7860705003",
   "reason": "not in India"
  },
  {
@@ -42732,6 +42739,13 @@
   "company": "Affirm",
   "location": "Remote Canada",
   "url": "https://job-boards.greenhouse.io/affirm/jobs/8009631003",
+  "reason": "not in India"
+ },
+ {
+  "title": "Operations Enablement Manager",
+  "company": "Affirm",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8009629003",
   "reason": "not in India"
  },
  {
@@ -42758,22 +42772,15 @@
  {
   "title": "Platform Marketing Lead",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8012914003",
-  "reason": "not in India"
- },
- {
-  "title": "Platform Marketing Lead",
-  "company": "Affirm",
   "location": "Remote Canada",
   "url": "https://job-boards.greenhouse.io/affirm/jobs/8012916003",
   "reason": "not in India"
  },
  {
-  "title": "Product Security Engineer II",
+  "title": "Platform Marketing Lead",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7796530003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8012914003",
   "reason": "not in India"
  },
  {
@@ -42786,15 +42793,15 @@
  {
   "title": "Quantitative Analyst II (Capital Structuring & Analytics)",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7815952003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7815954003",
   "reason": "not in India"
  },
  {
   "title": "Quantitative Analyst II (Capital Structuring & Analytics)",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7815954003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7815952003",
   "reason": "not in India"
  },
  {
@@ -42905,22 +42912,15 @@
  {
   "title": "Senior Manager, Security Incident Response",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8045378003",
-  "reason": "not in India"
- },
- {
-  "title": "Senior Manager, Security Incident Response",
-  "company": "Affirm",
   "location": "Remote US",
   "url": "https://job-boards.greenhouse.io/affirm/jobs/8045376003",
   "reason": "not in India"
  },
  {
-  "title": "Senior Manager, Software Engineering (Card)",
+  "title": "Senior Manager, Security Incident Response",
   "company": "Affirm",
-  "location": "Remote Spain",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8043027003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8045378003",
   "reason": "not in India"
  },
  {
@@ -42928,6 +42928,13 @@
   "company": "Affirm",
   "location": "Remote Poland",
   "url": "https://job-boards.greenhouse.io/affirm/jobs/8043029003",
+  "reason": "not in India"
+ },
+ {
+  "title": "Senior Manager, Software Engineering (Card)",
+  "company": "Affirm",
+  "location": "Remote Spain",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8043027003",
   "reason": "not in India"
  },
  {
@@ -42961,22 +42968,15 @@
  {
   "title": "Senior Product Manager, Checkout",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7929525003",
-  "reason": "not in India"
- },
- {
-  "title": "Senior Product Manager, Checkout",
-  "company": "Affirm",
   "location": "Remote US",
   "url": "https://job-boards.greenhouse.io/affirm/jobs/7929523003",
   "reason": "not in India"
  },
  {
-  "title": "Senior Product Manager, Consumer Payments",
+  "title": "Senior Product Manager, Checkout",
   "company": "Affirm",
   "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8009665003",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7929525003",
   "reason": "not in India"
  },
  {
@@ -42984,6 +42984,13 @@
   "company": "Affirm",
   "location": "Remote US",
   "url": "https://job-boards.greenhouse.io/affirm/jobs/8009663003",
+  "reason": "not in India"
+ },
+ {
+  "title": "Senior Product Manager, Consumer Payments",
+  "company": "Affirm",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8009665003",
   "reason": "not in India"
  },
  {
@@ -43003,15 +43010,15 @@
  {
   "title": "Senior Program Manager I",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8012095003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8012093003",
   "reason": "not in India"
  },
  {
   "title": "Senior Program Manager I",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8012093003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8012095003",
   "reason": "not in India"
  },
  {
@@ -43087,15 +43094,15 @@
  {
   "title": "Senior Software Engineer, Backend (Comms Core)",
   "company": "Affirm",
-  "location": "Remote Poland",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8034651003",
+  "location": "Remote Spain",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8034649003",
   "reason": "not in India"
  },
  {
   "title": "Senior Software Engineer, Backend (Comms Core)",
   "company": "Affirm",
-  "location": "Remote Spain",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8034649003",
+  "location": "Remote Poland",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8034651003",
   "reason": "not in India"
  },
  {
@@ -43122,15 +43129,15 @@
  {
   "title": "Senior Software Engineer, Backend (Lakehouse Infra) ",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8013444003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8013442003",
   "reason": "not in India"
  },
  {
   "title": "Senior Software Engineer, Backend (Lakehouse Infra) ",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8013442003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8013444003",
   "reason": "not in India"
  },
  {
@@ -43178,15 +43185,15 @@
  {
   "title": "Senior Software Engineer, Backend (PBA - Growth)",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7808386003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7808384003",
   "reason": "not in India"
  },
  {
   "title": "Senior Software Engineer, Backend (PBA - Growth)",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7808384003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7808386003",
   "reason": "not in India"
  },
  {
@@ -43241,6 +43248,13 @@
  {
   "title": "Senior Software Engineer, Fullstack (International) ",
   "company": "Affirm",
+  "location": "Remote UK",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7827039003",
+  "reason": "not in India"
+ },
+ {
+  "title": "Senior Software Engineer, Fullstack (International) ",
+  "company": "Affirm",
   "location": "Remote Spain",
   "url": "https://job-boards.greenhouse.io/affirm/jobs/8200178003",
   "reason": "not in India"
@@ -43250,13 +43264,6 @@
   "company": "Affirm",
   "location": "Remote Poland",
   "url": "https://job-boards.greenhouse.io/affirm/jobs/8200180003",
-  "reason": "not in India"
- },
- {
-  "title": "Senior Software Engineer, Fullstack (International) ",
-  "company": "Affirm",
-  "location": "Remote UK",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7827039003",
   "reason": "not in India"
  },
  {
@@ -43318,15 +43325,15 @@
  {
   "title": "Senior Technical Account Manager (Strategic Alliances)",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8009661003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8044928003",
   "reason": "not in India"
  },
  {
   "title": "Senior Technical Account Manager (Strategic Alliances)",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8044928003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8009661003",
   "reason": "not in India"
  },
  {
@@ -43346,15 +43353,15 @@
  {
   "title": "Senior Technical Program Manager",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8199157003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7832312003",
   "reason": "not in India"
  },
  {
   "title": "Senior Technical Program Manager",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7832312003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8199157003",
   "reason": "not in India"
  },
  {
@@ -43416,22 +43423,15 @@
  {
   "title": "Software Engineer II, Backend",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8196114003",
-  "reason": "not in India"
- },
- {
-  "title": "Software Engineer II, Backend",
-  "company": "Affirm",
   "location": "Remote US",
   "url": "https://job-boards.greenhouse.io/affirm/jobs/8196112003",
   "reason": "not in India"
  },
  {
-  "title": "Software Engineer II, Backend (Test Infra)",
+  "title": "Software Engineer II, Backend",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7727320003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8196114003",
   "reason": "not in India"
  },
  {
@@ -43442,10 +43442,10 @@
   "reason": "not in India"
  },
  {
-  "title": "Software Engineer II - CIAM",
+  "title": "Software Engineer II, Backend (Test Infra)",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8040753003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7727320003",
   "reason": "not in India"
  },
  {
@@ -43453,6 +43453,13 @@
   "company": "Affirm",
   "location": "Remote US",
   "url": "https://job-boards.greenhouse.io/affirm/jobs/8040751003",
+  "reason": "not in India"
+ },
+ {
+  "title": "Software Engineer II - CIAM",
+  "company": "Affirm",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8040753003",
   "reason": "not in India"
  },
  {
@@ -43465,15 +43472,15 @@
  {
   "title": "Software Engineer II, Fullstack (Ads Platform)",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8016868003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8016866003",
   "reason": "not in India"
  },
  {
   "title": "Software Engineer II, Fullstack (Ads Platform)",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8016866003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8016868003",
   "reason": "not in India"
  },
  {
@@ -43500,15 +43507,15 @@
  {
   "title": "Software Engineer II, Full Stack (Card Acquisition)",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8032175003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8032173003",
   "reason": "not in India"
  },
  {
   "title": "Software Engineer II, Full Stack (Card Acquisition)",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8032173003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8032175003",
   "reason": "not in India"
  },
  {
@@ -43528,8 +43535,8 @@
  {
   "title": "Software Engineer II, Fullstack (International)",
   "company": "Affirm",
-  "location": "Remote Poland",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8202545003",
+  "location": "Remote Spain",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8202548003",
   "reason": "not in India"
  },
  {
@@ -43542,15 +43549,8 @@
  {
   "title": "Software Engineer II, Fullstack (International)",
   "company": "Affirm",
-  "location": "Remote Spain",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8202548003",
-  "reason": "not in India"
- },
- {
-  "title": "Software Engineer II, Fullstack (Repayment UX)",
-  "company": "Affirm",
   "location": "Remote Poland",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8040392003",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8202545003",
   "reason": "not in India"
  },
  {
@@ -43558,6 +43558,13 @@
   "company": "Affirm",
   "location": "Remote Spain",
   "url": "https://job-boards.greenhouse.io/affirm/jobs/8040394003",
+  "reason": "not in India"
+ },
+ {
+  "title": "Software Engineer II, Fullstack (Repayment UX)",
+  "company": "Affirm",
+  "location": "Remote Poland",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8040392003",
   "reason": "not in India"
  },
  {
@@ -43647,22 +43654,15 @@
  {
   "title": "Staff Software Engineer, Backend (Identity Decisioning)",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8003801003",
-  "reason": "not in India"
- },
- {
-  "title": "Staff Software Engineer, Backend (Identity Decisioning)",
-  "company": "Affirm",
   "location": "Remote US",
   "url": "https://job-boards.greenhouse.io/affirm/jobs/8003799003",
   "reason": "not in India"
  },
  {
-  "title": "Staff Software Engineer, Backend (Identity International)",
+  "title": "Staff Software Engineer, Backend (Identity Decisioning)",
   "company": "Affirm",
-  "location": "Remote Spain",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7931494003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8003801003",
   "reason": "not in India"
  },
  {
@@ -43680,10 +43680,10 @@
   "reason": "not in India"
  },
  {
-  "title": "Staff Software Engineer, Backend (Ledger Engineering)",
+  "title": "Staff Software Engineer, Backend (Identity International)",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/7800319003",
+  "location": "Remote Spain",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7931494003",
   "reason": "not in India"
  },
  {
@@ -43691,6 +43691,13 @@
   "company": "Affirm",
   "location": "Remote US",
   "url": "https://job-boards.greenhouse.io/affirm/jobs/7800317003",
+  "reason": "not in India"
+ },
+ {
+  "title": "Staff Software Engineer, Backend (Ledger Engineering)",
+  "company": "Affirm",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7800319003",
   "reason": "not in India"
  },
  {
@@ -43717,15 +43724,15 @@
  {
   "title": "Staff Software Engineer, Backend (Recoveries)",
   "company": "Affirm",
-  "location": "Remote Spain",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8034645003",
+  "location": "Remote Poland",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8034647003",
   "reason": "not in India"
  },
  {
   "title": "Staff Software Engineer, Backend (Recoveries)",
   "company": "Affirm",
-  "location": "Remote Poland",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8034647003",
+  "location": "Remote Spain",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8034645003",
   "reason": "not in India"
  },
  {
@@ -43801,15 +43808,15 @@
  {
   "title": "Staff Software Engineer, Fullstack (Card Experiences)",
   "company": "Affirm",
-  "location": "Remote US",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8040271003",
+  "location": "Remote Canada",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8040273003",
   "reason": "not in India"
  },
  {
   "title": "Staff Software Engineer, Fullstack (Card Experiences)",
   "company": "Affirm",
-  "location": "Remote Canada",
-  "url": "https://job-boards.greenhouse.io/affirm/jobs/8040273003",
+  "location": "Remote US",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8040271003",
   "reason": "not in India"
  },
  {
@@ -72406,432 +72413,5 @@
   "location": "Kalyani, WEST BENGAL, India",
   "url": "https://jobs.smartrecruiters.com/Continental/743999901275018",
   "reason": "unclear title (no LLM key to check)"
- },
- {
-  "title": "Senior DevOps Engineer",
-  "company": "Kaleris",
-  "location": "Chennai",
-  "url": "https://kaleris.wd501.myworkdayjobs.com/kaleris_careers/job/Chennai/Senior-DevOps-Engineer_R-100617",
-  "reason": "senior title"
- },
- {
-  "title": "Sales Engineer",
-  "company": "Kaleris",
-  "location": "4 Locations",
-  "url": "https://kaleris.wd501.myworkdayjobs.com/kaleris_careers/job/Remote-Spain/Sales-Engineer_R-100660-1",
-  "reason": "not in India"
- },
- {
-  "title": "Associate Product Manager Intern - YMS",
-  "company": "Kaleris",
-  "location": "Chennai",
-  "url": "https://kaleris.wd501.myworkdayjobs.com/kaleris_careers/job/Chennai/Associate-Product-Manager-Intern---YMS_R-100661",
-  "reason": "senior title"
- },
- {
-  "title": "Senior Software Engineer",
-  "company": "Kaleris",
-  "location": "2 Locations",
-  "url": "https://kaleris.wd501.myworkdayjobs.com/kaleris_careers/job/Chennai/Senior-Software-Engineer_R-100579",
-  "reason": "not in India"
- },
- {
-  "title": "Staff Software Engineer",
-  "company": "Kaleris",
-  "location": "2 Locations",
-  "url": "https://kaleris.wd501.myworkdayjobs.com/kaleris_careers/job/Chennai/Staff-Software-Engineer_R-100581",
-  "reason": "not in India"
- },
- {
-  "title": "Associate Consultant - Automation",
-  "company": "Kaleris",
-  "location": "Rotterdam",
-  "url": "https://kaleris.wd501.myworkdayjobs.com/kaleris_careers/job/Rotterdam/Associate-Consultant---Automation_R-100613",
-  "reason": "not in India"
- },
- {
-  "title": "Senior Manager - Total Rewards",
-  "company": "Piramal Pharma",
-  "location": "Mumbai, MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Senior-Manager---Total-Rewards_R00003632-1",
-  "reason": "senior title"
- },
- {
-  "title": "Technical Staff – Warehouse",
-  "company": "Piramal Pharma",
-  "location": "India",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/India/Technical-Staff---Warehouse_9757",
-  "reason": "senior title"
- },
- {
-  "title": "Senior Manager-Order Management",
-  "company": "Piramal Pharma",
-  "location": "Mumbai, MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Senior-Manager-Order-Management_R00004902",
-  "reason": "senior title"
- },
- {
-  "title": "Chief Manager- Supply Chain",
-  "company": "Piramal Pharma",
-  "location": "Mumbai",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai/Chief-Manager--Supply-Chain_8543",
-  "reason": "senior title"
- },
- {
-  "title": "PRODUCTION SHIFT MANAGER (Afternoon/Evening Shift)",
-  "company": "Piramal Pharma",
-  "location": "Aurora,Canada",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/AuroraCanada/PRODUCTION-SHIFT-MANAGER--Afternoon-Evening-Shift-_R00004509",
-  "reason": "not in India"
- },
- {
-  "title": "Quality and Compliance Specialist",
-  "company": "Piramal Pharma",
-  "location": "Riverview,MI",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/RiverviewMI/Quality-and-Compliance-Specialist_R00004682",
-  "reason": "not in India"
- },
- {
-  "title": "Technician, Research and Development",
-  "company": "Piramal Pharma",
-  "location": "Sellersville",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Sellersville/Technician--Research-and-Development_R00004018",
-  "reason": "not in India"
- },
- {
-  "title": "Manager - Finance",
-  "company": "Piramal Pharma",
-  "location": "Mumbai, MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Manager---Finance_R00004980",
-  "reason": "senior title"
- },
- {
-  "title": "Senior Manager - Regional Logistics-Supply Chain",
-  "company": "Piramal Pharma",
-  "location": "Bangalore,KA",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/BangaloreKA/Senior-Manager---Regional-Logistics-Supply-Chain_R00005037-1",
-  "reason": "senior title"
- },
- {
-  "title": "FTC – Supply Chain",
-  "company": "Piramal Pharma",
-  "location": "Mumbai",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai/FTC---Supply-Chain_8558",
-  "reason": "unclear title (no LLM key to check)"
- },
- {
-  "title": "Deputy Chief Manager - Finance",
-  "company": "Piramal Pharma",
-  "location": "Mumbai, MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Deputy-Chief-Manager---Finance_R00004677",
-  "reason": "senior title"
- },
- {
-  "title": "Consultant Employee Engagement & Culture",
-  "company": "Piramal Pharma",
-  "location": "Mumbai, MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Contract---Engagement---Culture_R00003645",
-  "reason": "unclear title (no LLM key to check)"
- },
- {
-  "title": "Strategic Account Manager - Central South Region",
-  "company": "Piramal Pharma",
-  "location": "US – Texas",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/US--Texas/Strategic-Account-Manager---Central-South-Region_R00004529",
-  "reason": "not in India"
- },
- {
-  "title": "Deputy General Manager - Employee Relations",
-  "company": "Piramal Pharma",
-  "location": "Mumbai, MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Deputy-General-Manager---Employee-Relations_R00003481-1",
-  "reason": "senior title"
- },
- {
-  "title": "Inside Sales Representative",
-  "company": "Piramal Pharma",
-  "location": "Bethlehem",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Bethlehem/Inside-Sales-Representative_R00004208",
-  "reason": "not in India"
- },
- {
-  "title": "PROJECT MANAGER",
-  "company": "Piramal Pharma",
-  "location": "Lexington",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Lexington/PROJECT-MANAGER_R00004110",
-  "reason": "not in India"
- },
- {
-  "title": "Senior Research Associate -AD",
-  "company": "Piramal Pharma",
-  "location": "2 Locations",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/AhmedabadGj/Senior-Research-Associate--AD_R00003166",
-  "reason": "not in India"
- },
- {
-  "title": "Executive - Regulatory Affairs",
-  "company": "Piramal Pharma",
-  "location": "Mumbai, MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Executive---Regulatory-Affairs_R00004415",
-  "reason": "unclear title (no LLM key to check)"
- },
- {
-  "title": "Chief Manager - Projects",
-  "company": "Piramal Pharma",
-  "location": "Mumbai, MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Chief-Manager---Projects_R00001207",
-  "reason": "senior title"
- },
- {
-  "title": "Chief Manager – Finance",
-  "company": "Piramal Pharma",
-  "location": "Mumbai",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai/Chief-Manager---Finance_10319",
-  "reason": "senior title"
- },
- {
-  "title": "Deputy Manager - Analytics",
-  "company": "Piramal Pharma",
-  "location": "Mumbai, MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Deputy-Manager---Analytics_R00004812",
-  "reason": "senior title"
- },
- {
-  "title": "Executive - Quality Control",
-  "company": "Piramal Pharma",
-  "location": "Dhar",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Dhar/Executive---Quality-Control_9530",
-  "reason": "not in India"
- },
- {
-  "title": "Executive - Quality Control",
-  "company": "Piramal Pharma",
-  "location": "Dhar",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Dhar/Executive---Quality-Control_9531",
-  "reason": "not in India"
- },
- {
-  "title": "Executive - Quality Assurance",
-  "company": "Piramal Pharma",
-  "location": "Dhar",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Dhar/Executive---Quality-Assurance_9532",
-  "reason": "not in India"
- },
- {
-  "title": "Manager-QC",
-  "company": "Piramal Pharma",
-  "location": "India",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/India/Manager-QC_9795",
-  "reason": "senior title"
- },
- {
-  "title": "Associate General Manager-Supply Chain",
-  "company": "Piramal Pharma",
-  "location": "Dhar",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Dhar/Associate-General-Manager-Supply-Chain_10083",
-  "reason": "not in India"
- },
- {
-  "title": "Area Sales Officer",
-  "company": "Piramal Pharma",
-  "location": "Chennai",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Chennai/Area-Sales-Officer_9861",
-  "reason": "unclear title (no LLM key to check)"
- },
- {
-  "title": "Deputy Manager-Record to Report",
-  "company": "Piramal Pharma",
-  "location": "2 Locations",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Deputy-Manager-Record-to-Report_R00003540",
-  "reason": "not in India"
- },
- {
-  "title": "Talent Acquisition Consultant",
-  "company": "Piramal Pharma",
-  "location": "Mumbai, MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Talent-Acquisition-Consultant_R00004752",
-  "reason": "unclear title (no LLM key to check)"
- },
- {
-  "title": "Senior Executive - Micro",
-  "company": "Piramal Pharma",
-  "location": "Piathampur,MP",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/PiathampurMP/Senior-Executive---Micro_R00004644",
-  "reason": "not in India"
- },
- {
-  "title": "Manager - SAP WM / EWM",
-  "company": "Piramal Pharma",
-  "location": "Mumbai",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai/Manager---SAP-WM---EWM_7417",
-  "reason": "senior title"
- },
- {
-  "title": "Manager - Packaging Technology",
-  "company": "Piramal Pharma",
-  "location": "Hyderabad",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Hyderabad/Manager---Packaging-Technology_10006",
-  "reason": "senior title"
- },
- {
-  "title": "Business Training Manager",
-  "company": "Piramal Pharma",
-  "location": "Mumbai, MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Business-Training-Manager_R00004397",
-  "reason": "senior title"
- },
- {
-  "title": "Serialization Coordinator",
-  "company": "Piramal Pharma",
-  "location": "Hyderabad,TS",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/HyderabadTS/Serialization-Coordinator_R00004618",
-  "reason": "unclear title (no LLM key to check)"
- },
- {
-  "title": "Trainee",
-  "company": "Piramal Pharma",
-  "location": "Piathampur,MP",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/PiathampurMP/Technical-Staff_R00003135",
-  "reason": "not in India"
- },
- {
-  "title": "Trainee - Stores",
-  "company": "Piramal Pharma",
-  "location": "Turbhe,MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/TurbheMH/Trainee---Stores_R00004041-1",
-  "reason": "not in India"
- },
- {
-  "title": "Trainee - Quality Assurance",
-  "company": "Piramal Pharma",
-  "location": "Turbhe,MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/TurbheMH/Trainee---Quality-Assurance_R00004841",
-  "reason": "not in India"
- },
- {
-  "title": "Trainee - R&D",
-  "company": "Piramal Pharma",
-  "location": "Ennore, TN",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Ennore-TN/Trainee---R-D_R00004282",
-  "reason": "not in India"
- },
- {
-  "title": "Global Emerging Leader",
-  "company": "Piramal Pharma",
-  "location": "Mumbai, MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Global-Emerging-Leader_R00002251-1",
-  "reason": "unclear title (no LLM key to check)"
- },
- {
-  "title": "Granulation Manufacturing Operator I",
-  "company": "Piramal Pharma",
-  "location": "Sellersville",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Sellersville/Granulation-Manufacturing-Operator-I---3rd-Shift_R00004108",
-  "reason": "not in India"
- },
- {
-  "title": "Stability Program Supervisor",
-  "company": "Piramal Pharma",
-  "location": "Sellersville",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Sellersville/Stability-Program-Supervisor_R00004901",
-  "reason": "not in India"
- },
- {
-  "title": "Deputy Manager-QC",
-  "company": "Piramal Pharma",
-  "location": "Piathampur,MP",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/PiathampurMP/Deputy-Manager-QC_R00001827",
-  "reason": "not in India"
- },
- {
-  "title": "Senior Executive-QC",
-  "company": "Piramal Pharma",
-  "location": "Piathampur,MP",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/PiathampurMP/Senior-Executive-QC_R00002994",
-  "reason": "not in India"
- },
- {
-  "title": "Executive - HR",
-  "company": "Piramal Pharma",
-  "location": "Turbhe,MH",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/TurbheMH/Executive---HR_R00004894",
-  "reason": "not in India"
- },
- {
-  "title": "Technical Staff",
-  "company": "Piramal Pharma",
-  "location": "Dhar",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Dhar/Technical-Staff_10154",
-  "reason": "not in India"
- },
- {
-  "title": "Senior QC Equipment Officer",
-  "company": "Piramal Pharma",
-  "location": "Morpeth,NBL",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/MorpethNBL/Senior-QC-Equipment-Officer_R00004834-1",
-  "reason": "not in India"
- },
- {
-  "title": "Machine Technician II",
-  "company": "Piramal Pharma",
-  "location": "Sellersville",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Sellersville/Machine-Technician-II_R00005071",
-  "reason": "not in India"
- },
- {
-  "title": "Senior Manager - Operational Excellence",
-  "company": "Piramal Pharma",
-  "location": "Dhar",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Dhar/Senior-Manager---Operational-Excellence_10139",
-  "reason": "not in India"
- },
- {
-  "title": "Apprentice_ Production",
-  "company": "Piramal Pharma",
-  "location": "Dahej,GJ",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/DahejGJ/Apprentice--Production_R00004991",
-  "reason": "not in India"
- },
- {
-  "title": "Apprentice - Enginering",
-  "company": "Piramal Pharma",
-  "location": "Ennore, TN",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Ennore-TN/Apprentice---Enginering_R00004264",
-  "reason": "not in India"
- },
- {
-  "title": "Apprentice - Production",
-  "company": "Piramal Pharma",
-  "location": "Dhar",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Dhar/Apprentice---Production_10181",
-  "reason": "not in India"
- },
- {
-  "title": "Apprentice - Production",
-  "company": "Piramal Pharma",
-  "location": "Dhar",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Dhar/Apprentice---Production_10178",
-  "reason": "not in India"
- },
- {
-  "title": "Apprentice - Production",
-  "company": "Piramal Pharma",
-  "location": "Dhar",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Dhar/Apprentice---Production_10170",
-  "reason": "not in India"
- },
- {
-  "title": "Apprentice - Accounts Payable",
-  "company": "Piramal Pharma",
-  "location": "Maharashtra",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Maharashtra/Apprentice---Accounts-Payable_R00005086",
-  "reason": "not in India"
- },
- {
-  "title": "Apprentices",
-  "company": "Piramal Pharma",
-  "location": "Dhar",
-  "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Dhar/Apprentices_10174",
-  "reason": "not in India"
  }
 ]
