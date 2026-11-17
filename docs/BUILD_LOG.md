@@ -1,4 +1,4 @@
-# What broke and how I fixed it
+# Build log: what broke and how it was fixed
 
 Add a line every time something goes wrong. This is the script for the "what broke" part of the video.
 
@@ -26,4 +26,5 @@ Add a line every time something goes wrong. This is the script for the "what bro
 | 20 | Without an LLM, 42 of 54 live posts fell in "Other" | The keyword fallback only matched whole phrases ("software developer"), never "Software Development Engineer" | Gave each role a short keyword list for the fallback (the LLM still reads the descriptive hints); longer phrases win ties; whitespace normalised. "Other" dropped to 2 of 63; unit-tested on real titles |
 | 21 | Daily run took 13 minutes even without an LLM | It opened ~800 descriptions that only an LLM can judge | Only open a description when it can be used (clear title, or an LLM is available) |
 | 22 | The run's "save data" step failed: push rejected | I pushed a code fix while the run was going, so the run's copy was out of date | Before saving, the run pulls the latest code (rebase, its own data wins on conflict) and retries up to 3 times |
+| 23 | 9 Workday posts stayed live after Workday was switched off | One or two Workday sites had answered in earlier runs; once the source was off, its boards were never checked, and "board not checked = probably down = keep" applied | A post from a board that is no longer in `config/companies.yaml` is closed at the next run; unit-tested |
 |  | *(add real issues from the next runs here)* | | |

@@ -110,7 +110,8 @@ def run(paths: Paths, offline_file: str | None = None, today: str | None = None,
 
     # 6. MERGE WITH YESTERDAY
     db = store.load_db(paths.db)
-    counts = store.merge(db, accepted, status, cfg, rules, today)
+    counts = store.merge(db, accepted, status, cfg, rules, today,
+                         configured=None if offline_file else set(status))
     live = store.live_jobs(db)
 
     # 7. PUBLISH

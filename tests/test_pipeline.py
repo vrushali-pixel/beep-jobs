@@ -64,6 +64,13 @@ def test_store_expires_posts_from_a_board_that_stays_down(cfg, rules):
     assert counts == {"new": 0, "closed": 0, "expired": 1} and db["jobs"]["x"]["status"] == "expired"
 
 
+def test_store_closes_posts_from_a_removed_source(cfg, rules):
+    db = {"jobs": {"w": {"id": "w", "source": "workday", "board": "kaleris", "status": "active",
+                         "last_seen": "2026-11-16", "first_seen": "2026-11-16", "posted": ""}}}
+    counts = store.merge(db, [], {"lever:b": True}, cfg, rules, "2026-11-17", configured={"lever:b"})
+    assert counts["closed"] == 1 and db["jobs"]["w"]["status"] == "closed"
+
+
 def test_cli_version():
     out = subprocess.run([sys.executable, "-m", "fresherjobs", "--version"], capture_output=True, text=True,
                          env={**os.environ, "PYTHONPATH": os.path.join(ROOT, "src")}, check=True)

@@ -30,7 +30,7 @@ def keyword_tag(p: RawPost, cfg: dict[str, Any], rules: Rules) -> Tags:
     return {
         "id": p["id"],
         "entry_level": not p.get("needs_ai"),   # without reading the description, unclear = no
-        "role_group": best, "clean_title": p["title"][:60].strip(),
+        "role_group": best, "clean_title": " ".join(p["title"].split()),
         "cities": rules.cities_in(p["location"]), "job_type": _job_type(title),
         "skills": [], "eligibility": "", "pay": p.get("pay", ""), "red_flags": [], "tagger": "keywords",
     }

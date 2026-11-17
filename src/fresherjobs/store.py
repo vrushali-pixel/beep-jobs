@@ -2,6 +2,7 @@
 
 A post missing today is "closed" only if its board answered today. If the board was down,
 the post is kept (it is probably still open) until `expire_after_days` without being seen.
+A post from a board that is no longer in config/companies.yaml is closed (source removed).
 """
 
 from __future__ import annotations
@@ -37,8 +38,11 @@ def to_job(p: RawPost, t: Tags, cfg: dict[str, Any], rules: Rules, today: str, o
 
 
 def merge(db: dict[str, Any], accepted: list[tuple[RawPost, Tags]], board_status: dict[str, bool],
-          cfg: dict[str, Any], rules: Rules, today: str) -> dict[str, int]:
-    """Update db in place. Returns counts: new, closed, expired."""
+          cfg: dict[str, Any], rules: Rules, today: str, configured: set[str] | None = None) -> dict[str, int]:
+    """Update db in place. Returns counts: new, closed, expired.
+
+    configured: every board the run tried (None in offline tests, where it is unknown).
+    """
     jobs: dict[str, Job] = db["jobs"]
     seen: set[str] = set()
     new = 0
@@ -53,8 +57,9 @@ def merge(db: dict[str, Any], accepted: list[tuple[RawPost, Tags]], board_status
     for j in jobs.values():
         if j["id"] in seen or j["status"] != "active":
             continue
-        if board_status.get(f"{j['source']}:{j['board']}"):
-            j["status"], j["closed_on"] = "closed", today       # board answered, post is gone
+        key = f"{j['source']}:{j['board']}"
+        if board_status.get(key) or (configured is not None and key not in configured):
+            j["status"], j["closed_on"] = "closed", today       # board answered without it, or source removed
             closed += 1
         elif j["last_seen"] < limit:
             j["status"] = "expired"                              # board down for too long
