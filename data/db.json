@@ -815,7 +815,7 @@
   },
   "749b82ac3dbc": {
    "id": "749b82ac3dbc",
-   "title": "Product  Ops Intern",
+   "title": "Product Ops Intern",
    "original_title": "Product  Ops Intern",
    "company": "Composio",
    "location": "Bangalore",
@@ -965,7 +965,7 @@
   },
   "e32f8a972e7c": {
    "id": "e32f8a972e7c",
-   "title": "Associate Software Test Engineer (Playwright, Typescript/ Ja",
+   "title": "Associate Software Test Engineer (Playwright, Typescript/ Javascript)",
    "original_title": "Associate Software Test Engineer (Playwright, Typescript/ Javascript)",
    "company": "NielsenIQ",
    "location": "Pune, MH, India",
@@ -1090,7 +1090,7 @@
   },
   "1f2ad88ca3ce": {
    "id": "1f2ad88ca3ce",
-   "title": "2026 EGM Ethernet Validation Engineer for SDV project in Bra",
+   "title": "2026 EGM Ethernet Validation Engineer for SDV project in Braking System",
    "original_title": "2026 EGM Ethernet Validation Engineer for SDV project in Braking System",
    "company": "Bosch Group",
    "location": "coimbatore, India",
@@ -1538,7 +1538,8 @@
    "tagger": "keywords",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-17",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-17"
   },
   "5a9f9d1ae148": {
    "id": "5a9f9d1ae148",
@@ -1563,7 +1564,8 @@
    "tagger": "keywords",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-17",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-17"
   },
   "a7a45010a799": {
    "id": "a7a45010a799",
@@ -1588,7 +1590,8 @@
    "tagger": "keywords",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-17",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-17"
   },
   "82ac8f2dfd7f": {
    "id": "82ac8f2dfd7f",
@@ -1613,7 +1616,8 @@
    "tagger": "keywords",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-17",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-17"
   },
   "b78626e53c7a": {
    "id": "b78626e53c7a",
@@ -1638,7 +1642,8 @@
    "tagger": "keywords",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-17",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-17"
   },
   "669e5eb9ec1a": {
    "id": "669e5eb9ec1a",
@@ -1663,7 +1668,8 @@
    "tagger": "keywords",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-17",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-17"
   },
   "54bef5e5c089": {
    "id": "54bef5e5c089",
@@ -1688,7 +1694,8 @@
    "tagger": "keywords",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-17",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-17"
   },
   "0136fcc5ac69": {
    "id": "0136fcc5ac69",
@@ -1713,7 +1720,8 @@
    "tagger": "keywords",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-17",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-17"
   },
   "0b56f64a717c": {
    "id": "0b56f64a717c",
@@ -1738,7 +1746,8 @@
    "tagger": "keywords",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-17",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-17"
   }
  }
 }
