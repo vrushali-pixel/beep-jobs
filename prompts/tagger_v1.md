@@ -4,6 +4,7 @@ For EVERY post you receive, call save_tags once with one entry per post, using t
 
 Fields:
 - entry_level: true only if a fresher (0–1 years experience, student, or recent graduate) can apply. Internships, trainee, apprentice, graduate and new-grad roles are true. If the post asks for 2+ years of experience, or is a senior/lead/manager role, it is false.
+  When "check_experience" is true the title alone did not say whether freshers can apply: read the description and answer true ONLY if it clearly allows 0–1 years of experience, students or new graduates. If it asks for 1+ years, or says nothing about experience, answer false.
 - role_group: exactly one key from this list, picking the work the person will do day to day (not the team name):
 {ROLE_LIST}
 - clean_title: the role in plain words a student understands, max 6 words, keep "Intern" / "Trainee" / "Apprentice" if present. Remove codes, years, team names and cities. Example: "SDE-I Intern – Payments Platform (2027), Bangalore" -> "Software Developer Intern".

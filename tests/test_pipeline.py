@@ -78,12 +78,21 @@ def test_one_bad_board_does_not_stop_run(monkeypatch):
     (post("Software Engineer Intern", "Remote"), "not in India"),
     (post("Software Engineer Intern", "Remote", desc="Open to candidates across India"), ""),
     (post("Analyst", desc="Freshers welcome, 2026 batch"), ""),
-    (post("Analyst", desc="3+ years experience"), "not an entry-level title"),
+    (post("Analyst", desc="3+ years experience"), "ai"),          # unclear: the LLM reads it
+    (post("Operations Specialist", "The Philippines (Remote)", desc="We hire across India"), "not in India"),
+    (post("Software Engineer Intern", "Remote - Anywhere", desc="team in India"), ""),
     (post("Data Entry Intern", desc="Pay a registration fee of Rs 999"), "asks for money (scam sign)"),
     (post("Software Engineer Intern", "Gurgaon"), ""),
 ])
 def test_rules(p, why):
     assert RULES.check(p) == why
+
+
+def test_tidy_company():
+    from pipeline.clean import tidy_company
+    assert [tidy_company(x) for x in ["Rubrik Job Board", "HackerRank Careers", "Stable Money1",
+                                      "ZoomInfo Technologies LLC", "Bosch Group"]] == \
+        ["Rubrik", "HackerRank", "Stable Money", "ZoomInfo Technologies", "Bosch Group"]
 
 
 def test_city_aliases():
@@ -150,6 +159,7 @@ def test_end_to_end_two_days(tmp_path):
             post("Software Engineer Intern (2026)", "Hyderabad", board="acme"),
             post("Marketing Intern", "Mumbai", board="acme"),
             post("Senior Data Scientist", "Pune", board="acme"),
+            post("Business Analyst", "Pune", board="acme"),      # unclear title, no LLM key -> held back
             post("HR Intern", "Pune", board="beta", source="lever", company="Beta")]
     day2 = [day1[0], post("Finance Trainee", "Chennai", board="acme")]   # marketing gone; beta board not fetched
     (work / "d1.json").write_text(json.dumps(day1))
@@ -160,6 +170,7 @@ def test_end_to_end_two_days(tmp_path):
     run("d1.json", "2026-11-17")
     s1 = json.load(open(work / "site/jobs.json"))
     assert s1["stats"]["live"] == 3 and s1["stats"]["duplicates_merged"] == 1
+    assert s1["stats"]["rejected_by_rules"]["unclear title (no LLM key to check)"] == 1
     run("d2.json", "2026-11-18")
     s2 = json.load(open(work / "site/jobs.json"))
     titles = sorted(j["original_title"] for j in s2["jobs"])

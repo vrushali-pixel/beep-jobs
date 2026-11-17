@@ -46,6 +46,7 @@ def tool_schema(cfg):
 
 def post_for_llm(p, max_chars):
     return {"id": p["id"], "title": p["title"], "company": p["company"], "location": p["location"],
+            "check_experience": bool(p.get("needs_ai")),
             "employment_type": p.get("employment_type", ""), "pay": p.get("pay", ""),
             "description": re.sub(r"\s+", " ", p["description"])[:max_chars]}
 
@@ -71,7 +72,8 @@ def keyword_tag(p, cfg, rules):
             best, score = key, s
     jt = "internship" if re.search(r"\bintern", title) else \
          "apprentice" if re.search(r"trainee|apprentice|articleship", title) else "fulltime"
-    return {"id": p["id"], "entry_level": True, "role_group": best, "clean_title": p["title"][:60],
+    # Without the LLM we cannot read the description, so unclear titles are not published.
+    return {"id": p["id"], "entry_level": not p.get("needs_ai"), "role_group": best, "clean_title": p["title"][:60],
             "cities": rules.cities_in(p["location"]), "job_type": jt, "skills": [], "eligibility": "",
             "pay": p.get("pay", ""), "red_flags": [], "tagger": "keywords"}
 

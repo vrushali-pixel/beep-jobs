@@ -14,8 +14,12 @@ from datetime import date, datetime, timedelta, timezone
 import yaml
 
 from pipeline import fetch
-from pipeline.clean import Rules, dedupe
+import re
+
+from pipeline.clean import Rules, dedupe, tidy_company
 from pipeline.tag import Tagger
+
+MULTI_LOC = re.compile(r"^\d+ Locations?$", re.I)
 
 IST = timezone(timedelta(hours=5, minutes=30))
 DB, SITE_JSON, RUNS, REJECTED, CSV_OUT = ("data/db.json", "site/jobs.json", "data/runs.jsonl",
@@ -55,10 +59,14 @@ def main():
     print(f"1 fetched {len(raw)} posts from {sum(status.values())}/{len(status)} boards")
 
     # 2-3. CLEAN + FILTER (cheap rules first; extra detail calls only for survivors)
+    tagger = Tagger(cfg, rules)
     reasons, kept, rejected = collections.Counter(), [], []
     for p in raw:
+        p["company"] = tidy_company(p["company"])
         why = rules.check(p)
-        if not why and p.get("_detail") and not p["description"] and not args.offline:
+        # Workday says "3 Locations" instead of the cities, so look inside entry-level titles.
+        multi = p["source"] == "workday" and MULTI_LOC.match(p["location"]) and rules.entry_level(p)[0] is True
+        if (why in ("", "ai") or multi) and p.get("_detail") and not p["description"] and not args.offline:
             try:
                 fetch.DETAIL[p["source"]](p)
                 time.sleep(delay)
@@ -66,20 +74,24 @@ def main():
                 print(f"  ! detail {p['url']}: {type(e).__name__}")
             why = rules.check(p)
         p.pop("_detail", None)
-        if why:
+        if why == "ai" and not tagger.client:
+            why = "unclear title (no LLM key to check)"
+        if why and why != "ai":
             reasons[why] += 1
             rejected.append({"title": p["title"], "company": p["company"], "location": p["location"],
                              "url": p["url"], "reason": why})
         else:
+            p["needs_ai"] = why == "ai"          # the LLM must confirm a fresher can apply
             kept.append(p)
-    print(f"2 kept {len(kept)} India entry-level posts; rejected {dict(reasons)}")
+    n_ai = sum(p["needs_ai"] for p in kept)
+    print(f"2 kept {len(kept)} India posts ({len(kept) - n_ai} clearly entry-level, {n_ai} for the AI to judge); "
+          f"rejected {dict(reasons)}")
 
     # 4. DE-DUPE
     posts, dups = dedupe(kept, rules)
     print(f"3 merged {dups} duplicates -> {len(posts)} unique")
 
     # 5. TAG (LLM, new posts only)
-    tagger = Tagger(cfg, rules)
     tags = tagger.tag(posts)
     final = []
     for p in posts:

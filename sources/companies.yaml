@@ -13,6 +13,8 @@
 # and add <slug> below.
 
 greenhouse:
+  - mthreerecruitingportal   # India graduate programme
+  - mdbgeneralreferrals      # MongoDB campus roles (Gurugram)
   # seen with India intern/fresher posts in search results
   - freshprints
   - karya
@@ -25,27 +27,15 @@ greenhouse:
   - workato
   - stripe
   - mongodb
-  # guesses — discover will drop the ones that do not exist
-  - phonepe
+  # checked 17 Nov 2026: boards below answered the API
   - groww
-  - meesho
-  - postman
-  - browserstack
   - druva
-  - hasura
-  - chargebee
-  - innovaccer
-  - mindtickle
-  - sprinklr
-  - thoughtspot
-  - nutanix
   - databricks
   - coinbase
   - twilio
   - okta
   - gitlab
   - elastic
-  - confluent
   - samsara
   - cloudflare
   - zscaler
@@ -55,126 +45,39 @@ greenhouse:
   - toast
   - affirm
   - robinhood
-  - doordash
   - instacart
   - lyft
   - figma
-  - notion
   - airtable
   - asana
-  - grammarly
   - duolingo
   - celonis
-  - hubspot
   - squarespace
-  - wayfair
   - zoominfo
   - newrelic
   - datadog
   - mixpanel
-  - amplitude
-  - appdynamics
-  - tekion
-  - icertis
-  - capillarytech
-  - uniphore
-  - yellowai
-  - gupshup
-  - darwinbox
-  - leadsquared
-  - moengage
-  - clevertap
-  - zluri
-  - whatfix
-  - atlassian
-  - sharechat
-  - dream11
-  - cars24
-  - spinny
-  - urbancompany
-  - unacademy
-  - upgrad
-  - physicswallah
   - zetaglobal
-  - indmoney
-  - jar
-  - smallcase
-  - acko
   - digit
-  - policybazaar
-  - nykaa
-  - lenskart
-  - licious
-  - ola
-  - rapido
   - porter
-  - delhivery
-  - shiprocket
-  - blinkit
-  - zepto
 
 lever:
+  - Sprinto                  # Lever slugs can be case-sensitive
   - stable-money1
-  - sprinto
   - cred
   - zeta
-  - jupiter
-  - slice
-  - plivo
-  - atlan
   - fampay
-  - khatabook
-  - dukaan
-  - healthifyme
   - pocketfm
-  - kukufm
-  - classplus
-  - scaler
-  - masaischool
-  - newtonschool
-  - simplilearn
-  - leap
-  - leapfinance
-  - inshorts
   - paytm
-  - mpl
-  - games24x7
-  - zupee
-  - winzo
-  - rupeek
-  - open
-  - razorpay
-  - swiggy
-  - zomato
-  - urbanic
-  - bewakoof
-  - mamaearth
-  - boat
-  - sugarcosmetics
-  - pepperfry
-  - livspace
-  - nobroker
-  - housing
-  - magicbricks
-  - toplyne
   - hevodata
-  - signeasy
-  - exotel
-  - haptik
-  - verloop
-  - observe
-  - palantir
   - spotify
-  - netflix
   - kraken
 
 ashby:
+  - kong                     # Kong India internship programme
   - sarvam
-  - krutrim
-  - rippling
   - ramp
   - deel
-  - remote
   - linear
   - vercel
   - supabase
@@ -183,19 +86,8 @@ ashby:
   - cohere
   - perplexity
   - lovable
-  - zepto
-  - groww
   - composio
-  - nurix
-  - atomicwork
-  - giva
-  - setu
-  - fyle
-  - multiplier
-  - plum
   - bureau
-  - credgenics
-  - truefoundry
 
 smartrecruiters:
   # seen with India fresher/intern posts
@@ -244,7 +136,7 @@ smartrecruiters:
 # Workday career sites are big MNC boards. Their search endpoint is the one the public
 # careers page itself calls, but it is NOT a documented public API, so it is OFF by default.
 # Decide before turning it on (see README: "Respecting site terms").
-workday_enabled: false
+workday_enabled: true      # decided 17 Nov: see README "Respecting site terms"
 workday:
   - {company: LSEG,           host: lseg.wd3.myworkdayjobs.com,               tenant: lseg,           site: Careers}
   - {company: Kaleris,        host: kaleris.wd501.myworkdayjobs.com,          tenant: kaleris,        site: kaleris_careers}

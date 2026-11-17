@@ -43,17 +43,23 @@ city, and a scheduled job refreshes everything every morning at 6:10 AM IST.
   These APIs exist so companies can show their open jobs publicly. No login, no scraping of pages.
 - **Not used:** LinkedIn, Naukri, Indeed, Internshala, Glassdoor or any aggregator. Their terms
   forbid automated collection, and copying another job board's listings is not ours to republish.
-- **Workday** (used by large MNCs) has no documented public API, so it is **off by default**
-  (`workday_enabled: false`). The code exists; turning it on is a deliberate decision.
+- **Workday** (used by large MNCs like Cisco, Genpact, NTT DATA) has no documented public API. It is
+  turned **on** (`workday_enabled: true`) because big graduate programmes live there: the run
+  only sends the same search the public careers page sends (keywords like "intern", "graduate"),
+  at most 5 searches per company, half a second apart, and keeps only basic fields. One line in
+  `sources/companies.yaml` turns it off.
 - Only title, company, place, date, pay and a short description are kept. Every Apply button
   links back to the original post. Requests are spaced out (`request_delay_sec`) and identify the tool.
 
 ## Keeping out fake and spam jobs
 
 1. **Source-level:** only posts a company published on its own board.
-2. **Rules:** posts mentioning a registration fee, deposit, training fee and similar are rejected.
-3. **LLM check:** the model returns `entry_level` and `red_flags`; posts failing either are hidden.
-4. **Freshness:** a post missing from its board on the next run is marked closed and disappears.
+2. **Clear rules first, AI for the grey zone:** clearly senior titles are dropped; titles that do not
+   say the level ("Software Developer") are only kept if the LLM, reading the description, confirms
+   0–1 years / students / new graduates can apply. Without an API key they are held back.
+3. **Scam rules:** posts mentioning a registration fee, deposit, training fee and similar are rejected.
+4. **LLM check:** the model returns `entry_level` and `red_flags`; posts failing either are hidden.
+5. **Freshness:** a post missing from its board on the next run is marked closed and disappears.
    If a board is *down*, its posts are kept (not wiped) for up to 30 days.
 
 Every rejected post and the reason is saved in `data/rejected_latest.json`.

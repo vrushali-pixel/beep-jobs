@@ -48,12 +48,17 @@ class Rules:
         found = [c for c in self.cities_in(loc) if c != "Remote"]
         if found:
             return True
-        # "Remote" alone could be anywhere: accept only if the post itself says India.
-        if "Remote" in self.cities_in(loc) and INDIA_RE.search(post["description"][:3000]):
-            return True
+        # "Remote" alone could be anywhere: accept only if the location names no other
+        # place (e.g. not "The Philippines (Remote)") and the post itself says India.
+        if "Remote" in self.cities_in(loc):
+            rest = self.city_re["Remote"].sub(" ", loc.lower())
+            rest = re.sub(r"[^a-z]+", " ", rest).replace("only", " ").replace("anywhere", " ").strip()
+            if not rest and INDIA_RE.search(post["description"][:3000]):
+                return True
         return False
 
     def entry_level(self, post):
+        """True = clearly entry-level, False = clearly not, 'ai' = unclear: let the LLM read it."""
         title = post["title"].lower()
         if self.senior.search(title):
             return False, "senior title"
@@ -61,26 +66,34 @@ class Rules:
             return True, ""
         if self.fresher.search(post["description"].lower()):
             return True, ""
-        return False, "not an entry-level title"
+        return "ai", "unclear title (AI decides)"
 
     def check(self, post):
-        """Return '' if the post passes, else the reason it was rejected."""
+        """Return '' if the post passes, 'ai' if only the LLM can decide, else the reason."""
         if not post["title"].strip() or not post["url"].startswith("http"):
             return "missing title or link"
         if not self.is_india(post):
             return "not in India"
         ok, why = self.entry_level(post)
-        if not ok:
+        if ok is False:
             return why
         if self.fraud.search((post["title"] + " " + post["description"]).lower()):
             return "asks for money (scam sign)"
-        return ""
+        return "ai" if ok == "ai" else ""
 
 
 def canon_url(u):
     p = urlsplit(u.strip())
     q = [(k, v) for k, v in parse_qsl(p.query) if not k.lower().startswith(("utm_", "source", "ref"))]
     return urlunsplit(("https", p.netloc.lower().removeprefix("www."), p.path.rstrip("/"), urlencode(q), ""))
+
+
+def tidy_company(s):
+    """Board names are sometimes 'Rubrik Job Board', 'HackerRank Careers', 'Stable Money1'."""
+    s = re.sub(r"\s*\b(job board|careers?|jobs|recruiting portal)\s*$", "", s.strip(), flags=re.I)
+    s = re.sub(r"(?<=[a-z])\d+$", "", s)
+    s = re.sub(r",?\s*\b(LLC|Inc\.?|Ltd\.?)$", "", s).strip()
+    return s or "Unknown company"
 
 
 def norm_company(s):
@@ -120,6 +133,7 @@ def dedupe(posts, rules):
             by_url[cu] = p["id"]
             continue
         dup += 1
+        hit["needs_ai"] = bool(hit.get("needs_ai")) and bool(p.get("needs_ai"))   # any clear copy wins
         if p["location"] and p["location"] not in hit["location"]:
             hit["location"] = f"{hit['location']}; {p['location']}".strip("; ")
         if len(p["description"]) > len(hit["description"]):
