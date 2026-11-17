@@ -140,7 +140,12 @@ def test_tagger_uses_llm_output_and_caches(tmp_path, monkeypatch):
     llm = [r for r in res.values() if r["tagger"] == CFG["llm"]["model"]]
     assert llm and all(r["cities"] == ["Bengaluru"] for r in llm)       # invalid city dropped
     assert t.usage["posts_fallback"] == 1                                 # missing one -> keyword tagger
-    assert "temperature" in calls[0] and calls[0]["tool_choice"]["name"] == "save_tags"
+    assert calls[0]["tool_choice"]["name"] == "save_tags"
+    # Every argument we send must exist in the REAL SDK (a fake client hid a bug once).
+    import inspect
+    import anthropic
+    real = set(inspect.signature(anthropic.resources.Messages.create).parameters)
+    assert set(calls[0]) <= real, set(calls[0]) - real
     t.tag(ps, log=lambda *a: None)                                       # cached -> only retries fallback
     assert len(calls) == 2 and len(json.loads(calls[1]["messages"][0]["content"].split("\n", 1)[1])) == 1
 

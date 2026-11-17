@@ -200,5 +200,8 @@ def fetch_all(companies, delay=0.5, log=print):
                 status[key] = True
             except Exception as e:
                 status[key] = False
-                log(f"  ! {key}: {type(e).__name__} {str(e)[:80]}")
+                if "429" in str(e):     # the site asked us to stop: respect it, no retries
+                    log(f"  ! {key}: site refused automated requests (429), skipped")
+                else:
+                    log(f"  ! {key}: {type(e).__name__} {str(e)[:80]}")
     return posts, status

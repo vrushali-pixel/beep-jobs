@@ -91,6 +91,10 @@ class Tagger:
         self.system = build_prompt(cfg)
         self.tool = tool_schema(cfg)
 
+    def already_tagged(self, post_id):
+        hit = self.cache.get(f"{self.version}:{post_id}")
+        return bool(hit) and hit.get("tagger") != "keywords"
+
     def _key(self, p):
         return f"{self.version}:{p['id']}"
 
@@ -98,7 +102,7 @@ class Tagger:
         llm = self.cfg["llm"]
         payload = [post_for_llm(p, llm["max_desc_chars"]) for p in batch]
         msg = self.client.messages.create(
-            model=llm["model"], max_tokens=4000, temperature=0,
+            model=llm["model"], max_tokens=4000,
             system=self.system, tools=[self.tool], tool_choice={"type": "tool", "name": "save_tags"},
             messages=[{"role": "user", "content": "Tag these posts:\n" + json.dumps(payload, ensure_ascii=False)}],
         )

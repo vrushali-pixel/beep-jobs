@@ -16,7 +16,7 @@ import yaml
 from pipeline import fetch
 import re
 
-from pipeline.clean import Rules, dedupe, tidy_company
+from pipeline.clean import Rules, dedupe, job_id, tidy_company
 from pipeline.tag import Tagger
 
 MULTI_LOC = re.compile(r"^\d+ Locations?$", re.I)
@@ -66,7 +66,8 @@ def main():
         why = rules.check(p)
         # Workday says "3 Locations" instead of the cities, so look inside entry-level titles.
         multi = p["source"] == "workday" and MULTI_LOC.match(p["location"]) and rules.entry_level(p)[0] is True
-        if (why in ("", "ai") or multi) and p.get("_detail") and not p["description"] and not args.offline:
+        known = tagger.already_tagged(job_id(p["company"], p["title"], rules))   # tagged on an earlier day
+        if (why in ("", "ai") or multi) and p.get("_detail") and not p["description"] and not args.offline and not known:
             try:
                 fetch.DETAIL[p["source"]](p)
                 time.sleep(delay)
@@ -74,6 +75,8 @@ def main():
                 print(f"  ! detail {p['url']}: {type(e).__name__}")
             why = rules.check(p)
         p.pop("_detail", None)
+        if why == "ai" and known:
+            why = ""                         # the LLM already judged it on an earlier day
         if why == "ai" and not tagger.client:
             why = "unclear title (no LLM key to check)"
         if why and why != "ai":
