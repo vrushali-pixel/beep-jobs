@@ -228,6 +228,7 @@ def test_end_to_end_two_days(tmp_path):
     # Marketing closed (its board answered without it); HR kept (its board was not checked today)
     assert titles == ["Finance Trainee", "HR Intern", "Software Engineer Intern"]
     sw = next(j for j in s2["jobs"] if j["original_title"] == "Software Engineer Intern")
-    assert sw["first_seen"] == "2026-11-17" and sorted(sw["cities"]) == ["Bengaluru", "Hyderabad"]
+    # the Hyderabad copy is gone on day 2, so only Bengaluru is shown; first_seen is kept
+    assert sw["first_seen"] == "2026-11-17" and sw["cities"] == ["Bengaluru"]
     assert s2["stats"]["new_today"] == 1 and s2["stats"]["closed_today"] == 1
     assert len((work / "data/runs.jsonl").read_text().splitlines()) == 2
