@@ -2,6 +2,8 @@ name: Fetch full posts for the accuracy sample (temporary)
 on:
   push:
     branches: [sample-v3-fetch]
+permissions:
+  contents: write
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -33,5 +35,6 @@ jobs:
               time.sleep(0.5)
           print("FOUND", len(out), "of", len(need))
           json.dump(out, open("full_posts.json", "w"), ensure_ascii=False)
-      - uses: actions/upload-artifact@v4
-        with: {name: full-posts, path: full_posts.json}
+      - run: |
+          git config user.name "sample-bot"; git config user.email "actions@users.noreply.github.com"
+          git add full_posts.json; git commit -m "full posts for sample"; git push
