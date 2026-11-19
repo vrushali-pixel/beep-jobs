@@ -50,16 +50,16 @@ Full details: [Architecture](docs/ARCHITECTURE.md) · [User stories](docs/STORIE
 
 ## Numbers (19 Nov 2026)
 
-One daily run, from 127 official company job boards:
+One daily run, from 147 official company job boards on 8 platforms:
 
 | Step | Posts |
 |---|---|
-| Fetched | 11,625 |
-| Outside India (dropped) | 8,905 |
-| Senior title (dropped) | 1,705 |
-| Description requires 1+ years of experience (dropped by a plain rule) | 547 |
-| Left for screening, after merging 68 duplicates | 400 |
-| **Live: India roles a fresher can really apply to** | **93** |
+| Fetched | 13,274 |
+| Outside India (dropped) | 9,608 |
+| Senior title (dropped) | 2,011 |
+| Description requires 1+ years of experience (dropped by a plain rule) | 848 |
+| Left for screening, after merging 174 duplicates | 633 |
+| **Live: India roles a fresher can really apply to** | **243** |
 
 | | |
 |---|---|
@@ -72,17 +72,21 @@ One daily run, from 127 official company job boards:
 The accuracy samples were checked by Claude (a second model) against each full post, not yet by a
 person: see `eval/sample_50.csv` and `eval/sample_v2.csv`.
 
-### Why 93 and not 200 (yet)
+### How it went from 93 to 243
 
-- **Fewer than 1% of India jobs on these boards are truly open to freshers in November.** Most of
-  these companies hire experienced people, and Indian internships and campus hiring mostly open in
-  January to March. The same pipeline picks those up automatically every morning.
-- **We do not pad the count.** In a fresh check, 16 of 50 posts that the first prompt allowed
-  actually asked for 1 to 8 years of experience ("5 to 6 years", "3 - 6 years"). They are now
-  dropped by a plain rule plus a sharper prompt ([BUILD_LOG #26, #27](docs/BUILD_LOG.md)). A count
-  of 200 made of jobs freshers cannot get would break the one promise this page makes.
-- **Most big Indian startups do not use the four public job-board APIs**, and Workday career
-  sites refuse automated requests (HTTP 429). We respect that ([ADR 0003](docs/decisions/0003-workday.md)).
+- **The first four platforms barely cover Indian startups.** Greenhouse, Lever, Ashby and
+  SmartRecruiters are mostly used by US-style companies. On 19 Nov we added four more official
+  feeds that Indian companies use: Workable, Recruitee, Breezy HR and Keka (an Indian HR tool).
+  20 new boards took the live count from 93 to 243 ([BUILD_LOG #28](docs/BUILD_LOG.md)).
+- **The rules did not change.** The same "0–1 years" filter, the same prompt v3. In a fresh check
+  before this, 16 of 50 posts that the first prompt allowed actually asked for 1 to 8 years of
+  experience; they are still dropped ([BUILD_LOG #26, #27](docs/BUILD_LOG.md)).
+- **Only employers' own boards.** Recruitment agencies and gig platforms that post jobs for other
+  companies were left out on purpose, and Workday sites that refuse automated requests (HTTP 429)
+  stay off ([ADR 0003](docs/decisions/0003-workday.md)).
+- **Note:** almost half of the live posts (114) come from Workable, and many of those are field
+  sales and counsellor roles (Rentokil PCI, Apna). They are real entry-level jobs, but the mix leans
+  toward sales until campus hiring opens in January to March.
 - **Growing it is config, not code:** each new company is one line in `config/companies.yaml`.
   The best next source is Beep's own hiring partners ([S18](docs/STORIES.md)).
 

@@ -9,7 +9,7 @@ Copy these sections into the Google Doc / Sheet for Beep's Gen AI & Engineering 
 - **Video:** *(Loom link)*
 
 ## What it does
-Every morning a GitHub Action reads ~11,600 posts from 127 companies' **official** job boards
+Every morning a GitHub Action reads ~13,300 posts from 147 companies' **official** job boards
 (Greenhouse, Lever, Ashby, SmartRecruiters, Workable, Recruitee, Breezy HR, Keka public feeds), keeps India roles a fresher can really
 apply to, merges duplicates, tags each post with an LLM (role, city, type, skills, eligibility,
 pay, scam red flags), and publishes a static search page. Closed jobs disappear the next day.
@@ -17,22 +17,23 @@ pay, scam red flags), and publishes a static search page. Closed jobs disappear 
 ## Numbers (19 Nov 2026)
 | Step | Posts |
 |---|---|
-| Fetched from 127 boards | 11,625 |
-| Outside India | 8,905 dropped |
-| Senior title | 1,705 dropped |
-| Requires 1+ years of experience (plain rule) | 547 dropped |
-| Screened by the LLM (after merging 68 duplicates) | 400 |
-| **Live** | **93** |
+| Fetched from 147 boards | 13,274 |
+| Outside India | 9,608 dropped |
+| Senior title | 2,011 dropped |
+| Requires 1+ years of experience (plain rule) | 848 dropped |
+| Screened by the LLM (after merging 174 duplicates) | 633 |
+| **Live** | **243** |
 
 - **Accuracy:** role 94% / city 98% on 50 random posts; role 89% / city 100% on a second, fresh
   sample of 28 posts. Checked by Claude against each full post (owner spot-check).
 - **Cost:** $0.39 per 1,000 posts at Gemini 3.5 Flash-Lite paid prices (280 input + 121 output
   tokens per post, measured over 2,148 LLM-tagged posts). Actually paid: $0 (free tier). Only new
   posts are sent to the LLM; answers are cached per prompt version.
-- **Why 93, not 200:** fewer than 1% of India posts on these boards are truly fresher in November
-  (campus hiring opens Jan–Mar). I chose not to pad the count: a fresh check found 16 of 50 posts
-  that asked for 1–8 years of experience, and the pipeline now drops them. More companies = one
-  line each in `config/companies.yaml`.
+- **From 93 to 243 without relaxing the rules:** the first four platforms barely cover Indian
+  startups, so I added four more official feeds Indian companies use (Workable, Recruitee,
+  Breezy HR, Keka). Same "0–1 years" filter, same prompt; recruitment agencies left out. Almost half
+  the live posts (114) are from Workable, many of them field sales roles. The accuracy samples above
+  were taken before these boards were added.
 
 ## AI tools used
 | Tool | Used for |
@@ -58,3 +59,5 @@ pay, scam red flags), and publishes a static search page. Closed jobs disappear 
 5. With working AI only 86 posts → probed ~430 boards, added 15; did not relax the rules (#25).
 6. Accuracy check found experienced roles slipping through: the AI saw only the first 900
    characters, and sometimes ignored "1–3 years" even when it saw it → plain rule + prompt v3 (#26, #27).
+7. Still 93 posts: Indian startups use other platforms → added Workable, Recruitee, Breezy HR and
+   Keka feeds (Keka only under `/careers/`, as its robots.txt allows) → 243 live (#28).

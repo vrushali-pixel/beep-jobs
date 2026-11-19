@@ -33,7 +33,7 @@ Live: https://vrushali-pixel.github.io/beep-jobs/
 
 ## Open work (in order, as of 19 Nov 2026)
 Done: Gemini key + LLM tagging (S1/S3/S12), accuracy samples (S11, checked by Claude), README numbers,
-screenshots, `docs/SUBMISSION.md`, `docs/VIDEO_SCRIPT.md`. Live: 93 posts (200 not reachable honestly in Nov).
+screenshots, `docs/SUBMISSION.md`, `docs/VIDEO_SCRIPT.md`. Live: 243 posts after adding Workable/Recruitee/Breezy/Keka (BUILD_LOG #28, 19 Nov).
 1. Owner spot-checks 5–10 rows of `eval/sample_50.csv` and `eval/sample_v2.csv`, then close issue #11.
 2. Owner puts `docs/SUBMISSION.md` into the Google Doc/Sheet and records the Loom from `docs/VIDEO_SCRIPT.md`.
 3. Just before submitting (deadline Fri 20 Nov 2026, 11:59 PM IST): `gh workflow disable daily.yml` to freeze the numbers.

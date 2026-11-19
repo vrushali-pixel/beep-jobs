@@ -13,7 +13,7 @@ can apply. I built a daily feed of real fresher jobs in India, only from compani
 - On a phone width (or show `docs/img/page-mobile.png`).
 
 **1:30–2:45 · Architecture (README diagram)**
-- GitHub Action every morning → fetch 127 boards via public APIs → rules (India, senior titles,
+- GitHub Action every morning → fetch 147 boards on 8 platforms via public feeds → rules (India, senior titles,
   "requires 1+ years", scam phrases) → de-duplicate → Gemini tags only the unclear/new posts →
   merge with yesterday (new / closed) → publish `site/jobs.json` → GitHub Pages.
 - "Rules first, LLM for the grey zone": cheap and predictable, LLM only where a title can't say.
@@ -32,7 +32,8 @@ Pick 3–4:
    mistake myself when I read only the start of the posts."
 
 **4:15–5:00 · Numbers and next**
-- 11,625 posts → 93 live; role accuracy 89–94%, city 98–100%; $0.39 per 1,000 posts, $0 paid.
-- "Why not 200: fewer than 1% are truly fresher in November; I won't pad it. It grows with campus
-  season, and each company is one config line. Next: Beep's hiring partners as a source, report a
+- 13,274 posts → 243 live; role accuracy 89–94%, city 98–100%; $0.39 per 1,000 posts, $0 paid.
+- "It was stuck at 93 because Indian startups don't use the US job-board platforms. I added Workable,
+  Recruitee, Breezy and Keka, the feeds their own careers pages use, and it went to 243 with the same
+  strict rules. Each company is one config line. Next: Beep's hiring partners as a source, report a
   suspicious job, alerts."
