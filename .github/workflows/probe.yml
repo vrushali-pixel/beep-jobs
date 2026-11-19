@@ -10,28 +10,16 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install -q .
-      - name: Fetch only the new platforms and apply the free rules
+      - name: Rentokil locations
         shell: python
         run: |
-          import collections, time
-          from fresherjobs import sources
-          from fresherjobs.config import Paths, load_settings, load_yaml
+          import collections, json, urllib.request
+          from fresherjobs.sources import workable
+          from fresherjobs.config import Paths, load_settings
           from fresherjobs.filters import Rules
-          rules = Rules(load_settings(Paths())); comp = load_yaml(Paths().companies)
-          tot = collections.Counter()
-          for kind in ("workable", "recruitee", "breezy", "keka"):
-              for slug in comp.get(kind) or []:
-                  try:
-                      posts = sources.FETCHERS[kind](slug)
-                  except Exception as e:
-                      print(f"{kind:10} {slug:22} FAILED {type(e).__name__} {str(e)[:80]}"); continue
-                  res = collections.Counter(rules.check(p) or "keep" for p in posts)
-                  tot.update(res)
-                  noloc = sum(1 for p in posts if not p["location"])
-                  keep = [p["title"] for p in posts if rules.check(p) == ""][:5]
-                  ai = [p["title"] for p in posts if rules.check(p) == "ai"][:4]
-                  print(f"{kind:10} {slug:22} all={len(posts)} no_location={noloc} {dict(res)}\n    keep: {keep}\n    ai: {ai}")
-                  if kind == "keka" and noloc:
-                      print("    sample no-location:", [p["title"] for p in posts if not p["location"]][:3])
-                  time.sleep(0.5)
-          print("TOTAL", dict(tot))
+          rules = Rules(load_settings(Paths()))
+          posts = workable.fetch("rentokil-initial")
+          bad = [p for p in posts if rules.check(p) == "not in India"]
+          print("LOC", collections.Counter(p["location"] for p in bad).most_common(15))
+          raw = json.load(urllib.request.urlopen(urllib.request.Request("https://apply.workable.com/api/v1/widget/accounts/rentokil-initial", headers={"User-Agent": "fresherjobs/1.0"})))
+          print("RAWC", collections.Counter(j.get("country") for j in raw["jobs"]).most_common(8))
