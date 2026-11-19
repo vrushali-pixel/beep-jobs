@@ -7,10 +7,12 @@ Have open: the live page, the GitHub repo, `docs/BUILD_LOG.md`, the Actions tab.
 can apply. I built a daily feed of real fresher jobs in India, only from companies' own job boards."
 
 **0:30–1:30 · Demo (live page)**
-- Header: number of openings, date, "new today".
-- Filter: Internships → a city → a role. Search "Python".
-- Open one card: role, city, skills, eligibility, "Official careers page", Apply goes to the company.
-- On a phone width (or show `docs/img/page-mobile.png`).
+- Home: number of openings and date; tiles for Internships / Jobs / Trainee; "New today"; roles; cities.
+- ☰ menu: "go somewhere" (New today, a job type, By role, By city). Pick Internships.
+- Filters button: "narrow the list". Pick a city and a role; the button shows the live count. Search "Python".
+- Open one card: the panel shows city, pay, who can apply, skills, dates, "Official careers page";
+  Apply goes to the company. Browser Back closes it; "Copy link" shares this exact job.
+- On a phone width the panels slide up from the bottom (or show `docs/img/page-mobile.png`).
 
 **1:30–2:45 · Architecture (README diagram)**
 - GitHub Action every morning → fetch 147 boards on 8 platforms via public feeds → rules (India, senior titles,
