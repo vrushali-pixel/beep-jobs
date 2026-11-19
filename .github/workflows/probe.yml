@@ -23,7 +23,7 @@ jobs:
               ids = re.findall(r"/ats/documents/([0-9a-f-]{36})/careerportal", html)
               if not ids:
                   ids = sorted(set(re.findall(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", html)))
-                  print("KEKA-NOID", t, s, len(html), ids, re.findall(r"(?:src|href|fetch\\()=?['\"]([^'\"]*(?:api|documents)[^'\"]*)", html)[:5], html[:300].replace("\n"," "))
+                  print("KEKA-NOID", t, s, len(html), ids, [m for m in re.findall(r"[\"']([^\"']*(?:api|documents)[^\"']*)[\"']", html)][:6])
                   if not ids: continue
               s2, b = get(f"https://{t}.keka.com/careers/api/embedjobs/default/active/{ids[0]}")
               try:
