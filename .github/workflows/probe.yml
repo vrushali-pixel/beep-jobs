@@ -17,29 +17,23 @@ jobs:
                       return r.status, r.read().decode("utf-8", "replace")
               except Exception as e:
                   return getattr(e, "code", 0), str(e)
-          # Keka shape
-          for t in ["gokwik", "teachmint"]:
+          first = True
+          for t in "kognitokube coolboots comprinno gokwik teachmint tohands minfy adda247 popclub kitemaps earthitects lambdatest keka".split():
               s, html = get(f"https://{t}.keka.com/careers/")
-              ids = sorted(set(re.findall(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", html)))
-              print("KEKA", t, s, ids, re.findall(r"fetch\('([^']+)'", html)[:3])
-              for g in ids[:2]:
-                  for path in [f"/careers/api/jobs/{g}/active", f"/careers/api/embedjobs/default/active/{g}", f"/careers/api/organization/{g}/careerportalinfo"]:
-                      s2, b = get(f"https://{t}.keka.com{path}")
-                      print("  ", path, s2, b[:900].replace("\n", " "))
-          wk = ["apna","blue-machines-ai","lokal-app","weekday-1","lakshyadigitalglobal","2070health","zycus-1","gotymex","botsync","teltonika","huggingface"]
-          for w in wk:
+              ids = re.findall(r"/ats/documents/([0-9a-f-]{36})/careerportal", html)
+              if not ids:
+                  print("KEKA", t, s, "no id"); continue
+              s2, b = get(f"https://{t}.keka.com/careers/api/embedjobs/default/active/{ids[0]}")
+              try:
+                  jobs = json.loads(b)
+              except Exception:
+                  print("KEKA", t, s2, b[:100]); continue
+              if first and jobs:
+                  j = dict(jobs[0]); j["description"] = j.get("description", "")[:80]
+                  print("KEKA-SAMPLE", json.dumps(j)[:2500]); first = False
+              print("KEKA", t, ids[0], len(jobs), [x.get("title") for x in jobs][:10])
+          for w in "rentokil-initial appfoster".split():
               s, b = get(f"https://apply.workable.com/api/v1/widget/accounts/{w}")
               try:
-                  jobs = json.loads(b)["jobs"]; ind = [j["title"] for j in jobs if j.get("country") == "India" or any(l.get("countryCode") == "IN" for l in j.get("locations") or [])]
-                  print("WORKABLE", w, s, len(jobs), len(ind), ind[:8])
+                  jobs = json.loads(b)["jobs"]; print("WORKABLE", w, len(jobs), [j["title"] for j in jobs if j.get("country") == "India"][:10])
               except Exception: print("WORKABLE", w, s, b[:80])
-          for r in ["careersdeltacapita","gain","hudsonmanpower"]:
-              s, b = get(f"https://{r}.recruitee.com/api/offers/")
-              try:
-                  o = json.loads(b)["offers"]; print("RECRUITEE", r, s, len(o), [ (x["title"], x.get("country_code"), x.get("experience_code")) for x in o if x.get("country_code")=="IN"][:8], list(o[0].keys()) if o else "")
-              except Exception: print("RECRUITEE", r, s, b[:80])
-          for z in ["inorg-global","nexthire"]:
-              s, b = get(f"https://{z}.breezy.hr/json")
-              try:
-                  o = json.loads(b); print("BREEZY", z, s, len(o), [x["name"] for x in o if (x.get("location") or {}).get("country",{}).get("id")=="IN"][:8])
-              except Exception: print("BREEZY", z, s, b[:80])
