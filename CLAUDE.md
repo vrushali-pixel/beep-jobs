@@ -31,10 +31,10 @@ Live: https://vrushali-pixel.github.io/beep-jobs/
 - Commits: author Vrushali Patil, with a `Co-Authored-By: Claude` line.
 - Explain each change in simple words: the owner must be able to explain and change it live.
 
-## Open work (in order)
-1. S1/S11/S12: add the free `GEMINI_API_KEY` repo secret, run the workflow, confirm 200+ live posts
-   and LLM tags in `site/jobs.json`.
-2. S11: `fresherjobs sample`, hand-check 50 posts (true_role, true_cities), `fresherjobs score`.
-3. S12: put Gemini paid-tier prices in `config/settings.yaml` (llm.price_*) and report cost per 1,000.
-4. Update README "Numbers", refresh `docs/img/` screenshots with LLM-tagged data.
-5. Submission: Google Sheet/doc with data + AI tools + prompts; 5-min Loom (architecture, what broke).
+## Open work (in order, as of 19 Nov 2026)
+Done: Gemini key + LLM tagging (S1/S3/S12), accuracy samples (S11, checked by Claude), README numbers,
+screenshots, `docs/SUBMISSION.md`, `docs/VIDEO_SCRIPT.md`. Live: 93 posts (200 not reachable honestly in Nov).
+1. Owner spot-checks 5–10 rows of `eval/sample_50.csv` and `eval/sample_v2.csv`, then close issue #11.
+2. Owner puts `docs/SUBMISSION.md` into the Google Doc/Sheet and records the Loom from `docs/VIDEO_SCRIPT.md`.
+3. Just before submitting (deadline Fri 20 Nov 2026, 11:59 PM IST): `gh workflow disable daily.yml` to freeze the numbers.
+4. Local note: this PC needs `git -c http.sslBackend=schannel pull/push` (certificate store).
