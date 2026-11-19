@@ -1061,7 +1061,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "7c2eb6adffe0": {
    "id": "7c2eb6adffe0",
@@ -1285,7 +1286,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "24f69189b44b": {
    "id": "24f69189b44b",
@@ -2018,7 +2020,7 @@
    "title": "Field Marketing Associate",
    "original_title": "Associate - User Growth (Field Marketing)",
    "company": "Paytm",
-   "location": "Noida, Uttar Pradesh; Bangalore, Karnataka; Pune, Maharashtra; Chennai, Tamil Nadu; Hyderabad, Telangana; Ahmedabad, Gujarat; Jaipur, Rajasthan; Delhi-NCR; Thane,Maharashtra; Mumbai, Maharashtra; Kolkata, West Bengal (remote)",
+   "location": "Noida, Uttar Pradesh; Bangalore, Karnataka; Pune, Maharashtra; Chennai, Tamil Nadu; Hyderabad, Telangana; Ahmedabad, Gujarat; Jaipur, Rajasthan; Delhi-NCR; Thane,Maharashtra; Mumbai, Maharashtra; Kolkata, West Bengal; Kavali, Andhra Pradesh; Chittoor, Andhra Pradesh; Surat, Gujarat; Kurnool, Andhra Pradesh (remote)",
    "cities": [
     "Noida",
     "Bengaluru",
@@ -2760,10 +2762,10 @@
    ],
    "eligibility": "B.E/B.Tech",
    "pay": "",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159347028",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162495398",
    "source": "smartrecruiters",
    "board": "BoschGroup",
-   "posted": "2026-11-03",
+   "posted": "2026-11-19",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
@@ -4126,7 +4128,7 @@
    ],
    "eligibility": "",
    "pay": "",
-   "url": "https://job-boards.greenhouse.io/purestorage/jobs/8131772",
+   "url": "https://job-boards.greenhouse.io/purestorage/jobs/8131754",
    "source": "greenhouse",
    "board": "purestorage",
    "posted": "2026-08-24",
@@ -5132,7 +5134,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "cefd8fc0146d": {
    "id": "cefd8fc0146d",
@@ -6228,7 +6231,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "246225b55934": {
    "id": "246225b55934",
@@ -6540,7 +6544,7 @@
    "title": "Field Sales Executive",
    "original_title": "Field Sales Executive - (Hyderabad)",
    "company": "Rentokil Initial",
-   "location": "Hyderabad, Telangana, India; Vizag, Andhra Pradesh, India; Chennai, Tamil Nadu, India; Gurugram, Haryana, India; Mysuru, Karnataka, India; Noida, Uttar Pradesh, India",
+   "location": "Hyderabad, Telangana, India; Vizag, Andhra Pradesh, India; Chennai, Tamil Nadu, India; Gurugram, Haryana, India; Medchal, Telangana, India; Miyapur, Telangana, India; Mysuru, Karnataka, India; Noida, Uttar Pradesh, India",
    "cities": [
     "Hyderabad",
     "Chennai",
@@ -7000,7 +7004,9 @@
    "original_title": "Field Sales Executive - Hyderabad West (Miyapur)",
    "company": "Rentokil Initial",
    "location": "Miyapur, Telangana, India",
-   "cities": [],
+   "cities": [
+    "Hyderabad"
+   ],
    "role": "sales",
    "role_label": "Sales & Business Dev",
    "type": "fulltime",
@@ -7127,7 +7133,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "a08778802f21": {
    "id": "a08778802f21",
@@ -7181,7 +7188,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "a1a10350d23c": {
    "id": "a1a10350d23c",
@@ -7626,7 +7634,7 @@
    "title": "Pest Control Technician",
    "original_title": "Pest Control Technician ( பூச்சி கட்டுப்பாடு தொழில்நுட்ப வல்லுநர்)",
    "company": "Rentokil Initial",
-   "location": "Chennai, Tamil Nadu, India; Ambattur, Tamil Nadu, India; Thoraipakkam, Tamil Nadu, India; Vadapalani, Tamil Nadu, India; Vadodara, Gujarat, India",
+   "location": "Chennai, Tamil Nadu, India; Ambattur, Tamil Nadu, India; Thoraipakkam, Tamil Nadu, India; Vadapalani, Tamil Nadu, India; Hyderabad, Telangana, India; Vadodara, Gujarat, India",
    "cities": [
     "Chennai",
     "Vadodara"
@@ -7644,7 +7652,7 @@
    "url": "https://apply.workable.com/j/BCC3B28A38",
    "source": "workable",
    "board": "rentokil-initial",
-   "posted": "2025-09-02",
+   "posted": "2025-09-05",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
@@ -7704,7 +7712,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "aa88a3cf68bc": {
    "id": "aa88a3cf68bc",
@@ -8245,7 +8254,9 @@
    "original_title": "Junior Payroll & HR Operations Intern",
    "company": "Minfy",
    "location": "Nanakramguda, TG, India",
-   "cities": [],
+   "cities": [
+    "Hyderabad"
+   ],
    "role": "finance",
    "role_label": "Finance & Accounting",
    "type": "internship",
@@ -8502,8 +8513,13 @@
    "title": "Executive-Telesales",
    "original_title": "Executive-Telesales",
    "company": "Adda",
-   "location": "Haryana, HR, India",
-   "cities": [],
+   "location": "Chennai, TN, India; gurugram, HR, India; Haryana, HR, India; Kolkata, WB, India; Lucknow, UP, India; Noida, UP, India",
+   "cities": [
+    "Chennai",
+    "Gurugram",
+    "Noida",
+    "Kolkata"
+   ],
    "role": "sales",
    "role_label": "Sales & Business Dev",
    "type": "fulltime",
@@ -8515,10 +8531,10 @@
    ],
    "eligibility": "Any Graduate / Postgraduate preferred. Freshers welcome.",
    "pay": "INR 2,40,000.00 - 3,30,000.00",
-   "url": "https://adda247.keka.com/careers/jobdetails/143333",
+   "url": "https://adda247.keka.com/careers/jobdetails/147551",
    "source": "keka",
    "board": "adda247",
-   "posted": "2026-10-06",
+   "posted": "2026-11-19",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
@@ -8928,6 +8944,86 @@
    "source": "keka",
    "board": "tohands",
    "posted": "2026-08-03",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "99bc718e24f1": {
+   "id": "99bc718e24f1",
+   "title": "Inside Sales Intern",
+   "original_title": "Inside Sales Intern ",
+   "company": "Fresh Prints",
+   "location": "India (Remote)",
+   "cities": [
+    "Remote"
+   ],
+   "role": "sales",
+   "role_label": "Sales & Business Dev",
+   "type": "internship",
+   "type_label": "Internship",
+   "skills": [
+    "English",
+    "Communication",
+    "Sales"
+   ],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://job-boards.greenhouse.io/freshprints/jobs/6130499004",
+   "source": "greenhouse",
+   "board": "freshprints",
+   "posted": "2026-07-30",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "f4fc586ef15a": {
+   "id": "f4fc586ef15a",
+   "title": "Backend Developer Intern",
+   "original_title": "Backend - Intern ( SEA & Europe)",
+   "company": "Paytm",
+   "location": "Noida, Uttar Pradesh (remote)",
+   "cities": [
+    "Noida",
+    "Remote"
+   ],
+   "role": "coding",
+   "role_label": "Coding & Software",
+   "type": "internship",
+   "type_label": "Internship",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://jobs.lever.co/paytm/0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8",
+   "source": "lever",
+   "board": "paytm",
+   "posted": "2026-11-19",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "7a634d370805": {
+   "id": "7a634d370805",
+   "title": "Technical Support Specialist",
+   "original_title": "Technical Support Specialist",
+   "company": "NielsenIQ",
+   "location": "Pune, MH, India",
+   "cities": [
+    "Pune"
+   ],
+   "role": "support",
+   "role_label": "Customer Support",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "Bachelor's degree, 0-1 year of experience",
+   "pay": "",
+   "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000162504729",
+   "source": "smartrecruiters",
+   "board": "NielsenIQ",
+   "posted": "2026-11-19",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
