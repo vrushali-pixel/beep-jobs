@@ -61,6 +61,16 @@ greenhouse:
   - zetaglobal
   - digit
   - porter
+  # added 19 Nov 2026 after a probe of ~430 boards (BUILD_LOG #25): India posts the AI can judge
+  - sigmoid                  # Industrial Trainee, Bengaluru
+  - sumologic
+  - highradius
+  - purestorage
+  - pubmatic
+  - appian
+  - onetrust
+  - yext
+  - observeai
 
 lever:
   - Sprinto                  # Lever slugs can be case-sensitive
@@ -74,6 +84,7 @@ lever:
   - hevodata
   - spotify
   - kraken
+  - meesho                   # added 19 Nov 2026
 
 ashby:
   - kong                     # Kong India internship programme
@@ -91,6 +102,7 @@ ashby:
   - lovable
   - composio
   - bureau
+  - atlan                    # added 19 Nov 2026
 
 smartrecruiters:
   # seen with India fresher/intern posts
@@ -135,6 +147,10 @@ smartrecruiters:
   - Philips
   - Unilever
   - Bayer
+  # added 19 Nov 2026 (BUILD_LOG #25)
+  - Swiggy                   # interns, Bengaluru
+  - Sutherland               # Campus Associates FY'27
+  - Endava                   # junior analysts, HR intern
 
 # Workday career sites are big MNC boards. Their search endpoint is the one the public
 # careers page itself calls, but it is NOT a documented public API. Tried on 17 Nov 2026:
