@@ -121,3 +121,11 @@ def test_keyword_fallback_roles(cfg, rules, title, role):
 def test_prompt_lists_every_role_and_city(cfg):
     p = build_prompt(cfg)
     assert all(k in p for k in cfg["roles"]) and all(c in p for c in cfg["cities"]) and "{ROLE_LIST}" not in p
+
+
+def test_prompt_rejects_mandatory_experience_and_fake_remote(cfg):
+    # BUILD_LOG #26: posts with "mandatory experience" or team-lead duties slipped through,
+    # and an offline field job was tagged Remote because the board said "(remote)".
+    p = build_prompt(cfg)
+    assert '"mandatory"' in p and "lead, manage or mentor a team" in p
+    assert 'never "Remote"' in p

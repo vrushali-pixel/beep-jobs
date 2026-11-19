@@ -30,7 +30,7 @@ Status: ✅ done · 🟡 in progress · ⏭ next
 | [S13](https://github.com/vrushali-pixel/beep-jobs/issues/13) | As the maintainer, **one failure never breaks the run** | A dead board, a failed LLM call or a used-up quota is logged and the run still publishes | ✅ | `sources/__init__.py`, `tagging/tagger.py`, `store.py` · tests |
 | [S14](https://github.com/vrushali-pixel/beep-jobs/issues/14) | As the maintainer, I can **add a city, role or company without code** | All of these are in `config/` | ✅ | `config/settings.yaml`, `config/companies.yaml` |
 | [S15](https://github.com/vrushali-pixel/beep-jobs/issues/15) | As the maintainer, it **costs nothing to run** | GitHub Actions + Pages + Gemini free tier; LLM only for new posts | ✅ | ADR [0004](decisions/0004-free-llm-provider-agnostic.md), [0005](decisions/0005-static-site-on-github.md) |
-| [S16](https://github.com/vrushali-pixel/beep-jobs/issues/16) | As a developer, **every change is tested** | Lint + 43 offline tests run on every push (Python 3.10 and 3.12) | ✅ | `.github/workflows/ci.yml` |
+| [S16](https://github.com/vrushali-pixel/beep-jobs/issues/16) | As a developer, **every change is tested** | Lint + 44 offline tests run on every push (Python 3.10 and 3.12) | ✅ | `.github/workflows/ci.yml` |
 
 ## Next
 

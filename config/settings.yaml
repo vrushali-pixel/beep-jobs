@@ -7,7 +7,7 @@ llm:
   batch_size: 25                 # posts per API call (fewer calls = cheaper, fewer free-tier requests)
   seconds_between_calls: 7       # stay under the free tier's requests-per-minute limit
   max_desc_chars: 900            # only the start of the description is sent
-  prompt_file: config/prompts/tagger_v1.md
+  prompt_file: config/prompts/tagger_v2.md   # v2: experience + Remote rules (BUILD_LOG #26)
   # Free tier = $0 actually paid. To report what it WOULD cost on the paid tier, fill these
   # from the provider's pricing page on the day you report (Gemini: ai.google.dev/pricing).
   price_input_per_mtok_usd: 0.30    # gemini-3.5-flash-lite paid tier, checked 2026-11-19
@@ -27,7 +27,7 @@ roles:
     words: [software, developer, development, sde, backend, frontend, "full stack", fullstack, mobile, android, ios, programmer, web, "automation engineer", "member of technical staff"]
   data_ai:
     label: "Data & AI"
-    hint: "data analyst, data science, machine learning, AI, analytics, BI"
+    hint: "data analyst, data science, machine learning, AI, AI research, AI evaluation, analytics, BI"
     words: [data, analytics, "data analyst", "machine learning", ml, ai, scientist, bi, "business analyst"]
   qa:
     label: "Testing & QA"
@@ -51,7 +51,7 @@ roles:
     words: [design, designer, ux, ui, graphic, video, creative, architect, architecture]
   marketing:
     label: "Marketing & Content"
-    hint: "marketing, social media, SEO, content writing, brand, growth marketing"
+    hint: "marketing, social media, SEO, content writing, technical writing, documentation, brand, growth marketing"
     words: [marketing, content, seo, "social media", brand, community, documentation, writer, copywriter, pr]
   sales:
     label: "Sales & Business Dev"
@@ -71,7 +71,7 @@ roles:
     words: [operations, ops, program, project, consultant, consulting, strategy, founder, "management trainee", "supply chain", process]
   support:
     label: "Customer Support"
-    hint: "customer support, customer success, technical support, service desk"
+    hint: "customer support, customer success, technical support, service desk, post-sales or solution engineer, implementation"
     words: [support, customer, "customer experience", "customer service", "customer success", cx]
   other:
     label: "Other"

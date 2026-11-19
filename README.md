@@ -64,7 +64,7 @@ Full details: [Architecture](docs/ARCHITECTURE.md) · [User stories](docs/STORIE
 ```bash
 git clone https://github.com/vrushali-pixel/beep-jobs && cd beep-jobs
 pip install -e ".[dev]"
-make test                          # 43 offline tests, no API key needed
+make test                          # 44 offline tests, no API key needed
 export GEMINI_API_KEY=...          # free key from aistudio.google.com (optional)
 fresherjobs run                    # fetch → filter → de-dupe → tag → publish
 make serve                         # open http://localhost:8000
@@ -107,7 +107,7 @@ src/fresherjobs/
   evaluation.py    accuracy and cost
 site/index.html    the page (one static file)
 data/              db, LLM cache, run log, rejected posts (written by the daily run)
-tests/             43 offline tests, one file per module
+tests/             44 offline tests, one file per module
 docs/              architecture, stories, decisions, build log
 ```
 

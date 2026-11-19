@@ -59,7 +59,7 @@ flowchart LR
 |---|---|
 | `settings.yaml` | LLM provider/model/batch size/pacing, role groups (label, LLM hint, fallback keywords), job types, canonical cities + spellings, filter words, scam phrases, expiry |
 | `companies.yaml` | Company boards per provider; Workday switch |
-| `prompts/tagger_v1.md` | The tagging prompt; `{ROLE_LIST}` and `{CITY_LIST}` are filled from settings so they never drift |
+| `prompts/tagger_v2.md` | The tagging prompt; `{ROLE_LIST}` and `{CITY_LIST}` are filled from settings so they never drift |
 
 ## Limits and next steps
 - Volume depends on India-heavy boards; internships peak January–March.
