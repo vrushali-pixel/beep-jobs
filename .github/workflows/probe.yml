@@ -1,0 +1,19 @@
+name: Probe new boards (temporary)
+on:
+  push:
+    branches: [probe-new-boards]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe
+        run: |
+          UA="fresherjobs/1.0 (student job finder; see github.com/vrushali-pixel/beep-jobs)"
+          show() { echo "=== $1"; curl -sS -A "$UA" -L --max-time 20 -o /tmp/r -w "HTTP %{http_code}\n" "$1"; head -c 1500 /tmp/r; echo; }
+          show "https://apply.workable.com/api/v1/widget/accounts/apna?details=true"
+          show "https://apna.recruitee.com/api/offers/"
+          show "https://gain.recruitee.com/api/offers/"
+          show "https://inorg-global.breezy.hr/json"
+          show "https://gokwik.keka.com/careers/"
+          curl -sS -A "$UA" --max-time 20 https://gokwik.keka.com/careers/ | grep -oiE "(api/[a-z0-9/_-]+|[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})" | sort -u | head -30
+          show "https://gokwik.keka.com/robots.txt"
