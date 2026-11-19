@@ -7,8 +7,7 @@
    "company": "Fresh Prints",
    "location": "Hyderabad, India (Remote)",
    "cities": [
-    "Hyderabad",
-    "Remote"
+    "Hyderabad"
    ],
    "role": "hr",
    "role_label": "HR & Recruiting",
@@ -381,7 +380,7 @@
     "Sketch-up",
     "Grasshopper"
    ],
-   "eligibility": "Enrolled in and working toward a Bachelor or Master's in Architecture",
+   "eligibility": "Must be enrolled in and working toward a Bachelor or Master's in Architecture",
    "pay": "",
    "url": "http://www.cannondesign.com/careers/?gh_jid=8785149002",
    "source": "greenhouse",
@@ -480,8 +479,10 @@
    "role_label": "IT, Cloud & Security",
    "type": "fulltime",
    "type_label": "Full-time job",
-   "skills": [],
-   "eligibility": "",
+   "skills": [
+    "Technology Consulting"
+   ],
+   "eligibility": "Graduate Program",
    "pay": "",
    "url": "https://job-boards.greenhouse.io/celonis/jobs/8203121003?gh_jid=8203121003",
    "source": "greenhouse",
@@ -622,7 +623,7 @@
   },
   "1e52c975eec7": {
    "id": "1e52c975eec7",
-   "title": "Sales Executive Motor Insurance",
+   "title": "Sales Executive",
    "original_title": "Associate - Motor Insurance",
    "company": "Paytm",
    "location": "Noida, Uttar Pradesh",
@@ -634,7 +635,8 @@
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [
-    "Telesales"
+    "Telesales",
+    "Sales"
    ],
    "eligibility": "0 months – 5 years experience",
    "pay": "",
@@ -663,9 +665,10 @@
    "type": "internship",
    "type_label": "Internship",
    "skills": [
-    "Communication"
+    "Communication",
+    "Recruitment"
    ],
-   "eligibility": "",
+   "eligibility": "Proactive individual with strong communication skills",
    "pay": "",
    "url": "https://jobs.lever.co/paytm/426a6834-1397-4e65-94af-69874c790805",
    "source": "lever",
@@ -690,7 +693,8 @@
    "type": "internship",
    "type_label": "Internship",
    "skills": [
-    "Communication"
+    "Communication",
+    "HR"
    ],
    "eligibility": "MBA / Graduate",
    "pay": "",
@@ -718,7 +722,9 @@
    "type": "internship",
    "type_label": "Internship",
    "skills": [
-    "Communication"
+    "Recruitment",
+    "Communication",
+    "Sourcing"
    ],
    "eligibility": "",
    "pay": "",
@@ -744,7 +750,11 @@
    "role_label": "HR & Recruiting",
    "type": "internship",
    "type_label": "Internship",
-   "skills": [],
+   "skills": [
+    "IT Recruitment",
+    "Sourcing",
+    "Screening"
+   ],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.lever.co/paytm/95eadc2b-27bf-40fe-b6e6-93aaeadd08f7",
@@ -758,7 +768,7 @@
   },
   "7e2286155406": {
    "id": "7e2286155406",
-   "title": "Associate Software Developer Intern",
+   "title": "Software Developer Intern",
    "original_title": "Associate Software Development Engineer (SDE) Intern",
    "company": "Hevodata",
    "location": "Bangalore, India",
@@ -772,9 +782,7 @@
    "skills": [
     "Object-Oriented Programming",
     "REST APIs",
-    "Java",
-    "Python",
-    "TypeScript"
+    "JSON"
    ],
    "eligibility": "",
    "pay": "",
@@ -789,7 +797,7 @@
   },
   "60e89e821f75": {
    "id": "60e89e821f75",
-   "title": "Software Developer I",
+   "title": "Software Developer",
    "original_title": "SDE I",
    "company": "Hevodata",
    "location": "Bangalore, India",
@@ -831,7 +839,9 @@
    "role_label": "Marketing & Content",
    "type": "internship",
    "type_label": "Internship",
-   "skills": [],
+   "skills": [
+    "Content Writing"
+   ],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.ashbyhq.com/sarvam/bba82f34-1544-421e-a393-3edd8a5f4cb2",
@@ -882,12 +892,10 @@
    "type": "apprentice",
    "type_label": "Apprenticeship / Trainee",
    "skills": [
-    "Civil",
-    "Mechanical",
-    "Chemical",
-    "MBA"
+    "Sales",
+    "Marketing"
    ],
-   "eligibility": "BE | BTech (Civil | Mechanical | Chemical ) + MBA (Sales and Marketing)",
+   "eligibility": "BE | BTech (Civil | Mechanical | Chemical ) + MBA",
    "pay": "",
    "url": "https://jobs.smartrecruiters.com/SikaAG/744000158451579",
    "source": "smartrecruiters",
@@ -911,7 +919,10 @@
    "role_label": "Sales & Business Dev",
    "type": "fulltime",
    "type_label": "Full-time job",
-   "skills": [],
+   "skills": [
+    "sales",
+    "business development"
+   ],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.smartrecruiters.com/SikaAG/744000122221017",
@@ -936,7 +947,12 @@
    "role_label": "HR & Recruiting",
    "type": "internship",
    "type_label": "Internship",
-   "skills": [],
+   "skills": [
+    "Recruitment",
+    "HRIS",
+    "Payroll",
+    "Administrative Support"
+   ],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.smartrecruiters.com/AveryDennison/744000161768650",
@@ -961,7 +977,12 @@
    "role_label": "HR & Recruiting",
    "type": "internship",
    "type_label": "Internship",
-   "skills": [],
+   "skills": [
+    "Recruitment",
+    "HRIS",
+    "Payroll",
+    "Administrative Support"
+   ],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.smartrecruiters.com/AveryDennison/744000161769499",
@@ -975,7 +996,7 @@
   },
   "714bfc3b2fd4": {
    "id": "714bfc3b2fd4",
-   "title": "Internship - Customer Service",
+   "title": "Customer Service Intern",
    "original_title": "Internship - Customer Service (Bangalore)",
    "company": "Avery Dennison",
    "location": "Bangalore, Karnataka, India",
@@ -987,9 +1008,10 @@
    "type": "internship",
    "type_label": "Internship",
    "skills": [
+    "Customer Service",
     "Communication"
    ],
-   "eligibility": "Graduates from any field",
+   "eligibility": "Open for all Graduates from any field",
    "pay": "",
    "url": "https://jobs.smartrecruiters.com/AveryDennison/744000158204269",
    "source": "smartrecruiters",
@@ -1002,7 +1024,7 @@
   },
   "e32f8a972e7c": {
    "id": "e32f8a972e7c",
-   "title": "Associate Software Test Engineer (Java, Selenium)",
+   "title": "Associate Software Test Engineer",
    "original_title": "Associate Software Test Engineer (Java, Selenium)",
    "company": "NielsenIQ",
    "location": "Pune, MH, India",
@@ -1013,18 +1035,21 @@
    "role_label": "Testing & QA",
    "type": "fulltime",
    "type_label": "Full-time job",
-   "skills": [],
+   "skills": [
+    "Java",
+    "Selenium",
+    "Automation Testing"
+   ],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000162070650",
    "source": "smartrecruiters",
    "board": "NielsenIQ",
    "posted": "2026-11-17",
-   "tagger": "keywords",
+   "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-19",
-   "status": "closed",
-   "closed_on": "2026-11-19"
+   "status": "active"
   },
   "7c2eb6adffe0": {
    "id": "7c2eb6adffe0",
@@ -1052,7 +1077,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "f9d6fbb63185": {
    "id": "f9d6fbb63185",
@@ -1148,9 +1174,10 @@
    "skills": [
     "Python",
     "CAPL",
-    "ECU-Test"
+    "ECU-Test",
+    "HIL"
    ],
-   "eligibility": "2026 batch",
+   "eligibility": "",
    "pay": "",
    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150077901",
    "source": "smartrecruiters",
@@ -1178,10 +1205,9 @@
     "Java",
     "Python",
     "Go",
-    "C++",
-    "Algorithms"
+    "C++"
    ],
-   "eligibility": "Bachelor's or Master's degree in Computer Science, Computer Engineering, or related field.",
+   "eligibility": "Bachelor's or Master's degree in Computer Science, Computer Engineering, or related field",
    "pay": "",
    "url": "https://job-boards.greenhouse.io/mdbgeneralreferrals/jobs/7989869",
    "source": "greenhouse",
@@ -1256,7 +1282,7 @@
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
-   "eligibility": "Available full-time from Jan - June 2027",
+   "eligibility": "Available full-time Jan - June 2027",
    "pay": "",
    "url": "https://job-boards.greenhouse.io/hackerrank/jobs/8229735",
    "source": "greenhouse",
@@ -1269,7 +1295,7 @@
   },
   "a0b314d60297": {
    "id": "a0b314d60297",
-   "title": "Project Program Manager Intern",
+   "title": "Project Program Intern",
    "original_title": "ENG Project/ Program - Intern",
    "company": "Rubrik",
    "location": "Bangalore",
@@ -1331,7 +1357,7 @@
    "type": "internship",
    "type_label": "Internship",
    "skills": [],
-   "eligibility": "",
+   "eligibility": "Currently enrolled students",
    "pay": "",
    "url": "https://www.rubrik.com/company/careers/departments/job.8345283?gh_jid=8345283",
    "source": "greenhouse",
@@ -1458,10 +1484,7 @@
    "role_label": "HR & Recruiting",
    "type": "internship",
    "type_label": "Internship",
-   "skills": [
-    "Talent Acquisition",
-    "Recruiting"
-   ],
+   "skills": [],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.lever.co/Sprinto/24691575-e46e-4d9f-a07a-137d1d84ea55",
@@ -1486,10 +1509,7 @@
    "role_label": "Operations & Strategy",
    "type": "internship",
    "type_label": "Internship",
-   "skills": [
-    "Product Management",
-    "Partner Integrations"
-   ],
+   "skills": [],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.lever.co/stable-money1/0ad30e4b-eed9-4a48-9bfd-80479ad86771",
@@ -1517,8 +1537,7 @@
    "skills": [
     "Accounting",
     "GST",
-    "TDS",
-    "Zoho Books"
+    "TDS"
    ],
    "eligibility": "CA Industrial Training",
    "pay": "",
@@ -1533,7 +1552,7 @@
   },
   "426452f5b439": {
    "id": "426452f5b439",
-   "title": "NAPS Electrician Apprentice",
+   "title": "Electrician Apprentice",
    "original_title": "NAPS Electrician",
    "company": "Sika AG",
    "location": "Jhagadia, GJ, India",
@@ -1542,7 +1561,11 @@
    "role_label": "Core Engineering",
    "type": "apprentice",
    "type_label": "Apprenticeship / Trainee",
-   "skills": [],
+   "skills": [
+    "electrical maintenance",
+    "multimeter",
+    "troubleshooting"
+   ],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.smartrecruiters.com/SikaAG/744000137080694",
@@ -1582,7 +1605,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "2fb49e5b1d00": {
    "id": "2fb49e5b1d00",
@@ -1831,11 +1855,7 @@
    "role_label": "Coding & Software",
    "type": "fulltime",
    "type_label": "Full-time job",
-   "skills": [
-    "APIs",
-    "Data Pipelines",
-    "AI"
-   ],
+   "skills": [],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.lever.co/hevodata/4eccaf98-ba19-42ea-b040-e0976d4dadfe",
@@ -1860,7 +1880,10 @@
    "role_label": "HR & Recruiting",
    "type": "fulltime",
    "type_label": "Full-time job",
-   "skills": [],
+   "skills": [
+    "Campus Recruiting",
+    "Sourcing"
+   ],
    "eligibility": "",
    "pay": "",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8328316",
@@ -1897,7 +1920,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "315d81fddd3a": {
    "id": "315d81fddd3a",
@@ -1922,7 +1946,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "7035f0aa5f9f": {
    "id": "7035f0aa5f9f",
@@ -1939,9 +1964,9 @@
    "type_label": "Full-time job",
    "skills": [
     "Cloud Systems",
-    "APIs",
     "Backend",
-    "AI"
+    "APIs",
+    "Data Platforms"
    ],
    "eligibility": "Early-career engineers with up to 2 years of experience",
    "pay": "",
@@ -1956,7 +1981,7 @@
   },
   "0e349ac2c093": {
    "id": "0e349ac2c093",
-   "title": "User Growth Field Marketing Associate",
+   "title": "Field Marketing Associate",
    "original_title": "Associate - User Growth (Field Marketing)",
    "company": "Paytm",
    "location": "Noida, Uttar Pradesh; Bangalore, Karnataka; Pune, Maharashtra; Chennai, Tamil Nadu; Hyderabad, Telangana; Ahmedabad, Gujarat; Jaipur, Rajasthan; Delhi-NCR; Thane,Maharashtra; Mumbai, Maharashtra; Kolkata, West Bengal (remote)",
@@ -1977,10 +2002,7 @@
    "role_label": "Marketing & Content",
    "type": "fulltime",
    "type_label": "Full-time job",
-   "skills": [
-    "Field Marketing",
-    "Partnerships"
-   ],
+   "skills": [],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.lever.co/paytm/df935f72-9721-414e-9a3b-e20a679fef07",
@@ -2015,7 +2037,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "3aa78e19d6d3": {
    "id": "3aa78e19d6d3",
@@ -2040,7 +2063,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "39eaa0837b1d": {
    "id": "39eaa0837b1d",
@@ -2065,7 +2089,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "eef0867dc0f9": {
    "id": "eef0867dc0f9",
@@ -2092,7 +2117,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "7d5033a4442e": {
    "id": "7d5033a4442e",
@@ -2117,7 +2143,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "54f7818c64c1": {
    "id": "54f7818c64c1",
@@ -2142,7 +2169,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "47898cdad975": {
    "id": "47898cdad975",
@@ -2157,7 +2185,11 @@
    "role_label": "Design & Creative",
    "type": "fulltime",
    "type_label": "Full-time job",
-   "skills": [],
+   "skills": [
+    "Graphic Design",
+    "Social Media",
+    "Visual Communication"
+   ],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.lever.co/paytm/64d56436-36d3-4c52-8460-9c41befa8b00",
@@ -2171,15 +2203,15 @@
   },
   "cbab448f50b5": {
    "id": "cbab448f50b5",
-   "title": "Telecaller Associate",
+   "title": "Telecaller",
    "original_title": "Tele caller - Associate",
    "company": "Paytm",
    "location": "Mumbai, Maharashtra",
    "cities": [
     "Mumbai"
    ],
-   "role": "sales",
-   "role_label": "Sales & Business Dev",
+   "role": "support",
+   "role_label": "Customer Support",
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [],
@@ -2208,9 +2240,9 @@
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [
+    "Graphic Design",
     "Typography",
-    "Visual Storytelling",
-    "Graphic Design"
+    "Visual Storytelling"
    ],
    "eligibility": "",
    "pay": "",
@@ -2261,10 +2293,7 @@
    "role_label": "Sales & Business Dev",
    "type": "fulltime",
    "type_label": "Full-time job",
-   "skills": [
-    "Outbound Sales",
-    "Analytics"
-   ],
+   "skills": [],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.lever.co/hevodata/277fa847-0d99-4565-a0fc-b2e6089f6cc4",
@@ -2291,8 +2320,7 @@
    "type_label": "Full-time job",
    "skills": [
     "JDBC",
-    "Troubleshooting",
-    "Integrations"
+    "Troubleshooting"
    ],
    "eligibility": "",
    "pay": "",
@@ -2318,11 +2346,7 @@
    "role_label": "Marketing & Content",
    "type": "fulltime",
    "type_label": "Full-time job",
-   "skills": [
-    "Demand Generation",
-    "Email Marketing",
-    "LinkedIn Campaigns"
-   ],
+   "skills": [],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.lever.co/hevodata/a170b9aa-eb95-4819-bbcd-aa5e12b2c826",
@@ -2344,15 +2368,11 @@
     "Pune",
     "Bengaluru"
    ],
-   "role": "it_cloud",
-   "role_label": "IT, Cloud & Security",
+   "role": "support",
+   "role_label": "Customer Support",
    "type": "fulltime",
    "type_label": "Full-time job",
-   "skills": [
-    "Data Pipelines",
-    "Databases",
-    "Cloud Storage"
-   ],
+   "skills": [],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.lever.co/hevodata/86fd190d-754d-45b6-9f04-59585dc6d15b",
@@ -2366,7 +2386,7 @@
   },
   "0ce1ae64a20b": {
    "id": "0ce1ae64a20b",
-   "title": "Tech Recruiter",
+   "title": "Technical Recruiter",
    "original_title": "Tech Recruiter",
    "company": "Hevodata",
    "location": "Bangalore, India",
@@ -2377,10 +2397,7 @@
    "role_label": "HR & Recruiting",
    "type": "fulltime",
    "type_label": "Full-time job",
-   "skills": [
-    "Technical Recruiting",
-    "Sourcing"
-   ],
+   "skills": [],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.lever.co/hevodata/de617dfa-4b48-441c-ba43-6d6ce8cea605",
@@ -2401,14 +2418,14 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "marketing",
+   "role_label": "Marketing & Content",
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [
     "Technical Writing",
     "API References",
-    "Documentation"
+    "Claude"
    ],
    "eligibility": "",
    "pay": "",
@@ -2447,7 +2464,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "dc94a49726e8": {
    "id": "dc94a49726e8",
@@ -2475,7 +2493,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "4dac42a9b78b": {
    "id": "4dac42a9b78b",
@@ -2490,8 +2509,10 @@
    "role_label": "Sales & Business Dev",
    "type": "fulltime",
    "type_label": "Full-time job",
-   "skills": [],
-   "eligibility": "Early in career",
+   "skills": [
+    "API"
+   ],
+   "eligibility": "Early career",
    "pay": "",
    "url": "https://jobs.ashbyhq.com/sarvam/2fd59d81-b766-4f54-85b3-d0eae08dbfc0",
    "source": "ashby",
@@ -2529,7 +2550,7 @@
   },
   "a7fa54cc9e0b": {
    "id": "a7fa54cc9e0b",
-   "title": "Jr. Customer Support Analyst",
+   "title": "Junior Customer Support Analyst",
    "original_title": "Jr. Customer Support Analyst",
    "company": "NielsenIQ",
    "location": "Pune, MH, India",
@@ -2541,8 +2562,9 @@
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [
+    "Customer Support",
     "Database Management",
-    "Customer Support"
+    "Data Quality"
    ],
    "eligibility": "",
    "pay": "",
@@ -2564,14 +2586,12 @@
    "cities": [
     "Mumbai"
    ],
-   "role": "it_cloud",
-   "role_label": "IT, Cloud & Security",
+   "role": "operations",
+   "role_label": "Operations & Strategy",
    "type": "fulltime",
    "type_label": "Full-time job",
-   "skills": [
-    "Data Management"
-   ],
-   "eligibility": "",
+   "skills": [],
+   "eligibility": "Full training will be provided for this role",
    "pay": "",
    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000159058789",
    "source": "smartrecruiters",
@@ -2584,7 +2604,7 @@
   },
   "24ef906922b0": {
    "id": "24ef906922b0",
-   "title": "Project Engineer",
+   "title": "Engineering Change Management Trainee",
    "original_title": "IN_Bosch Rexroth India_Engineer / Executive _ Engineering Change Management & Project Co-ordination",
    "company": "Bosch Group",
    "location": "Sanand, GJ, India",
@@ -2635,7 +2655,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "502ff5bc6626": {
    "id": "502ff5bc6626",
@@ -2664,7 +2685,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "3e6302566aa1": {
    "id": "3e6302566aa1",
@@ -2675,15 +2697,15 @@
    "cities": [
     "Bengaluru"
    ],
-   "role": "it_cloud",
-   "role_label": "IT, Cloud & Security",
+   "role": "coding",
+   "role_label": "Coding & Software",
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [
     "HSM",
-    "Cryptostack"
+    "Cryptography"
    ],
-   "eligibility": "B.E/B.Tech",
+   "eligibility": "B.E/B.tech",
    "pay": "",
    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159347028",
    "source": "smartrecruiters",
@@ -2721,7 +2743,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "e09a44fe03bb": {
    "id": "e09a44fe03bb",
@@ -2751,7 +2774,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "da6192bfcf7c": {
    "id": "da6192bfcf7c",
@@ -2781,7 +2805,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "e3afee4bed2a": {
    "id": "e3afee4bed2a",
@@ -2811,7 +2836,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "3f8a9416e116": {
    "id": "3f8a9416e116",
@@ -2839,7 +2865,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "e3adafab8925": {
    "id": "e3adafab8925",
@@ -2868,7 +2895,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "ec1e9c164ae8": {
    "id": "ec1e9c164ae8",
@@ -2898,7 +2926,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "19256642719e": {
    "id": "19256642719e",
@@ -2925,7 +2954,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "7b733fb570bd": {
    "id": "7b733fb570bd",
@@ -2943,7 +2973,7 @@
     "Industrial Automation",
     "Communication"
    ],
-   "eligibility": "B.Tech Mechanical / Mechatronics",
+   "eligibility": "B.Tech - Mechanical / Mechatronics with >7.0 CGPA",
    "pay": "",
    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000135641599",
    "source": "smartrecruiters",
@@ -2969,9 +2999,10 @@
    "type_label": "Full-time job",
    "skills": [
     "Communication",
-    "Prospecting"
+    "Prospecting",
+    "Relationship Building"
    ],
-   "eligibility": "",
+   "eligibility": "Whether you're launching your career or bringing experience from another industry",
    "pay": "",
    "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161932469",
    "source": "smartrecruiters",
@@ -2984,7 +3015,7 @@
   },
   "f0b4d7abc32f": {
    "id": "f0b4d7abc32f",
-   "title": "Industrial Trainee - Finance & Accounting",
+   "title": "Industrial Trainee",
    "original_title": "Industrial Trainee - Finance & Accounting",
    "company": "Sigmoid",
    "location": "Bengaluru, Karnataka, India",
@@ -3012,18 +3043,21 @@
   },
   "bb0e1de51cad": {
    "id": "bb0e1de51cad",
-   "title": "Technical Account Engineer I",
+   "title": "Technical Account Engineer",
    "original_title": "Technical Account Engineer I",
    "company": "Sumo Logic",
    "location": "Noida, Uttar Pradesh, India",
    "cities": [
     "Noida"
    ],
-   "role": "it_cloud",
-   "role_label": "IT, Cloud & Security",
+   "role": "support",
+   "role_label": "Customer Support",
    "type": "fulltime",
    "type_label": "Full-time job",
-   "skills": [],
+   "skills": [
+    "Customer Support",
+    "Technical Troubleshooting"
+   ],
    "eligibility": "",
    "pay": "",
    "url": "https://job-boards.greenhouse.io/sumologic/jobs/8305995",
@@ -3061,7 +3095,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "ccb0e1a38acc": {
    "id": "ccb0e1a38acc",
@@ -3090,7 +3125,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "232ae7566df4": {
    "id": "232ae7566df4",
@@ -3103,9 +3139,12 @@
    ],
    "role": "marketing",
    "role_label": "Marketing & Content",
-   "type": "fulltime",
-   "type_label": "Full-time job",
-   "skills": [],
+   "type": "internship",
+   "type_label": "Internship",
+   "skills": [
+    "Social Media Management",
+    "Content Calendar"
+   ],
    "eligibility": "",
    "pay": "",
    "url": "https://jobs.smartrecruiters.com/Swiggy/6000000001576673",
@@ -3133,7 +3172,8 @@
    "type_label": "Full-time job",
    "skills": [
     "Customer Service",
-    "Communication"
+    "Communication",
+    "Chat Support"
    ],
    "eligibility": "Any full time UG/PG Graduate (Arts/Science/Commerce/Engineering/Pharma/MBA/MCA) - 2026 Passout",
    "pay": "",
@@ -3162,8 +3202,8 @@
    "type_label": "Full-time job",
    "skills": [
     "Technical Support",
-    "Helpdesk",
-    "Voice Support"
+    "Voice Support",
+    "Troubleshooting"
    ],
    "eligibility": "",
    "pay": "",
@@ -3191,8 +3231,8 @@
    "type_label": "Internship",
    "skills": [
     "HR Operations",
-    "HR Systems",
-    "Documentation"
+    "Documentation",
+    "HR Systems"
    ],
    "eligibility": "Freshers",
    "pay": "",
@@ -3200,6 +3240,595 @@
    "source": "smartrecruiters",
    "board": "Endava",
    "posted": "2026-10-27",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "9cb036b011c0": {
+   "id": "9cb036b011c0",
+   "title": "Account Development Representative",
+   "original_title": "Account Development Representative",
+   "company": "MongoDB",
+   "location": "Gurugram; Bengaluru",
+   "cities": [
+    "Gurugram",
+    "Bengaluru"
+   ],
+   "role": "sales",
+   "role_label": "Sales & Business Dev",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "MEDDIC",
+    "Sales"
+   ],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=7318558",
+   "source": "greenhouse",
+   "board": "mongodb",
+   "posted": "2026-07-27",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "3bc4d72020f5": {
+   "id": "3bc4d72020f5",
+   "title": "Content Associate",
+   "original_title": "Associate - Content (Digest)",
+   "company": "Groww",
+   "location": "Bengaluru-VTP, India",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "marketing",
+   "role_label": "Marketing & Content",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://job-boards.eu.greenhouse.io/groww/jobs/4880153101",
+   "source": "greenhouse",
+   "board": "groww",
+   "posted": "2026-06-03",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "bfcf408361e4": {
+   "id": "bfcf408361e4",
+   "title": "Creative Illustrator",
+   "original_title": "Creative Illustrator ",
+   "company": "Groww",
+   "location": "Bengaluru-VTP, India",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "design",
+   "role_label": "Design & Creative",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://job-boards.eu.greenhouse.io/groww/jobs/4979964101",
+   "source": "greenhouse",
+   "board": "groww",
+   "posted": "2026-10-08",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "bb8f69220a8b": {
+   "id": "bb8f69220a8b",
+   "title": "Finance Content Creator",
+   "original_title": "Finance Content Creator",
+   "company": "Groww",
+   "location": "Bengaluru, India",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "marketing",
+   "role_label": "Marketing & Content",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://job-boards.eu.greenhouse.io/groww/jobs/5000706101",
+   "source": "greenhouse",
+   "board": "groww",
+   "posted": "2026-10-09",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "1e3dad945650": {
+   "id": "1e3dad945650",
+   "title": "Portfolio Specialist",
+   "original_title": "Portfolio Specialist - Wealth",
+   "company": "Groww",
+   "location": "Bengaluru-VTP, India",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "finance",
+   "role_label": "Finance & Accounting",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://job-boards.eu.greenhouse.io/groww/jobs/4714065101",
+   "source": "greenhouse",
+   "board": "groww",
+   "posted": "2026-03-17",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "a5cbb3e88142": {
+   "id": "a5cbb3e88142",
+   "title": "Procurement Specialist",
+   "original_title": "Procurement Specialist",
+   "company": "Groww",
+   "location": "Bengaluru-VTP, India",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "operations",
+   "role_label": "Operations & Strategy",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://job-boards.eu.greenhouse.io/groww/jobs/4980317101",
+   "source": "greenhouse",
+   "board": "groww",
+   "posted": "2026-10-14",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "33daef5e79c6": {
+   "id": "33daef5e79c6",
+   "title": "Product Research Specialist",
+   "original_title": "Product Research Specialist (W from Groww)",
+   "company": "Groww",
+   "location": "Bengaluru-VTP, India",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "operations",
+   "role_label": "Operations & Strategy",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://job-boards.eu.greenhouse.io/groww/jobs/4714061101",
+   "source": "greenhouse",
+   "board": "groww",
+   "posted": "2026-02-16",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "65e63b1c3ad6": {
+   "id": "65e63b1c3ad6",
+   "title": "Sales Development Representative",
+   "original_title": "Sales Development Representative",
+   "company": "Datadog",
+   "location": "Bangalore, India",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "sales",
+   "role_label": "Sales & Business Dev",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "Prospecting",
+    "Lead Generation"
+   ],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://careers.datadoghq.com/detail/7531575/?gh_jid=7531575",
+   "source": "greenhouse",
+   "board": "datadog",
+   "posted": "2026-01-13",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "90e798646e8a": {
+   "id": "90e798646e8a",
+   "title": "Programmatic Associate",
+   "original_title": "Programmatic Associate",
+   "company": "Zeta Global",
+   "location": "Bangalore - IN",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "marketing",
+   "role_label": "Marketing & Content",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "Programmatic Advertising",
+    "Campaign Management"
+   ],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://job-boards.greenhouse.io/zetaglobal/jobs/5093514004",
+   "source": "greenhouse",
+   "board": "zetaglobal",
+   "posted": "2024-03-06",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "a58c06b7a77e": {
+   "id": "a58c06b7a77e",
+   "title": "Business Intelligence Associate",
+   "original_title": "Business Intelligence Associate ",
+   "company": "PubMatic",
+   "location": "Pune, IN",
+   "cities": [
+    "Pune"
+   ],
+   "role": "data_ai",
+   "role_label": "Data & AI",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://pubmatic.com/job/?gh_jid=5466677008",
+   "source": "greenhouse",
+   "board": "pubmatic",
+   "posted": "2026-10-29",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "0a011acbd939": {
+   "id": "0a011acbd939",
+   "title": "Associate Product Manager",
+   "original_title": "APM - Bonds",
+   "company": "Stable Money",
+   "location": "Bengaluru",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "product",
+   "role_label": "Product",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://jobs.lever.co/stable-money1/24248caf-2820-4e76-9905-a71ae17cf726",
+   "source": "lever",
+   "board": "stable-money1",
+   "posted": "2026-11-17",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "310b20de9f7f": {
+   "id": "310b20de9f7f",
+   "title": "Associate Product Manager",
+   "original_title": "APM - Platform Products",
+   "company": "Stable Money",
+   "location": "Bengaluru",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "product",
+   "role_label": "Product",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://jobs.lever.co/stable-money1/86ef4b73-ba13-405e-8639-e57162f8972f",
+   "source": "lever",
+   "board": "stable-money1",
+   "posted": "2026-08-19",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "0ed1adda6c19": {
+   "id": "0ed1adda6c19",
+   "title": "Associate Product Manager",
+   "original_title": "APM - Technical",
+   "company": "Stable Money",
+   "location": "Bengaluru",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "product",
+   "role_label": "Product",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://jobs.lever.co/stable-money1/86113214-0340-42ed-8350-6de20fa53f85",
+   "source": "lever",
+   "board": "stable-money1",
+   "posted": "2026-11-17",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "670d9daa9633": {
+   "id": "670d9daa9633",
+   "title": "Sales Executive",
+   "original_title": "Sales/BD Executive - Paytm (Pi Commerce)",
+   "company": "Paytm",
+   "location": "Noida, Uttar Pradesh; Haldwani, Uttrakhand; Surat, Gujarat; Gurugram, Haryana",
+   "cities": [
+    "Noida",
+    "Gurugram"
+   ],
+   "role": "sales",
+   "role_label": "Sales & Business Dev",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "Sales",
+    "Communication",
+    "CRM"
+   ],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://jobs.lever.co/paytm/0a418b0f-6d2f-486f-bbf3-155f09e1fce3",
+   "source": "lever",
+   "board": "paytm",
+   "posted": "2026-08-07",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "250487254400": {
+   "id": "250487254400",
+   "title": "Sales Associate",
+   "original_title": "Sales/Services Associate - Health Insurance",
+   "company": "Paytm",
+   "location": "Noida, Uttar Pradesh",
+   "cities": [
+    "Noida"
+   ],
+   "role": "sales",
+   "role_label": "Sales & Business Dev",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "Sales",
+    "Lead Generation",
+    "Cold Calling"
+   ],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://jobs.lever.co/paytm/021ee805-1a37-48a6-9a01-3e129ae03c3a",
+   "source": "lever",
+   "board": "paytm",
+   "posted": "2026-01-07",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "42722fd7d0b3": {
+   "id": "42722fd7d0b3",
+   "title": "HR Onboarding Executive",
+   "original_title": "SG Grade- HR Onboarding",
+   "company": "Paytm",
+   "location": "Noida, Uttar Pradesh",
+   "cities": [
+    "Noida"
+   ],
+   "role": "hr",
+   "role_label": "HR & Recruiting",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "HR Operations",
+    "Onboarding"
+   ],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://jobs.lever.co/paytm/7261405f-4ba8-48b9-9e9d-6dc4e4c1d3be",
+   "source": "lever",
+   "board": "paytm",
+   "posted": "2026-10-08",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "ff69426d4f2a": {
+   "id": "ff69426d4f2a",
+   "title": "Business System Engineer",
+   "original_title": "Business System Engineer",
+   "company": "Hevodata",
+   "location": "Bangalore, India",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "it_cloud",
+   "role_label": "IT, Cloud & Security",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://jobs.lever.co/hevodata/95ab9f01-3671-4073-9990-4418aecb24e7",
+   "source": "lever",
+   "board": "hevodata",
+   "posted": "2026-09-17",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "5a2a53388682": {
+   "id": "5a2a53388682",
+   "title": "Research Scientist",
+   "original_title": "Research Scientist",
+   "company": "NielsenIQ",
+   "location": "Chennai, TN, India",
+   "cities": [
+    "Chennai"
+   ],
+   "role": "data_ai",
+   "role_label": "Data & AI",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "Machine Learning",
+    "Python",
+    "Computer Science"
+   ],
+   "eligibility": "Bachelor's degree in computer science or an equivalent numerate discipline",
+   "pay": "",
+   "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000141447384",
+   "source": "smartrecruiters",
+   "board": "NielsenIQ",
+   "posted": "2026-08-04",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "3564605ba70f": {
+   "id": "3564605ba70f",
+   "title": "Junior Full Stack Developer",
+   "original_title": "Full stack Engineer",
+   "company": "Bosch Group",
+   "location": "bengaluru, India",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "coding",
+   "role_label": "Coding & Software",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "Java",
+    "Python",
+    "Spring Boot",
+    "Django",
+    "FastAPI"
+   ],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160794268",
+   "source": "smartrecruiters",
+   "board": "BoschGroup",
+   "posted": "2026-11-10",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "b74d8f339511": {
+   "id": "b74d8f339511",
+   "title": "Maintenance Engineer",
+   "original_title": "IN_RBAI_Maintenance Engineer_Charcon_Mechanical",
+   "company": "Bosch Group",
+   "location": "Bengaluru, KA, India",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "core_engg",
+   "role_label": "Core Engineering",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "Mechatronics",
+    "Mechanical Maintenance",
+    "Electrical"
+   ],
+   "eligibility": "Diploma in Mechatronics /Electronics / Electrical / Mechanical",
+   "pay": "",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159791911",
+   "source": "smartrecruiters",
+   "board": "BoschGroup",
+   "posted": "2026-11-05",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "57e5a04265e1": {
+   "id": "57e5a04265e1",
+   "title": "Cloud Specialist",
+   "original_title": "Cloud Specialists",
+   "company": "Bosch Group",
+   "location": "bangalore, India",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "it_cloud",
+   "role_label": "IT, Cloud & Security",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "Cloud Deployment"
+   ],
+   "eligibility": "B.E/ B.Tech",
+   "pay": "",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000138992892",
+   "source": "smartrecruiters",
+   "board": "BoschGroup",
+   "posted": "2026-07-22",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "9049a13390cf": {
+   "id": "9049a13390cf",
+   "title": "Laboratory Technician",
+   "original_title": "Laboratory Technician",
+   "company": "Continental",
+   "location": "Kalyani, WEST BENGAL, India",
+   "cities": [],
+   "role": "core_engg",
+   "role_label": "Core Engineering",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "Laboratory Testing",
+    "Inventory Management"
+   ],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://jobs.smartrecruiters.com/Continental/743999901275018",
+   "source": "smartrecruiters",
+   "board": "Continental",
+   "posted": "2023-04-21",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
