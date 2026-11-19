@@ -47,17 +47,43 @@ flowchart LR
 Full details: [Architecture](docs/ARCHITECTURE.md) · [User stories](docs/STORIES.md) ·
 [Decisions](docs/decisions/) · [Build log: what broke and how it was fixed](docs/BUILD_LOG.md)
 
-## Numbers (17 Nov 2026)
+## Numbers (19 Nov 2026)
+
+One daily run, from 127 official company job boards:
+
+| Step | Posts |
+|---|---|
+| Fetched | 11,625 |
+| Outside India (dropped) | 8,905 |
+| Senior title (dropped) | 1,705 |
+| Description requires 1+ years of experience (dropped by a plain rule) | 547 |
+| Left for screening, after merging 68 duplicates | 400 |
+| **Live: India roles a fresher can really apply to** | **93** |
 
 | | |
 |---|---|
-| Posts read per run | ~10,400 from 113 company boards |
-| Dropped: outside India / senior titles / scam phrases | ~8,200 / ~1,300 / 3 |
-| Clearly entry-level India posts | 52 (+ ~800 unclear titles waiting for the LLM check) |
-| Duplicates merged | up to 97 per run |
-| Run time | ~2 minutes |
-| Tagging accuracy (50 hand-checked posts) | *after the first LLM run* |
-| Cost per 1,000 posts | $0 spent (free tier); paid-tier price from real token counts *after the first LLM run* |
+| Role tag correct | 94% (first 50-post sample) · 89% (a second, fresh sample of 28 live posts) |
+| City tag correct | 98% · 100% |
+| Cost per 1,000 posts | **$0.39** at Gemini 3.5 Flash-Lite paid prices (280 input + 121 output tokens per post); **$0 actually paid** (free tier) |
+| Run time | ~13 minutes, of which most is politely reading descriptions |
+| Tests | 57 offline tests, lint, on every push |
+
+The accuracy samples were checked by Claude (a second model) against each full post, not yet by a
+person: see `eval/sample_50.csv` and `eval/sample_v2.csv`.
+
+### Why 93 and not 200 (yet)
+
+- **Fewer than 1% of India jobs on these boards are truly open to freshers in November.** Most of
+  these companies hire experienced people, and Indian internships and campus hiring mostly open in
+  January to March. The same pipeline picks those up automatically every morning.
+- **We do not pad the count.** In a fresh check, 16 of 50 posts that the first prompt allowed
+  actually asked for 1 to 8 years of experience ("5 to 6 years", "3 - 6 years"). They are now
+  dropped by a plain rule plus a sharper prompt ([BUILD_LOG #26, #27](docs/BUILD_LOG.md)). A count
+  of 200 made of jobs freshers cannot get would break the one promise this page makes.
+- **Most big Indian startups do not use the four public job-board APIs**, and Workday career
+  sites refuse automated requests (HTTP 429). We respect that ([ADR 0003](docs/decisions/0003-workday.md)).
+- **Growing it is config, not code:** each new company is one line in `config/companies.yaml`.
+  The best next source is Beep's own hiring partners ([S18](docs/STORIES.md)).
 
 ## Quick start
 
