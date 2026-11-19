@@ -20,6 +20,14 @@ _INDIA_WORD = re.compile(r"\bindia\b", re.I)
 _INDIA_CODE = re.compile(r"\bIND?\b(?=\s*[-,;)]|\s*$)|\bIN-[A-Z]{2}\b")   # "Pune, IN", "IND", "IN-MH"
 
 
+# "1-3 years", "4–5 yrs", "2+ years", "1 year": group 1 = the smallest number asked for
+_YEARS = re.compile(r"(?<![\d.])(\d+(?:\.\d+)?)\s*\+?\s*(?:(?:-|–|—|to)\s*\d+(?:\.\d+)?\s*\+?\s*)?(?:years?|yrs?)\b")
+# words just BEFORE the number that mean it is not a minimum ("up to 2 years", "6 months to 3 years", "... OR 2+ years")
+_NOT_A_MINIMUM = re.compile(r"(?:\bup ?to|\bless than|\bunder|\bmonths?|\bto|-|–|"
+                            r"\bor (?:graduates|candidates|professionals|those) with)\s*$")
+_EXPERIENCE_WORD = re.compile(r"experience|\bexp\b")
+
+
 def mentions_india(text: str) -> bool:
     return bool(_INDIA_WORD.search(text) or _INDIA_CODE.search(text))
 
@@ -53,6 +61,8 @@ class Rules:
         self.senior = word_pattern(cfg["senior_title_words"])
         self.fresher = word_pattern(cfg["fresher_desc_phrases"])
         self.fraud = word_pattern(cfg["fraud_phrases"])
+        self.internship = word_pattern(["intern", "internship", "trainee", "apprentice", "apprenticeship"])
+        self.max_years = float(cfg.get("reject_min_experience_years", 1))
         self.city_aliases = [(alias, city) for city, aliases in cfg["cities"].items() for alias in aliases]
         self.city_re = {city: word_pattern(aliases) for city, aliases in cfg["cities"].items()}
 
@@ -72,12 +82,30 @@ class Rules:
             return not rest and mentions_india(post["description"][:3000])
         return False
 
+    def min_experience_years(self, text: str) -> float:
+        """Smallest 'N years of experience' the description REQUIRES; 0 if none.
+        "1-3 years of experience" -> 1, "4–5 years" -> 4, "2+ years" -> 2.
+        Ignored: "0-1 years", "up to 2 years", "6 months to 3 years", "freshers OR graduates with 2+ years",
+        and years that are not about experience ("founded 10 years ago")."""
+        t = re.sub(r"\s+", " ", text.lower())
+        need = 0.0
+        for m in _YEARS.finditer(t):
+            before, near = t[max(0, m.start() - 30):m.start()], t[max(0, m.start() - 60):m.end() + 60]
+            if _NOT_A_MINIMUM.search(before) or not _EXPERIENCE_WORD.search(near):
+                continue
+            need = max(need, float(m.group(1)))
+        return need
+
     def entry_level(self, post: RawPost) -> tuple[bool | str, str]:
         """(True, "") clearly entry-level, (False, reason) clearly not, ("ai", reason) unclear."""
         title = post["title"].lower()
         if self.senior.search(title):
             return False, "senior title"
-        if self.entry.search(title) or self.fresher.search(post["description"].lower()):
+        desc = post["description"].lower()
+        if (not self.internship.search(title) and not self.fresher.search(desc)
+                and self.min_experience_years(desc) >= self.max_years):
+            return False, f"asks for {self.max_years:g}+ years of experience"
+        if self.entry.search(title) or self.fresher.search(desc):
             return True, ""
         return ASK_AI, "unclear title (AI decides)"
 

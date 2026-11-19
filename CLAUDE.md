@@ -7,14 +7,14 @@ Built for Beep's Gen AI & Engineering assignment (deadline Fri 20 Nov 2026, 11:5
 Live: https://vrushali-pixel.github.io/beep-jobs/
 
 ## Commands
-- `pip install -e ".[dev]"`, then `make test` (44 offline tests) and `make lint` (ruff)
+- `pip install -e ".[dev]"`, then `make test` (57 offline tests) and `make lint` (ruff)
 - `fresherjobs run` (needs internet; `GEMINI_API_KEY` for AI tagging), `fresherjobs discover`,
   `fresherjobs sample`, `fresherjobs score FILE`
 - `make serve` serves `site/` at http://localhost:8000
 
 ## Layout
 - `config/` holds everything a person edits: `settings.yaml` (roles, cities, filter words, LLM),
-  `companies.yaml` (job boards), `prompts/tagger_v2.md`
+  `companies.yaml` (job boards), `prompts/tagger_v3.md`
 - `src/fresherjobs/` has one module per pipeline step: `sources/` → `filters.py` → `dedupe.py` →
   `tagging/` → `store.py` → `publish.py`; `pipeline.py` connects them; `cli.py` is the entry point
 - `site/index.html` is the whole page; `data/` is written by the daily run (do not edit by hand)

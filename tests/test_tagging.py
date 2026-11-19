@@ -129,3 +129,11 @@ def test_prompt_rejects_mandatory_experience_and_fake_remote(cfg):
     p = build_prompt(cfg)
     assert '"mandatory"' in p and "lead, manage or mentor a team" in p
     assert 'never "Remote"' in p
+
+
+def test_excerpt_keeps_late_experience_lines():
+    from fresherjobs.tagging.prompt import excerpt
+    desc = "About us. " * 200 + "Required: 4–5 years of graphic design experience. We have a nice office."
+    out = excerpt(desc, 900)
+    assert out.startswith("About us.") and "4–5 years" in out and "nice office" not in out
+    assert excerpt("Short post.", 900) == "Short post."

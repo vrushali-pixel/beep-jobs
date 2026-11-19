@@ -46,7 +46,19 @@ def post_for_llm(p: RawPost, max_chars: int) -> dict[str, Any]:
     return {"id": p["id"], "title": p["title"], "company": p["company"], "location": p["location"],
             "check_experience": bool(p.get("needs_ai")),
             "employment_type": p.get("employment_type", ""), "pay": p.get("pay", ""),
-            "description": re.sub(r"\s+", " ", p["description"])[:max_chars]}
+            "description": excerpt(p["description"], max_chars)}
+
+
+_ELIGIBILITY = re.compile(r"year|experience|fresher|graduat|batch|eligib|qualification|degree", re.I)
+
+
+def excerpt(description: str, max_chars: int, extra_chars: int = 500) -> str:
+    """The start of the description, plus any later sentence about experience or eligibility.
+    Posts often open with "About the company" and say "2+ years" only near the end (BUILD_LOG #27)."""
+    d = re.sub(r"\s+", " ", description)
+    head, rest = d[:max_chars], d[max_chars:]
+    later = " ".join(s.strip() for s in re.split(r"(?<=[.!?•●])\s+", rest) if _ELIGIBILITY.search(s))
+    return head + (" … Experience/eligibility: " + later[:extra_chars] if later else "")
 
 
 def user_message(batch: list[RawPost], max_chars: int) -> str:

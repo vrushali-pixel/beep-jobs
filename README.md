@@ -64,7 +64,7 @@ Full details: [Architecture](docs/ARCHITECTURE.md) · [User stories](docs/STORIE
 ```bash
 git clone https://github.com/vrushali-pixel/beep-jobs && cd beep-jobs
 pip install -e ".[dev]"
-make test                          # 44 offline tests, no API key needed
+make test                          # 57 offline tests, no API key needed
 export GEMINI_API_KEY=...          # free key from aistudio.google.com (optional)
 fresherjobs run                    # fetch → filter → de-dupe → tag → publish
 make serve                         # open http://localhost:8000
@@ -88,7 +88,7 @@ Settings → Pages → Source to "GitHub Actions", then Actions → Daily job re
 | Add or rename a role group | `config/settings.yaml` → `roles` (label, LLM hint, fallback keywords) |
 | Add a company | `config/companies.yaml`, then `fresherjobs discover` |
 | Make the fresher filter stricter | `config/settings.yaml` → `senior_title_words` / `entry_title_words` |
-| Improve the prompt | copy to `config/prompts/tagger_v2.md`, point `llm.prompt_file` at it |
+| Improve the prompt | copy to `config/prompts/tagger_v3.md`, point `llm.prompt_file` at it |
 | Switch to Claude | `llm.provider: anthropic`, `llm.model: claude-haiku-5-5`, secret `ANTHROPIC_API_KEY` |
 | Change the refresh time | `.github/workflows/daily.yml` → `cron` (UTC) |
 
@@ -107,7 +107,7 @@ src/fresherjobs/
   evaluation.py    accuracy and cost
 site/index.html    the page (one static file)
 data/              db, LLM cache, run log, rejected posts (written by the daily run)
-tests/             44 offline tests, one file per module
+tests/             57 offline tests, one file per module
 docs/              architecture, stories, decisions, build log
 ```
 

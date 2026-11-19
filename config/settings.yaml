@@ -7,7 +7,7 @@ llm:
   batch_size: 25                 # posts per API call (fewer calls = cheaper, fewer free-tier requests)
   seconds_between_calls: 7       # stay under the free tier's requests-per-minute limit
   max_desc_chars: 900            # only the start of the description is sent
-  prompt_file: config/prompts/tagger_v2.md   # v2: experience + Remote rules (BUILD_LOG #26)
+  prompt_file: config/prompts/tagger_v3.md   # v3: reads the experience lines (BUILD_LOG #26, #27)
   # Free tier = $0 actually paid. To report what it WOULD cost on the paid tier, fill these
   # from the provider's pricing page on the day you report (Gemini: ai.google.dev/pricing).
   price_input_per_mtok_usd: 0.30    # gemini-3.5-flash-lite paid tier, checked 2026-11-19
@@ -113,6 +113,10 @@ senior_title_words: [senior, "sr.", "sr ", lead, principal, staff, manager, dire
                      vp, "vice president", " ii", " iii", " iv", "sde 2", "sde-2", "sde ii", expert, specialist ii]
 fresher_desc_phrases: ["0-1 year", "0 - 1 year", "0 to 1 year", "freshers", "fresher", "recent graduate",
                        "graduating in 2026", "graduating in 2027", "2026 batch", "2027 batch", "no experience required"]
+
+# Drop a post whose description REQUIRES at least this many years ("1-3 years of experience", "2+ years"),
+# unless it is an internship/trainee post or mentions freshers. The AI alone missed these (BUILD_LOG #27).
+reject_min_experience_years: 1
 
 # Scam signs. A post containing any of these is rejected and logged.
 fraud_phrases: ["registration fee", "security deposit", "pay a fee", "processing fee", "training fee",
