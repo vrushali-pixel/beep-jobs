@@ -11,13 +11,17 @@ from collections.abc import Callable
 from typing import Any
 
 from fresherjobs.models import RawPost
-from fresherjobs.sources import ashby, greenhouse, lever, smartrecruiters, workday
+from fresherjobs.sources import ashby, breezy, greenhouse, keka, lever, recruitee, smartrecruiters, workable, workday
 
 FETCHERS: dict[str, Callable[..., list[RawPost]]] = {
     "greenhouse": greenhouse.fetch,
     "lever": lever.fetch,
     "ashby": ashby.fetch,
     "smartrecruiters": smartrecruiters.fetch,
+    "workable": workable.fetch,
+    "recruitee": recruitee.fetch,
+    "breezy": breezy.fetch,
+    "keka": keka.fetch,
 }
 DETAIL: dict[str, Callable[[RawPost], RawPost]] = {
     "smartrecruiters": smartrecruiters.detail,

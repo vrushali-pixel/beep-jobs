@@ -8,7 +8,8 @@ from typing import TypedDict
 class RawPost(TypedDict, total=False):
     """One post as fetched from a job board, before any judgement."""
 
-    source: str            # greenhouse | lever | ashby | smartrecruiters | workday
+    source: str            # greenhouse | lever | ashby | smartrecruiters | workable | recruitee
+                           # | breezy | keka | workday
     board: str             # the company's board name at that provider
     company: str
     title: str

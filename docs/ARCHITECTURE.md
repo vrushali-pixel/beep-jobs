@@ -22,7 +22,7 @@ flowchart LR
 
 | Step | Module | What it does | Fails safely because |
 |---|---|---|---|
-| 1 Fetch | `sources/` | One small module per provider (Greenhouse, Lever, Ashby, SmartRecruiters); all return the same `RawPost` shape | A board that errors is logged and skipped; a 429 is respected, never retried |
+| 1 Fetch | `sources/` | One small module per provider (Greenhouse, Lever, Ashby, SmartRecruiters, Workable, Recruitee, Breezy HR, Keka); all return the same `RawPost` shape | A board that errors is logged and skipped; a 429 is respected, never retried |
 | 2-3 Filter | `filters.py` | `Rules.check()` → KEEP, ASK_AI, or a drop reason. Descriptions are fetched only when they can change the answer | Pure functions, unit-tested on real titles |
 | 4 De-dupe | `dedupe.py` | Same link, or same company + cleaned title → one post with all its cities; stable id across days | — |
 | 5 Tag | `tagging/` | Prompt + strict schema → provider (Gemini or Claude) → validate → cache | No key / failed call / quota gone → keyword fallback; unclear titles held back |

@@ -10,7 +10,7 @@ Copy these sections into the Google Doc / Sheet for Beep's Gen AI & Engineering 
 
 ## What it does
 Every morning a GitHub Action reads ~11,600 posts from 127 companies' **official** job boards
-(Greenhouse, Lever, Ashby, SmartRecruiters public APIs), keeps India roles a fresher can really
+(Greenhouse, Lever, Ashby, SmartRecruiters, Workable, Recruitee, Breezy HR, Keka public feeds), keeps India roles a fresher can really
 apply to, merges duplicates, tags each post with an LLM (role, city, type, skills, eligibility,
 pay, scam red flags), and publishes a static search page. Closed jobs disappear the next day.
 

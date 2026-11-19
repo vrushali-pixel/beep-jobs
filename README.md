@@ -34,7 +34,8 @@ flowchart LR
     F --> G[Publish<br/>static page]
 ```
 
-- **Official sources only:** Greenhouse, Lever, Ashby and SmartRecruiters public posting APIs. No
+- **Official sources only:** Greenhouse, Lever, Ashby, SmartRecruiters, Workable, Recruitee, Breezy HR and
+  Keka (careers pages only, as its robots.txt allows) public job feeds. No
   aggregators, no logins, no scraping; a site that refuses (HTTP 429) is never retried. [Why](docs/decisions/0001-official-job-boards-only.md)
 - **Rules first, LLM for the grey zone:** free rules drop the obvious cases; the LLM reads the
   description only when the title cannot say whether a fresher can apply. Answers use a strict
@@ -123,7 +124,8 @@ Settings → Pages → Source to "GitHub Actions", then Actions → Daily job re
 ```
 config/            settings.yaml · companies.yaml · prompts/      ← everything you edit
 src/fresherjobs/
-  sources/         greenhouse · lever · ashby · smartrecruiters · workday (off)
+  sources/         greenhouse · lever · ashby · smartrecruiters · workable · recruitee ·
+                   breezy · keka · workday (off)
   filters.py       India / entry-level / scam rules
   dedupe.py        same link or same company + role → one post
   tagging/         prompt + schema · providers (Gemini, Claude) · tagger · keyword fallback
