@@ -92,7 +92,7 @@ def test_gemini_provider(cfg, monkeypatch):
         return Resp()
 
     monkeypatch.setattr(requests, "post", fake_post)
-    posts, tin, tout = GeminiProvider("gemini-2.5-flash-lite", "k").tag("sys", answer_schema(cfg), "hi")
+    posts, tin, tout = GeminiProvider("gemini-3.5-flash-lite", "k").tag("sys", answer_schema(cfg), "hi")
     assert posts == {"x1": {"id": "x1", "role_group": "hr"}} and (tin, tout) == (900, 160)
     schema = sent["body"]["generationConfig"]["responseSchema"]
     assert schema["type"] == "OBJECT" and "enum" in schema["properties"]["posts"]["items"]["properties"]["role_group"]

@@ -3,15 +3,15 @@
 
 llm:
   provider: gemini               # gemini (free tier, GEMINI_API_KEY) or anthropic (ANTHROPIC_API_KEY)
-  model: gemini-2.5-flash-lite   # anthropic: claude-haiku-5-5
+  model: gemini-3.5-flash-lite   # anthropic: claude-haiku-5-5
   batch_size: 25                 # posts per API call (fewer calls = cheaper, fewer free-tier requests)
   seconds_between_calls: 7       # stay under the free tier's requests-per-minute limit
   max_desc_chars: 900            # only the start of the description is sent
   prompt_file: config/prompts/tagger_v1.md
   # Free tier = $0 actually paid. To report what it WOULD cost on the paid tier, fill these
   # from the provider's pricing page on the day you report (Gemini: ai.google.dev/pricing).
-  price_input_per_mtok_usd: null
-  price_output_per_mtok_usd: null
+  price_input_per_mtok_usd: 0.30    # gemini-3.5-flash-lite paid tier, checked 2026-11-19
+  price_output_per_mtok_usd: 2.50   # includes thinking tokens
 
 refresh:
   expire_after_days: 30          # hide a post not seen at its source for this long

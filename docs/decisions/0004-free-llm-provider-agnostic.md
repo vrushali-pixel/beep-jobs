@@ -11,7 +11,7 @@ GitHub's built-in free models, the other obvious option, were retired on 30 July
 - One small `Provider` interface (`tag(system, schema, user) -> answers, input tokens, output tokens`)
   with two implementations: `GeminiProvider` (REST, `responseSchema`) and `AnthropicProvider`
   (Messages API, forced tool call). Adding another is one class.
-- Default: `gemini-2.5-flash-lite` on Google's free tier (no card). Calls are paced
+- Default: `gemini-3.5-flash-lite` on Google's free tier (no card). Calls are paced
   (`seconds_between_calls: 7`); after 3 failed batches in a row the run stops calling, uses the
   keyword fallback, and retries those posts the next day.
 - Only public job-post text is sent, never personal data (Google may use free-tier requests to
