@@ -5,21 +5,16 @@ on:
 jobs:
   probe:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install -q .
-      - name: Rentokil locations
-        shell: python
+      - name: Full pipeline dry run (nothing is committed or published)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          import collections, json, urllib.request
-          from fresherjobs.sources import workable
-          from fresherjobs.config import Paths, load_settings
-          from fresherjobs.filters import Rules
-          rules = Rules(load_settings(Paths()))
-          posts = workable.fetch("rentokil-initial")
-          bad = [p for p in posts if rules.check(p) == "not in India"]
-          print("LOC", collections.Counter(p["location"] for p in bad).most_common(15))
-          raw = json.load(urllib.request.urlopen(urllib.request.Request("https://apply.workable.com/api/v1/widget/accounts/rentokil-initial", headers={"User-Agent": "fresherjobs/1.0"})))
-          print("RAWC", collections.Counter(j.get("country") for j in raw["jobs"]).most_common(8))
+          fresherjobs run 2>&1 | tail -40
+          echo "STATS $(tail -1 data/runs.jsonl)"
+          python -c "import json,collections;d=json.load(open('site/jobs.json'));print('LIVE',len(d['jobs']),collections.Counter(j['source'] for j in d['jobs']))"
