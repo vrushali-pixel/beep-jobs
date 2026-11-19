@@ -2981,6 +2981,229 @@
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
    "status": "active"
+  },
+  "f0b4d7abc32f": {
+   "id": "f0b4d7abc32f",
+   "title": "Industrial Trainee - Finance & Accounting",
+   "original_title": "Industrial Trainee - Finance & Accounting",
+   "company": "Sigmoid",
+   "location": "Bengaluru, Karnataka, India",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "finance",
+   "role_label": "Finance & Accounting",
+   "type": "apprentice",
+   "type_label": "Apprenticeship / Trainee",
+   "skills": [
+    "Accounting",
+    "Bookkeeping"
+   ],
+   "eligibility": "Semi-Qualified CA (CA Inter cleared)",
+   "pay": "",
+   "url": "https://job-boards.greenhouse.io/sigmoid/jobs/8713069002",
+   "source": "greenhouse",
+   "board": "sigmoid",
+   "posted": "2026-08-14",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "bb0e1de51cad": {
+   "id": "bb0e1de51cad",
+   "title": "Technical Account Engineer I",
+   "original_title": "Technical Account Engineer I",
+   "company": "Sumo Logic",
+   "location": "Noida, Uttar Pradesh, India",
+   "cities": [
+    "Noida"
+   ],
+   "role": "it_cloud",
+   "role_label": "IT, Cloud & Security",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://job-boards.greenhouse.io/sumologic/jobs/8305995",
+   "source": "greenhouse",
+   "board": "sumologic",
+   "posted": "2026-10-22",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "005478fdf4f1": {
+   "id": "005478fdf4f1",
+   "title": "Client Servicing Executive",
+   "original_title": "Client Servicing Executive ",
+   "company": "SWIGGY",
+   "location": "Mumbai, MH, India (remote)",
+   "cities": [
+    "Mumbai",
+    "Remote"
+   ],
+   "role": "support",
+   "role_label": "Customer Support",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "Communication"
+   ],
+   "eligibility": "1–2 years of experience in a client-facing role",
+   "pay": "",
+   "url": "https://jobs.smartrecruiters.com/Swiggy/6000000001576902",
+   "source": "smartrecruiters",
+   "board": "Swiggy",
+   "posted": "2026-11-14",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "ccb0e1a38acc": {
+   "id": "ccb0e1a38acc",
+   "title": "Graphic Designer",
+   "original_title": "Executive - Graphic Designer ",
+   "company": "SWIGGY",
+   "location": "Mumbai, MH, India",
+   "cities": [
+    "Mumbai"
+   ],
+   "role": "design",
+   "role_label": "Design & Creative",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "Adobe Photoshop",
+    "Illustrator",
+    "Figma"
+   ],
+   "eligibility": "1–2 years of experience in a graphic design role",
+   "pay": "",
+   "url": "https://jobs.smartrecruiters.com/Swiggy/6000000001576834",
+   "source": "smartrecruiters",
+   "board": "Swiggy",
+   "posted": "2026-11-14",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "232ae7566df4": {
+   "id": "232ae7566df4",
+   "title": "Social Media Intern",
+   "original_title": "Social Media Intern",
+   "company": "SWIGGY",
+   "location": "Mumbai, MH, India",
+   "cities": [
+    "Mumbai"
+   ],
+   "role": "marketing",
+   "role_label": "Marketing & Content",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://jobs.smartrecruiters.com/Swiggy/6000000001576673",
+   "source": "smartrecruiters",
+   "board": "Swiggy",
+   "posted": "2026-11-13",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "abc663daf0b4": {
+   "id": "abc663daf0b4",
+   "title": "Campus Associate",
+   "original_title": "Campus Associates - FY'27 - Hyderabad / Bengaluru",
+   "company": "Sutherland",
+   "location": "Hyderabad, TS, India",
+   "cities": [
+    "Hyderabad",
+    "Bengaluru"
+   ],
+   "role": "support",
+   "role_label": "Customer Support",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "Customer Service",
+    "Communication"
+   ],
+   "eligibility": "Any full time UG/PG Graduate (Arts/Science/Commerce/Engineering/Pharma/MBA/MCA) - 2026 Passout",
+   "pay": "",
+   "url": "https://jobs.smartrecruiters.com/Sutherland/744000151046829",
+   "source": "smartrecruiters",
+   "board": "Sutherland",
+   "posted": "2026-09-22",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "d033f08ddfdf": {
+   "id": "d033f08ddfdf",
+   "title": "Junior Service Desk Analyst",
+   "original_title": "Junior Service Desk Analyst",
+   "company": "Endava",
+   "location": "Bengaluru, Karnataka, India; Hyderabad, TS, India",
+   "cities": [
+    "Bengaluru",
+    "Hyderabad"
+   ],
+   "role": "support",
+   "role_label": "Customer Support",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [
+    "Technical Support",
+    "Helpdesk",
+    "Voice Support"
+   ],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://jobs.smartrecruiters.com/Endava/744000158205499",
+   "source": "smartrecruiters",
+   "board": "Endava",
+   "posted": "2026-10-28",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
+  },
+  "44b55036ff9e": {
+   "id": "44b55036ff9e",
+   "title": "HR Intern",
+   "original_title": "HR Intern",
+   "company": "Endava",
+   "location": "Pune, MH, India",
+   "cities": [
+    "Pune"
+   ],
+   "role": "hr",
+   "role_label": "HR & Recruiting",
+   "type": "internship",
+   "type_label": "Internship",
+   "skills": [
+    "HR Operations",
+    "HR Systems",
+    "Documentation"
+   ],
+   "eligibility": "Freshers",
+   "pay": "",
+   "url": "https://jobs.smartrecruiters.com/Endava/744000158003839",
+   "source": "smartrecruiters",
+   "board": "Endava",
+   "posted": "2026-10-27",
+   "tagger": "gemini-3.5-flash-lite",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
   }
  }
 }
