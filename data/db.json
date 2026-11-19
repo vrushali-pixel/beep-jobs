@@ -23,7 +23,7 @@
    "posted": "2026-09-04",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "d9394143ac6e": {
@@ -48,7 +48,7 @@
    "posted": "2026-11-02",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "6510143dda79": {
@@ -73,7 +73,7 @@
    "posted": "2026-09-04",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "878f9d93abda": {
@@ -98,7 +98,7 @@
    "posted": "2026-08-10",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "b3ef172b729b": {
@@ -123,7 +123,7 @@
    "posted": "2026-05-04",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "f0c90c1d63d4": {
@@ -149,7 +149,8 @@
    "tagger": "keywords",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-18",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-19"
   },
   "f01a1054bb3c": {
    "id": "f01a1054bb3c",
@@ -173,7 +174,7 @@
    "posted": "2026-08-05",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "6dd81a895379": {
@@ -380,7 +381,7 @@
    "posted": "2026-09-08",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "f46755862ac8": {
@@ -405,7 +406,7 @@
    "posted": "2026-11-10",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "baa6ad24ce9f": {
@@ -430,7 +431,7 @@
    "posted": "2026-09-01",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "bfa762deabb0": {
@@ -455,7 +456,7 @@
    "posted": "2026-07-10",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "ff7f2328c1e9": {
@@ -480,7 +481,7 @@
    "posted": "2026-11-13",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "108aab6c6911": {
@@ -583,7 +584,7 @@
    "posted": "2026-10-27",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "aa8fd61c87bc": {
@@ -608,7 +609,7 @@
    "posted": "2026-09-23",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "1e52c975eec7": {
@@ -633,7 +634,7 @@
    "posted": "2026-08-27",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "25739304b167": {
@@ -660,7 +661,7 @@
    "posted": "2026-10-07",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "de585830b2f4": {
@@ -685,7 +686,7 @@
    "posted": "2026-10-08",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "c9b971553efc": {
@@ -711,7 +712,7 @@
    "posted": "2026-10-19",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "b38866ee5548": {
@@ -736,7 +737,7 @@
    "posted": "2026-10-20",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "7e2286155406": {
@@ -761,7 +762,7 @@
    "posted": "2026-09-21",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "60e89e821f75": {
@@ -786,7 +787,7 @@
    "posted": "2026-07-27",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "e1941eca377a": {
@@ -811,7 +812,7 @@
    "posted": "2026-10-23",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "749b82ac3dbc": {
@@ -836,7 +837,7 @@
    "posted": "2026-10-30",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "1184f74c800c": {
@@ -861,7 +862,7 @@
    "posted": "2026-10-29",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "330b8ace4ad2": {
@@ -886,7 +887,7 @@
    "posted": "2026-04-22",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "b82f7e14879d": {
@@ -911,7 +912,7 @@
    "posted": "2026-11-16",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "40abd1ed5550": {
@@ -936,7 +937,7 @@
    "posted": "2026-11-16",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "714bfc3b2fd4": {
@@ -961,7 +962,7 @@
    "posted": "2026-10-28",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "e32f8a972e7c": {
@@ -986,7 +987,7 @@
    "posted": "2026-11-17",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "7c2eb6adffe0": {
@@ -1011,7 +1012,7 @@
    "posted": "2026-11-11",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "f9d6fbb63185": {
@@ -1036,7 +1037,7 @@
    "posted": "2026-10-30",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "e8e6b42c2e9c": {
@@ -1061,7 +1062,7 @@
    "posted": "2026-10-26",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "1f36dbfa5d31": {
@@ -1086,7 +1087,7 @@
    "posted": "2026-09-29",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "1f2ad88ca3ce": {
@@ -1111,13 +1112,13 @@
    "posted": "2026-09-17",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "7bf74445d88f": {
    "id": "7bf74445d88f",
-   "title": "2027 - Winter Software Engineer Intern, Gurugram",
-   "original_title": "2027 - Winter Software Engineer Intern, Gurugram",
+   "title": "2027 - Summer Software Engineer Intern, Gurugram",
+   "original_title": "2027 - Summer Software Engineer Intern, Gurugram",
    "company": "MDB General Referrals",
    "location": "Gurugram",
    "cities": [
@@ -1130,13 +1131,13 @@
    "skills": [],
    "eligibility": "",
    "pay": "",
-   "url": "https://job-boards.greenhouse.io/mdbgeneralreferrals/jobs/8127582",
+   "url": "https://job-boards.greenhouse.io/mdbgeneralreferrals/jobs/7989869",
    "source": "greenhouse",
    "board": "mdbgeneralreferrals",
    "posted": "2026-09-11",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "14f699cdad4f": {
@@ -1161,7 +1162,7 @@
    "posted": "2026-10-28",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "24e697238777": {
@@ -1186,7 +1187,7 @@
    "posted": "2026-08-27",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "24f69189b44b": {
@@ -1211,7 +1212,7 @@
    "posted": "2026-10-01",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "a0b314d60297": {
@@ -1236,7 +1237,7 @@
    "posted": "2026-09-06",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "f47fabb26f15": {
@@ -1261,7 +1262,7 @@
    "posted": "2026-10-25",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "1b65283682ee": {
@@ -1286,7 +1287,7 @@
    "posted": "2026-11-04",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "da5adf255538": {
@@ -1311,7 +1312,7 @@
    "posted": "2026-09-06",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "b2e11cf90482": {
@@ -1336,7 +1337,7 @@
    "posted": "2026-08-21",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "fc86f35dec70": {
@@ -1388,7 +1389,7 @@
    "posted": "2026-05-27",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "bbd8c0355a31": {
@@ -1414,7 +1415,7 @@
    "posted": "2026-08-13",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "c8c369a74f01": {
@@ -1439,7 +1440,7 @@
    "posted": "2026-10-27",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "6506517a35bf": {
@@ -1464,7 +1465,7 @@
    "posted": "2026-10-27",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "status": "active"
   },
   "426452f5b439": {
@@ -1474,10 +1475,10 @@
    "company": "Sika AG",
    "location": "Jhagadia, GJ, India",
    "cities": [],
-   "role": "other",
-   "role_label": "Other",
-   "type": "fulltime",
-   "type_label": "Full-time job",
+   "role": "core_engg",
+   "role_label": "Core Engineering",
+   "type": "apprentice",
+   "type_label": "Apprenticeship / Trainee",
    "skills": [],
    "eligibility": "",
    "pay": "",
@@ -1487,21 +1488,20 @@
    "posted": "2026-07-10",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "status": "closed",
-   "closed_on": "2026-11-17"
+   "last_seen": "2026-11-19",
+   "status": "active"
   },
   "0b06214fdabe": {
    "id": "0b06214fdabe",
-   "title": "Process Associate ( CA OR Semi Qualified) ",
+   "title": "Process Associate ( CA OR Semi Qualified)",
    "original_title": "Process Associate ( CA OR Semi Qualified) ",
    "company": "Bosch Group",
    "location": "bangalore, India",
    "cities": [
     "Bengaluru"
    ],
-   "role": "other",
-   "role_label": "Other",
+   "role": "finance",
+   "role_label": "Finance & Accounting",
    "type": "fulltime",
    "type_label": "Full-time job",
    "skills": [],
@@ -1513,9 +1513,8 @@
    "posted": "2026-10-29",
    "tagger": "keywords",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "status": "closed",
-   "closed_on": "2026-11-17"
+   "last_seen": "2026-11-19",
+   "status": "active"
   },
   "2fb49e5b1d00": {
    "id": "2fb49e5b1d00",
@@ -1750,6 +1749,31 @@
    "last_seen": "2026-11-17",
    "status": "closed",
    "closed_on": "2026-11-17"
+  },
+  "c08851d8a530": {
+   "id": "c08851d8a530",
+   "title": "Associate SDE",
+   "original_title": "Associate SDE",
+   "company": "Hevodata",
+   "location": "Bangalore, India",
+   "cities": [
+    "Bengaluru"
+   ],
+   "role": "coding",
+   "role_label": "Coding & Software",
+   "type": "fulltime",
+   "type_label": "Full-time job",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://jobs.lever.co/hevodata/4eccaf98-ba19-42ea-b040-e0976d4dadfe",
+   "source": "lever",
+   "board": "hevodata",
+   "posted": "2026-11-18",
+   "tagger": "keywords",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "status": "active"
   }
  }
 }
