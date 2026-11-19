@@ -1,0 +1,37 @@
+name: Fetch full posts for the accuracy sample (temporary)
+on:
+  push:
+    branches: [sample-v3-fetch]
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q .
+      - shell: python
+        run: |
+          import json, time
+          from fresherjobs import sources
+          from fresherjobs.dedupe import canon_url
+          need = json.load(open("eval/_need.json")); out = {}
+          for key in sorted({(n["source"], n["board"]) for n in need}):
+              src, board = key
+              try:
+                  posts = sources.FETCHERS[src](board, 0.5) if src == "smartrecruiters" else sources.FETCHERS[src](board)
+              except Exception as e:
+                  print("FAIL", key, e); continue
+              by = {canon_url(p["url"]): p for p in posts}
+              for n in need:
+                  if (n["source"], n["board"]) == key and canon_url(n["url"]) in by:
+                      p = by[canon_url(n["url"])]
+                      if src in sources.DETAIL and not p.get("description"):
+                          try: p = sources.DETAIL[src](p)
+                          except Exception: pass
+                      out[n["id"]] = {k: p.get(k, "") for k in ("title", "company", "location", "employment_type", "description")}
+              time.sleep(0.5)
+          print("FOUND", len(out), "of", len(need))
+          json.dump(out, open("full_posts.json", "w"), ensure_ascii=False)
+      - uses: actions/upload-artifact@v4
+        with: {name: full-posts, path: full_posts.json}
