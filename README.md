@@ -70,8 +70,8 @@ One daily run, from 147 official company job boards on 8 platforms:
 | Really open to freshers | 46 of 50 (92%); 4 asked for experience the rules and AI missed |
 | Tests | 60 offline tests, lint, on every push |
 
-The accuracy samples were checked by Claude (a second model) against each full post, not yet by a
-person: see `eval/sample_v3.csv` (newest, 50 of the 243 live posts) and the earlier
+The accuracy samples were checked by Claude (a second model) against each full post, then spot-checked by a
+person (18 rows, including 14 of the 15 AI mistakes): see `eval/sample_v3.csv` (newest, 50 of the 243 live posts) and the earlier
 `eval/sample_50.csv` and `eval/sample_v2.csv`.
 
 ### How it went from 93 to 243

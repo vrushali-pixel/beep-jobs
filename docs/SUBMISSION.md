@@ -27,7 +27,7 @@ pay, scam red flags), and publishes a static search page. Closed jobs disappear 
 - **Accuracy (fresh sample of 50 of the 243 live posts, 19 Nov):** role 96%, city 88% (3 of the 6
   misses were Hyderabad area names like Medchal and Miyapur, now in the city list), and 46 of 50
   (92%) really open to freshers. Earlier samples on the 93-post set: role 94% / 89%, city 98% / 100%.
-  Checked by Claude against each full post (owner spot-check): `eval/sample_v3.csv`.
+  Checked by Claude against each full post, then 18 rows spot-checked by the owner: `eval/sample_v3.csv`.
 - **Cost:** $0.39 per 1,000 posts at Gemini 3.5 Flash-Lite paid prices (280 input + 121 output
   tokens per post, measured over 2,148 LLM-tagged posts). Actually paid: $0 (free tier). Only new
   posts are sent to the LLM; answers are cached per prompt version.
