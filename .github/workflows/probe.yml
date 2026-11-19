@@ -6,36 +6,32 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Probe
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q .
+      - name: Fetch only the new platforms and apply the free rules
         shell: python
         run: |
-          import json, re, urllib.request
-          UA = {"User-Agent": "fresherjobs/1.0 (student job finder; see github.com/vrushali-pixel/beep-jobs)"}
-          def get(u):
-              try:
-                  with urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=20) as r:
-                      return r.status, r.read().decode("utf-8", "replace")
-              except Exception as e:
-                  return getattr(e, "code", 0), str(e)
-          first = True
-          for t in "kognitokube coolboots comprinno gokwik teachmint tohands minfy adda247 popclub kitemaps earthitects lambdatest keka".split():
-              s, html = get(f"https://{t}.keka.com/careers/")
-              ids = re.findall(r"/ats/documents/([0-9a-f-]{36})/careerportal", html)
-              if not ids:
-                  ids = sorted(set(re.findall(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", html)))
-                  print("KEKA-NOID", t, s, len(html), ids, [m for m in re.findall(r"[\"']([^\"']*(?:api|documents)[^\"']*)[\"']", html)][:6])
-                  if not ids: continue
-              s2, b = get(f"https://{t}.keka.com/careers/api/embedjobs/default/active/{ids[0]}")
-              try:
-                  jobs = json.loads(b)
-              except Exception:
-                  print("KEKA", t, s2, b[:100]); continue
-              if first and jobs:
-                  j = {k: v for k, v in jobs[0].items() if k not in ("description", "excerpt")}
-                  print("KEKA-SAMPLE", json.dumps(j)[:2500]); first = False
-              print("KEKA", t, ids[0], len(jobs), [x.get("title") for x in jobs][:4])
-          for w in "rentokil-initial appfoster".split():
-              s, b = get(f"https://apply.workable.com/api/v1/widget/accounts/{w}")
-              try:
-                  jobs = json.loads(b)["jobs"]; print("WORKABLE", w, len(jobs), [j["title"] for j in jobs if j.get("country") == "India"][:10])
-              except Exception: print("WORKABLE", w, s, b[:80])
+          import collections, time
+          from fresherjobs import sources
+          from fresherjobs.config import Paths, load_settings, load_yaml
+          from fresherjobs.filters import Rules
+          rules = Rules(load_settings(Paths())); comp = load_yaml(Paths().companies)
+          tot = collections.Counter()
+          for kind in ("workable", "recruitee", "breezy", "keka"):
+              for slug in comp.get(kind) or []:
+                  try:
+                      posts = sources.FETCHERS[kind](slug)
+                  except Exception as e:
+                      print(f"{kind:10} {slug:22} FAILED {type(e).__name__} {str(e)[:80]}"); continue
+                  res = collections.Counter(rules.check(p) or "keep" for p in posts)
+                  tot.update(res)
+                  noloc = sum(1 for p in posts if not p["location"])
+                  keep = [p["title"] for p in posts if rules.check(p) == ""][:5]
+                  ai = [p["title"] for p in posts if rules.check(p) == "ai"][:4]
+                  print(f"{kind:10} {slug:22} all={len(posts)} no_location={noloc} {dict(res)}\n    keep: {keep}\n    ai: {ai}")
+                  if kind == "keka" and noloc:
+                      print("    sample no-location:", [p["title"] for p in posts if not p["location"]][:3])
+                  time.sleep(0.5)
+          print("TOTAL", dict(tot))

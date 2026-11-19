@@ -152,6 +152,39 @@ smartrecruiters:
   - Sutherland               # Campus Associates FY'27
   - Endava                   # junior analysts, HR intern
 
+# ---- Added 19 Nov 2026 (BUILD_LOG #28): four more official job-board platforms that Indian
+# companies use. Each one is the public feed the company's own careers page reads.
+# Recruitment agencies and gig platforms that post jobs FOR other companies are left out on
+# purpose (e.g. weekday-1, hudsonmanpower, toloka-ai): this page lists employers' own posts only.
+
+workable:                    # apply.workable.com/<slug>
+  - apna                     # Bengaluru, interns + entry roles
+  - lokal-app                # Bengaluru, interns (PPO)
+  - blue-machines-ai         # Bengaluru, AI interns
+  - 2070health               # Everhope Oncology etc., growth interns
+  - lakshyadigitalglobal     # Gurugram/Pune, 3D animation & rigging internships
+  - rentokil-initial         # Rentokil PCI India, "freshers welcome" field roles
+  - gotymex                  # Bengaluru
+  - teltonika                # Bengaluru
+
+recruitee:                   # <slug>.recruitee.com
+  - gain                     # Gain.pro, Bengaluru junior analysts
+  - careersdeltacapita       # Delta Capita, Bengaluru/Pune analysts
+
+breezy:                      # <slug>.breezy.hr (no descriptions in the feed)
+  - inorg-global             # InOrg, India interns
+
+keka:                        # <tenant>.keka.com/careers (read only under /careers/, as robots.txt allows)
+  - gokwik                   # Bengaluru/Gurugram interns
+  - teachmint                # Bengaluru interns
+  - minfy                    # Hyderabad interns
+  - comprinno                # Bengaluru software interns
+  - lambdatest               # TestMu (LambdaTest), interns + SDET-I
+  - adda247                  # interns
+  - earthitects              # Bengaluru, architect & sales interns
+  - kitemaps                 # Redwing Labs, Bengaluru
+  - tohands                  # Bengaluru
+
 # Workday career sites are big MNC boards. Their search endpoint is the one the public
 # careers page itself calls, but it is NOT a documented public API. Tried on 17 Nov 2026:
 # every site answered 429 (refused) to GitHub's servers, so it stays OFF.
