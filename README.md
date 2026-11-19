@@ -63,14 +63,16 @@ One daily run, from 147 official company job boards on 8 platforms:
 
 | | |
 |---|---|
-| Role tag correct | 94% (first 50-post sample) · 89% (a second, fresh sample of 28 live posts) |
-| City tag correct | 98% · 100% |
+| Role tag correct | 96% (fresh 50-post sample of the 243, 19 Nov) · earlier: 94% and 89% |
+| City tag correct | 88% (3 of the 6 misses fixed since by adding Hyderabad area names) · earlier: 98%, 100% |
 | Cost per 1,000 posts | **$0.39** at Gemini 3.5 Flash-Lite paid prices (280 input + 121 output tokens per post); **$0 actually paid** (free tier) |
 | Run time | ~13 minutes, of which most is politely reading descriptions |
-| Tests | 57 offline tests, lint, on every push |
+| Really open to freshers | 46 of 50 (92%); 4 asked for experience the rules and AI missed |
+| Tests | 60 offline tests, lint, on every push |
 
 The accuracy samples were checked by Claude (a second model) against each full post, not yet by a
-person: see `eval/sample_50.csv` and `eval/sample_v2.csv`.
+person: see `eval/sample_v3.csv` (newest, 50 of the 243 live posts) and the earlier
+`eval/sample_50.csv` and `eval/sample_v2.csv`.
 
 ### How it went from 93 to 243
 

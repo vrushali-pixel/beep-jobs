@@ -7,7 +7,7 @@ Built for Beep's Gen AI & Engineering assignment (deadline Fri 20 Nov 2026, 11:5
 Live: https://vrushali-pixel.github.io/beep-jobs/
 
 ## Commands
-- `pip install -e ".[dev]"`, then `make test` (57 offline tests) and `make lint` (ruff)
+- `pip install -e ".[dev]"`, then `make test` (60 offline tests) and `make lint` (ruff)
 - `fresherjobs run` (needs internet; `GEMINI_API_KEY` for AI tagging), `fresherjobs discover`,
   `fresherjobs sample`, `fresherjobs score FILE`
 - `make serve` serves `site/` at http://localhost:8000
@@ -34,7 +34,7 @@ Live: https://vrushali-pixel.github.io/beep-jobs/
 ## Open work (in order, as of 19 Nov 2026)
 Done: Gemini key + LLM tagging (S1/S3/S12), accuracy samples (S11, checked by Claude), README numbers,
 screenshots, `docs/SUBMISSION.md`, `docs/VIDEO_SCRIPT.md`. Live: 243 posts after adding Workable/Recruitee/Breezy/Keka (BUILD_LOG #28, 19 Nov).
-1. Owner spot-checks 5–10 rows of `eval/sample_50.csv` and `eval/sample_v2.csv`, then close issue #11.
+1. Owner spot-checks 5–10 rows of `eval/sample_v3.csv` (newest, 50 of the 243; checked by Claude 19 Nov), then close issue #11.
 2. Owner puts `docs/SUBMISSION.md` into the Google Doc/Sheet and records the Loom from `docs/VIDEO_SCRIPT.md`.
 3. Just before submitting (deadline Fri 20 Nov 2026, 11:59 PM IST): `gh workflow disable daily.yml` to freeze the numbers.
 4. Local note: this PC needs `git -c http.sslBackend=schannel pull/push` (certificate store).

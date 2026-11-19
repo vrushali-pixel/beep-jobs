@@ -29,6 +29,9 @@ def test_rules(rules, post, expected):
 
 def test_city_aliases(rules):
     assert rules.cities_in("Bangalore; Gurgaon, Haryana; Navi Mumbai") == ["Bengaluru", "Mumbai", "Gurugram"]
+    # Hyderabad area names seen in the 19 Nov accuracy check (BUILD_LOG #29)
+    assert rules.cities_in("Medchal, Telangana, India") == ["Hyderabad"]
+    assert rules.cities_in("Miyapur, Telangana, India") == ["Hyderabad"]
 
 
 def test_tidy_company():

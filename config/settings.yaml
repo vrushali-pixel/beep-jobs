@@ -86,7 +86,7 @@ job_types:
 # Canonical city -> spellings seen in posts. The LLM is told to use the canonical names.
 cities:
   Bengaluru: [bengaluru, bangalore, bengaluru urban, bangalore urban]
-  Hyderabad: [hyderabad, secunderabad, gachibowli, hitech city]
+  Hyderabad: [hyderabad, secunderabad, gachibowli, hitech city, medchal, miyapur, madhapur, kondapur, kukatpally, nanakramguda]
   Pune: [pune, pimpri, chinchwad, hinjewadi, kharadi, baner]
   Mumbai: [mumbai, navi mumbai, thane, bombay, powai, andheri]
   Chennai: [chennai, madras]

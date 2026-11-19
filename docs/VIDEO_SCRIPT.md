@@ -32,7 +32,7 @@ Pick 3–4:
    mistake myself when I read only the start of the posts."
 
 **4:15–5:00 · Numbers and next**
-- 13,274 posts → 243 live; role accuracy 89–94%, city 98–100%; $0.39 per 1,000 posts, $0 paid.
+- 13,274 posts → 243 live; on a fresh 50-post check: role 96%, city 88%, 46 of 50 really for freshers; $0.39 per 1,000 posts, $0 paid.
 - "It was stuck at 93 because Indian startups don't use the US job-board platforms. I added Workable,
   Recruitee, Breezy and Keka, the feeds their own careers pages use, and it went to 243 with the same
   strict rules. Each company is one config line. Next: Beep's hiring partners as a source, report a
