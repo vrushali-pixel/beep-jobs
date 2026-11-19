@@ -22,16 +22,18 @@ jobs:
               s, html = get(f"https://{t}.keka.com/careers/")
               ids = re.findall(r"/ats/documents/([0-9a-f-]{36})/careerportal", html)
               if not ids:
-                  print("KEKA", t, s, "no id"); continue
+                  ids = sorted(set(re.findall(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", html)))
+                  print("KEKA-NOID", t, s, len(html), ids, re.findall(r"(?:src|href|fetch\\()=?['\"]([^'\"]*(?:api|documents)[^'\"]*)", html)[:5], html[:300].replace("\n"," "))
+                  if not ids: continue
               s2, b = get(f"https://{t}.keka.com/careers/api/embedjobs/default/active/{ids[0]}")
               try:
                   jobs = json.loads(b)
               except Exception:
                   print("KEKA", t, s2, b[:100]); continue
               if first and jobs:
-                  j = dict(jobs[0]); j["description"] = j.get("description", "")[:80]
+                  j = {k: v for k, v in jobs[0].items() if k not in ("description", "excerpt")}
                   print("KEKA-SAMPLE", json.dumps(j)[:2500]); first = False
-              print("KEKA", t, ids[0], len(jobs), [x.get("title") for x in jobs][:10])
+              print("KEKA", t, ids[0], len(jobs), [x.get("title") for x in jobs][:4])
           for w in "rentokil-initial appfoster".split():
               s, b = get(f"https://apply.workable.com/api/v1/widget/accounts/{w}")
               try:
