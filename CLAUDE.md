@@ -37,6 +37,5 @@ screenshots, `docs/SUBMISSION.md`, `docs/VIDEO_SCRIPT.md`. Live: 243 posts after
 Done 19 Nov evening: new page layout live (☰ menu, Filters panel, job panel, #addresses; BUILD_LOG #30), new screenshots,
 video demo steps updated. A manual refresh that evening made it 239 live.
 1. Done 20 Nov night: Loom recorded and linked in README + docs/SUBMISSION.md (https://www.loom.com/share/f7c65e983d414c5e9a904ef622260a9a, commit b4381e0). Raw mp4 (157 MB) not in repo: over GitHub's 100 MB limit.
-2. Still open: confirm the owner submitted; then `gh workflow disable daily.yml` to freeze the numbers and set the "Live" count
-   in README.md (results table) and docs/SUBMISSION.md to the frozen number (238 on 20 Nov). "of the 243" in the accuracy lines stays.
+2. Done 20 Nov night: owner submitted; daily.yml disabled (numbers frozen); "Live" set to 238 in README + SUBMISSION. Re-enable with `gh workflow enable daily.yml` if wanted.
 3. Local note: this PC needs `git -c http.sslBackend=schannel pull/push` (certificate store).
