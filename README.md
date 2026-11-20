@@ -8,7 +8,7 @@
 **A daily feed of real internships and fresher jobs in India, straight from companies' official
 job boards, de-duplicated, tagged by an LLM with role and city, and shown on a simple search page.**
 
-**Live:** https://vrushali-pixel.github.io/beep-jobs/ · numbers frozen 20 Nov 2026 for submission (daily refresh paused)
+**Live:** https://vrushali-pixel.github.io/beep-jobs/ · refreshes itself every day at 6:10 AM IST
 
 **Video walkthrough (Loom):** https://www.loom.com/share/f7c65e983d414c5e9a904ef622260a9a
 
@@ -61,7 +61,7 @@ One daily run, from 147 official company job boards on 8 platforms:
 | Senior title (dropped) | 2,011 |
 | Description requires 1+ years of experience (dropped by a plain rule) | 848 |
 | Left for screening, after merging 174 duplicates | 633 |
-| **Live: India roles a fresher can really apply to** | **238 (frozen 20 Nov)** |
+| **Live: India roles a fresher can really apply to** | **238** (on 20 Nov; the live page updates daily) |
 
 | | |
 |---|---|

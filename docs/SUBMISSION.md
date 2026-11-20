@@ -22,7 +22,7 @@ pay, scam red flags), and publishes a static search page. Closed jobs disappear 
 | Senior title | 2,011 dropped |
 | Requires 1+ years of experience (plain rule) | 848 dropped |
 | Screened by the LLM (after merging 174 duplicates) | 633 |
-| **Live** | **238** (frozen 20 Nov) |
+| **Live** | **238** (on 20 Nov; the live page updates daily) |
 
 - **Accuracy (fresh sample of 50 of the 243 live posts, 19 Nov):** role 96%, city 88% (3 of the 6
   misses were Hyderabad area names like Medchal and Miyapur, now in the city list), and 46 of 50
