@@ -10,6 +10,8 @@ job boards, de-duplicated, tagged by an LLM with role and city, and shown on a s
 
 **Live:** https://vrushali-pixel.github.io/beep-jobs/ · refreshes itself every day at 6:10 AM IST
 
+**Video walkthrough (Loom):** https://www.loom.com/share/f7c65e983d414c5e9a904ef622260a9a
+
 <p>
   <img src="docs/img/page-desktop.png" alt="The search page on a laptop" width="620">
   <img src="docs/img/page-mobile.png" alt="The search page on a phone" width="210">

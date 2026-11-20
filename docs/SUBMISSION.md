@@ -6,7 +6,7 @@ Copy these sections into the Google Doc / Sheet for Beep's Gen AI & Engineering 
 - **Live page:** https://vrushali-pixel.github.io/beep-jobs/
 - **Code:** https://github.com/vrushali-pixel/beep-jobs
 - **Data (refreshed daily):** `site/jobs.json` (what the page shows) and `data/jobs.csv` (spreadsheet-friendly)
-- **Video:** *(Loom link)*
+- **Video (5-min walkthrough):** https://www.loom.com/share/f7c65e983d414c5e9a904ef622260a9a
 
 ## What it does
 Every morning a GitHub Action reads ~13,300 posts from 147 companies' **official** job boards
