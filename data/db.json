@@ -52,7 +52,7 @@
    "posted": "2026-11-02",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "6510143dda79": {
@@ -77,7 +77,7 @@
    "posted": "2026-09-04",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "878f9d93abda": {
@@ -102,7 +102,7 @@
    "posted": "2026-08-10",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b3ef172b729b": {
@@ -129,7 +129,7 @@
    "posted": "2026-05-04",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "f0c90c1d63d4": {
@@ -183,7 +183,7 @@
    "posted": "2026-08-05",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "6dd81a895379": {
@@ -395,7 +395,7 @@
    "posted": "2026-09-08",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "f46755862ac8": {
@@ -425,7 +425,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
    "last_seen": "2026-11-23",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-24"
   },
   "baa6ad24ce9f": {
    "id": "baa6ad24ce9f",
@@ -449,7 +450,7 @@
    "posted": "2026-09-01",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "bfa762deabb0": {
@@ -477,7 +478,7 @@
    "posted": "2026-07-10",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "ff7f2328c1e9": {
@@ -505,7 +506,7 @@
    "posted": "2026-11-13",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "108aab6c6911": {
@@ -608,7 +609,7 @@
    "posted": "2026-10-27",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "aa8fd61c87bc": {
@@ -633,7 +634,7 @@
    "posted": "2026-09-23",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "1e52c975eec7": {
@@ -658,7 +659,7 @@
    "posted": "2026-08-27",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "25739304b167": {
@@ -685,7 +686,7 @@
    "posted": "2026-10-07",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "de585830b2f4": {
@@ -710,7 +711,7 @@
    "posted": "2026-10-08",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "c9b971553efc": {
@@ -741,7 +742,7 @@
    "posted": "2026-10-19",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b38866ee5548": {
@@ -771,7 +772,7 @@
    "posted": "2026-10-20",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "7e2286155406": {
@@ -800,7 +801,7 @@
    "posted": "2026-09-21",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "60e89e821f75": {
@@ -831,7 +832,7 @@
    "posted": "2026-07-27",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "e1941eca377a": {
@@ -859,7 +860,7 @@
    "posted": "2026-10-23",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "749b82ac3dbc": {
@@ -887,7 +888,7 @@
    "posted": "2026-10-30",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "1184f74c800c": {
@@ -916,7 +917,7 @@
    "posted": "2026-10-29",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "330b8ace4ad2": {
@@ -944,7 +945,7 @@
    "posted": "2026-04-22",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b82f7e14879d": {
@@ -973,7 +974,7 @@
    "posted": "2026-11-16",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "40abd1ed5550": {
@@ -1002,7 +1003,7 @@
    "posted": "2026-11-16",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "714bfc3b2fd4": {
@@ -1030,13 +1031,13 @@
    "posted": "2026-10-28",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "e32f8a972e7c": {
    "id": "e32f8a972e7c",
    "title": "Associate Software Test Engineer",
-   "original_title": "Associate Software Test Engineer (Java, Selenium)",
+   "original_title": "Associate Software Test Engineer (Playwright, Typescript/ Javascript)",
    "company": "NielsenIQ",
    "location": "Pune, MH, India",
    "cities": [
@@ -1054,15 +1055,14 @@
    ],
    "eligibility": "6 months to 1.6 years of software development and/or automated testing experience",
    "pay": "",
-   "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000162070650",
+   "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163286875",
    "source": "smartrecruiters",
    "board": "NielsenIQ",
-   "posted": "2026-11-17",
+   "posted": "2026-11-23",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-19",
-   "status": "closed",
-   "closed_on": "2026-11-19"
+   "last_seen": "2026-11-24",
+   "status": "active"
   },
   "7c2eb6adffe0": {
    "id": "7c2eb6adffe0",
@@ -1230,7 +1230,7 @@
    "posted": "2026-09-11",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "14f699cdad4f": {
@@ -1311,7 +1311,7 @@
    "posted": "2026-10-01",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "a0b314d60297": {
@@ -1340,7 +1340,7 @@
    "posted": "2026-09-06",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "f47fabb26f15": {
@@ -1368,7 +1368,7 @@
    "posted": "2026-10-25",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "1b65283682ee": {
@@ -1395,7 +1395,7 @@
    "posted": "2026-11-04",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "da5adf255538": {
@@ -1425,7 +1425,7 @@
    "posted": "2026-09-06",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b2e11cf90482": {
@@ -1450,7 +1450,7 @@
    "posted": "2026-08-21",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "fc86f35dec70": {
@@ -1501,7 +1501,7 @@
    "posted": "2026-05-27",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "bbd8c0355a31": {
@@ -1526,7 +1526,7 @@
    "posted": "2026-08-13",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "c8c369a74f01": {
@@ -1551,7 +1551,7 @@
    "posted": "2026-10-27",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "6506517a35bf": {
@@ -1581,7 +1581,7 @@
    "posted": "2026-10-27",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "426452f5b439": {
@@ -1607,7 +1607,7 @@
    "posted": "2026-07-10",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "0b06214fdabe": {
@@ -1637,7 +1637,7 @@
    "posted": "2026-10-29",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "2fb49e5b1d00": {
@@ -1900,7 +1900,7 @@
    "posted": "2026-11-18",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "4398f2f8c0ad": {
@@ -2048,7 +2048,7 @@
    "posted": "2026-10-03",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "1406c81985f3": {
@@ -2151,7 +2151,7 @@
    "posted": "2026-04-21",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "7d5033a4442e": {
@@ -2202,7 +2202,7 @@
    "posted": "2026-10-12",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "47898cdad975": {
@@ -2317,7 +2317,7 @@
    "posted": "2026-07-07",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "bc96eed37f61": {
@@ -2346,7 +2346,7 @@
    "posted": "2026-01-08",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "39ccf206c559": {
@@ -2655,7 +2655,7 @@
    "posted": "2026-11-02",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "24ef906922b0": {
@@ -2770,7 +2770,7 @@
    "posted": "2026-11-19",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "dff1e5d6234f": {
@@ -3037,7 +3037,7 @@
    "posted": "2026-07-03",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "43a513b40570": {
@@ -3097,7 +3097,7 @@
    "posted": "2026-08-14",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "bb0e1de51cad": {
@@ -3212,7 +3212,7 @@
    "posted": "2026-11-13",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "abc663daf0b4": {
@@ -3241,7 +3241,7 @@
    "posted": "2026-09-22",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "d033f08ddfdf": {
@@ -3270,7 +3270,7 @@
    "posted": "2026-10-28",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "44b55036ff9e": {
@@ -3299,7 +3299,7 @@
    "posted": "2026-10-27",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "9cb036b011c0": {
@@ -3514,7 +3514,7 @@
    "posted": "2026-01-13",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "90e798646e8a": {
@@ -3708,7 +3708,7 @@
    "posted": "2026-01-07",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "42722fd7d0b3": {
@@ -3766,7 +3766,7 @@
    "posted": "2026-09-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "5a2a53388682": {
@@ -3856,7 +3856,7 @@
    "posted": "2026-11-05",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "57e5a04265e1": {
@@ -3940,7 +3940,7 @@
    "posted": "2026-07-24",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "d30d3c258467": {
@@ -3969,7 +3969,7 @@
    "posted": "2026-07-02",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "582c7a2d9839": {
@@ -3999,7 +3999,7 @@
    "posted": "2026-09-04",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "cec2158ae7f8": {
@@ -4020,13 +4020,13 @@
    ],
    "eligibility": "",
    "pay": "",
-   "url": "https://www.highradius.com/about/careers-list/?gh_jid=7734235003",
+   "url": "https://www.highradius.com/about/careers-list/?gh_jid=7734268003",
    "source": "greenhouse",
    "board": "highradius",
    "posted": "2026-08-18",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "5315330fa6ca": {
@@ -4054,7 +4054,7 @@
    "posted": "2026-08-12",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "883f2b9681dc": {
@@ -4082,7 +4082,7 @@
    "posted": "2026-08-11",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "695d57ceae7f": {
@@ -4110,7 +4110,7 @@
    "posted": "2026-10-20",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "c5f7291cc857": {
@@ -4138,7 +4138,7 @@
    "posted": "2026-08-24",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "72d75cd228cf": {
@@ -4190,13 +4190,13 @@
    ],
    "eligibility": "",
    "pay": "",
-   "url": "https://job-boards.greenhouse.io/purestorage/jobs/8330275",
+   "url": "https://job-boards.greenhouse.io/purestorage/jobs/8330285",
    "source": "greenhouse",
    "board": "purestorage",
    "posted": "2026-11-03",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "3ff4ccb07569": {
@@ -4225,7 +4225,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-23",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-24"
   },
   "f52067d79e0d": {
    "id": "f52067d79e0d",
@@ -4252,7 +4253,7 @@
    "posted": "2026-10-20",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "3f118fb6d045": {
@@ -4280,7 +4281,7 @@
    "posted": "2026-08-11",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "ad2b070fb8b3": {
@@ -4308,7 +4309,7 @@
    "posted": "2026-10-29",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "3e8bdf1b9484": {
@@ -4333,7 +4334,7 @@
    "posted": "2026-08-13",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "0fe04558a01a": {
@@ -4358,7 +4359,7 @@
    "posted": "2026-11-16",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "2173d4a57dcf": {
@@ -4387,7 +4388,7 @@
    "posted": "2026-06-10",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "ff896f5c563a": {
@@ -4475,7 +4476,7 @@
    "posted": "2026-11-23",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "19a1bd9d81fd": {
@@ -4501,7 +4502,7 @@
    "posted": "2026-11-09",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "790f99515135": {
@@ -4526,7 +4527,7 @@
    "posted": "2026-11-03",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "06c009b2fdf8": {
@@ -4551,7 +4552,7 @@
    "posted": "2026-10-05",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b6162f558a33": {
@@ -4579,7 +4580,7 @@
    "posted": "2026-11-05",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "ed944e4b0c0c": {
@@ -4607,7 +4608,7 @@
    "posted": "2026-10-19",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "fe8e85c3f3b3": {
@@ -4635,7 +4636,7 @@
    "posted": "2026-09-14",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "28a2c58c0eec": {
@@ -4663,7 +4664,7 @@
    "posted": "2026-09-14",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "1c30c3fecc52": {
@@ -4691,7 +4692,7 @@
    "posted": "2026-09-14",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "bf5e71c91bef": {
@@ -4719,7 +4720,7 @@
    "posted": "2026-09-14",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "a3012aeb01c4": {
@@ -4748,7 +4749,7 @@
    "posted": "2026-03-12",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b97471da2f59": {
@@ -4777,7 +4778,7 @@
    "posted": "2026-10-28",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "8648191e377c": {
@@ -4803,7 +4804,7 @@
    "posted": "2026-11-06",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "315887bc56ca": {
@@ -4830,7 +4831,7 @@
    "posted": "2026-04-29",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "ff5fd48f9746": {
@@ -4858,7 +4859,7 @@
    "posted": "2026-11-04",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "254bea9d5f2d": {
@@ -4884,7 +4885,7 @@
    "posted": "2026-04-20",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "ceaccbcfbeee": {
@@ -4910,7 +4911,7 @@
    "posted": "2026-04-16",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "0dbac28e7c98": {
@@ -4937,7 +4938,7 @@
    "posted": "2026-04-29",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "ab33dee87d84": {
@@ -4966,7 +4967,7 @@
    "posted": "2026-10-28",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "7c0a23b8536d": {
@@ -4995,7 +4996,7 @@
    "posted": "2026-09-28",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "6646de807e16": {
@@ -5024,7 +5025,7 @@
    "posted": "2026-09-28",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "f733474db5f4": {
@@ -5053,7 +5054,7 @@
    "posted": "2025-02-13",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "3edd3a26a210": {
@@ -5082,7 +5083,7 @@
    "posted": "2026-11-04",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "1dad59ed04d2": {
@@ -5110,7 +5111,7 @@
    "posted": "2026-09-28",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "51530e5525b4": {
@@ -5169,7 +5170,7 @@
    "posted": "2026-07-14",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "c47e0b7c01ac": {
@@ -5198,7 +5199,7 @@
    "posted": "2026-11-16",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b11cd5d066d3": {
@@ -5226,7 +5227,7 @@
    "posted": "2026-09-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "ed66d37182b0": {
@@ -5255,7 +5256,7 @@
    "posted": "2026-11-12",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "2a705946fa17": {
@@ -5284,7 +5285,7 @@
    "posted": "2026-10-27",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "9f51ba1330c5": {
@@ -5313,7 +5314,7 @@
    "posted": "2026-11-02",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "d538524995e0": {
@@ -5372,7 +5373,7 @@
    "posted": "2026-11-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "802949ba9514": {
@@ -5401,7 +5402,7 @@
    "posted": "2026-09-08",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "c00dbcf08b06": {
@@ -5429,7 +5430,7 @@
    "posted": "2026-10-07",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "d82f3e447442": {
@@ -5459,7 +5460,7 @@
    "posted": "2026-10-01",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "7f4bfab7f49f": {
@@ -5489,7 +5490,7 @@
    "posted": "2026-10-01",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "50220e41cb5c": {
@@ -5519,7 +5520,7 @@
    "posted": "2026-10-06",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "330953d5c2bb": {
@@ -5549,7 +5550,7 @@
    "posted": "2026-10-01",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "25c0c02fedfa": {
@@ -5578,7 +5579,7 @@
    "posted": "2026-11-06",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "5c0433fe5389": {
@@ -5607,7 +5608,7 @@
    "posted": "2026-11-20",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b194fb297a14": {
@@ -5638,7 +5639,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-23",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-24"
   },
   "3971a86b86a0": {
    "id": "3971a86b86a0",
@@ -5666,7 +5668,8 @@
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-23",
-   "status": "active"
+   "status": "closed",
+   "closed_on": "2026-11-24"
   },
   "db73aeaaae62": {
    "id": "db73aeaaae62",
@@ -5694,7 +5697,7 @@
    "posted": "2026-10-16",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "2b1fb345be10": {
@@ -5724,7 +5727,7 @@
    "posted": "2026-09-08",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "c0db378639d6": {
@@ -5754,7 +5757,7 @@
    "posted": "2026-06-05",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "4a2e2fb52e9e": {
@@ -5783,7 +5786,7 @@
    "posted": "2026-05-20",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "eb1d1b90b092": {
@@ -5814,7 +5817,7 @@
    "posted": "2026-05-27",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "ab891cbc33f8": {
@@ -5842,7 +5845,7 @@
    "posted": "2025-07-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "5f9ab2676bdd": {
@@ -5871,7 +5874,7 @@
    "posted": "2026-05-19",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "8594f547248f": {
@@ -5901,7 +5904,7 @@
    "posted": "2025-12-19",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "0103b88333ef": {
@@ -5931,7 +5934,7 @@
    "posted": "2025-10-07",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "d0e9078e0475": {
@@ -5960,7 +5963,7 @@
    "posted": "2026-11-13",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "4d7a185099db": {
@@ -5989,7 +5992,7 @@
    "posted": "2026-06-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "f142ecaefebd": {
@@ -6017,7 +6020,7 @@
    "posted": "2026-07-01",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "9cda91387c30": {
@@ -6045,7 +6048,7 @@
    "posted": "2026-11-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "d047aa471fec": {
@@ -6074,7 +6077,7 @@
    "posted": "2026-02-10",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "8a3f71fd0885": {
@@ -6101,7 +6104,7 @@
    "posted": "2026-10-12",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "0d447f4c520a": {
@@ -6128,7 +6131,7 @@
    "posted": "2025-08-13",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "50a927a932a9": {
@@ -6157,7 +6160,7 @@
    "posted": "2025-10-14",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "8093f32f17e7": {
@@ -6184,7 +6187,7 @@
    "posted": "2025-12-04",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "118a86d4edcc": {
@@ -6211,7 +6214,7 @@
    "posted": "2026-04-14",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "bcf3f380d118": {
@@ -6265,7 +6268,7 @@
    "posted": "2025-10-14",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "82d4a17cde46": {
@@ -6292,7 +6295,7 @@
    "posted": "2026-04-09",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "035eca516471": {
@@ -6319,7 +6322,7 @@
    "posted": "2026-03-04",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b262617ae24e": {
@@ -6347,7 +6350,7 @@
    "posted": "2026-09-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "d60100cd4da5": {
@@ -6373,7 +6376,7 @@
    "posted": "2025-09-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "3eb58da20775": {
@@ -6399,7 +6402,7 @@
    "posted": "2025-10-31",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "6cb772da8ddb": {
@@ -6422,7 +6425,7 @@
    "posted": "2026-08-04",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "e9e6b44a69af": {
@@ -6448,7 +6451,7 @@
    "posted": "2026-11-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "5a7f89f73e87": {
@@ -6474,7 +6477,7 @@
    "posted": "2026-03-11",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "2740059bc23a": {
@@ -6497,7 +6500,7 @@
    "posted": "2026-08-25",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b0e5862f1989": {
@@ -6520,7 +6523,7 @@
    "posted": "2026-05-03",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "4dcd8f1a1e1f": {
@@ -6543,7 +6546,7 @@
    "posted": "2026-04-06",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "d97c292de53b": {
@@ -6574,7 +6577,7 @@
    "posted": "2026-10-27",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "196a8f30c587": {
@@ -6601,7 +6604,7 @@
    "posted": "2026-04-10",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "f9a8df53c983": {
@@ -6626,7 +6629,7 @@
    "posted": "2026-05-26",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "147f72387218": {
@@ -6651,7 +6654,7 @@
    "posted": "2026-10-12",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b2d7c8abe4c4": {
@@ -6676,7 +6679,7 @@
    "posted": "2026-11-16",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "8b8f05410256": {
@@ -6701,7 +6704,7 @@
    "posted": "2026-10-15",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "d0d310266bfa": {
@@ -6728,7 +6731,7 @@
    "posted": "2026-03-02",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "4eaff806d2eb": {
@@ -6754,7 +6757,7 @@
    "posted": "2025-12-04",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "2d7f4a5bfd66": {
@@ -6781,7 +6784,7 @@
    "posted": "2026-04-24",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "97b9e728d0da": {
@@ -6808,7 +6811,7 @@
    "posted": "2026-09-24",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b3ea875f10cc": {
@@ -6834,7 +6837,7 @@
    "posted": "2024-09-27",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "df5cf01e66a9": {
@@ -6861,7 +6864,7 @@
    "posted": "2026-10-19",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "942193263ad8": {
@@ -6888,7 +6891,7 @@
    "posted": "2026-02-03",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "06fb4991fad4": {
@@ -6917,7 +6920,7 @@
    "posted": "2026-02-24",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "934a1cf8c854": {
@@ -6946,7 +6949,7 @@
    "posted": "2026-09-14",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "f7c7b9a29a89": {
@@ -6973,7 +6976,7 @@
    "posted": "2025-12-02",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "66d9904fd0a1": {
@@ -7002,7 +7005,7 @@
    "posted": "2025-12-22",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "2d7e294339b6": {
@@ -7031,7 +7034,7 @@
    "posted": "2026-03-09",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "fcae325ddfa6": {
@@ -7058,7 +7061,7 @@
    "posted": "2026-10-22",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "04c2f6c45cb2": {
@@ -7085,7 +7088,7 @@
    "posted": "2026-04-27",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "fafe0a43fa5b": {
@@ -7112,7 +7115,7 @@
    "posted": "2025-10-14",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "5a1a532263b3": {
@@ -7167,7 +7170,7 @@
    "posted": "2026-04-10",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "501b792fbc7d": {
@@ -7222,7 +7225,7 @@
    "posted": "2026-10-29",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "f9be3397e41c": {
@@ -7251,7 +7254,7 @@
    "posted": "2025-08-26",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "057b736ae567": {
@@ -7278,7 +7281,7 @@
    "posted": "2026-10-22",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "12261b014463": {
@@ -7305,7 +7308,7 @@
    "posted": "2025-07-01",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "360e4d550ce5": {
@@ -7332,7 +7335,7 @@
    "posted": "2026-10-07",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "80c33c19d8f4": {
@@ -7359,7 +7362,7 @@
    "posted": "2026-09-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "643e89b190ab": {
@@ -7386,7 +7389,7 @@
    "posted": "2026-04-14",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "bfac59e79f08": {
@@ -7413,7 +7416,7 @@
    "posted": "2024-12-11",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "6af7b651f8ab": {
@@ -7440,7 +7443,7 @@
    "posted": "2025-11-06",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "4cf2ddf91f1a": {
@@ -7467,7 +7470,7 @@
    "posted": "2026-03-02",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "e2eb31b118e2": {
@@ -7494,7 +7497,7 @@
    "posted": "2026-04-14",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "54cbad32ffc5": {
@@ -7521,7 +7524,7 @@
    "posted": "2024-02-12",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "1907ffadc980": {
@@ -7550,7 +7553,7 @@
    "posted": "2026-07-13",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "c67dd9a90acd": {
@@ -7579,7 +7582,7 @@
    "posted": "2025-07-01",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "e25b49fe34fa": {
@@ -7605,7 +7608,7 @@
    "posted": "2026-07-01",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "69266e7d9edf": {
@@ -7633,7 +7636,7 @@
    "posted": "2026-10-26",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "8967ac268cf8": {
@@ -7662,7 +7665,7 @@
    "posted": "2025-09-05",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "8b2f20492ad9": {
@@ -7690,7 +7693,7 @@
    "posted": "2025-09-05",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "a783a2c03568": {
@@ -7745,7 +7748,7 @@
    "posted": "2026-06-22",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "a969740a8d52": {
@@ -7773,7 +7776,7 @@
    "posted": "2026-08-12",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "11492db9c4b8": {
@@ -7801,7 +7804,7 @@
    "posted": "2025-07-15",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "fd95ce5c6897": {
@@ -7827,7 +7830,7 @@
    "posted": "2025-09-02",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "7f27b3b49fec": {
@@ -7852,7 +7855,7 @@
    "posted": "2026-10-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "0c22bd0c1ec0": {
@@ -7881,7 +7884,7 @@
    "posted": "2026-09-28",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "2f56ea171a1d": {
@@ -7910,7 +7913,7 @@
    "posted": "2026-05-19",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "6b735927fe99": {
@@ -7935,7 +7938,7 @@
    "posted": "2026-03-06",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "1d10eaf577d7": {
@@ -7962,7 +7965,7 @@
    "posted": "2026-09-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "6c4f96570168": {
@@ -7987,7 +7990,7 @@
    "posted": "2024-05-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "acb22b6f8152": {
@@ -8016,7 +8019,7 @@
    "posted": "2026-11-05",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "acf5c68fbd21": {
@@ -8045,7 +8048,7 @@
    "posted": "2026-11-02",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b526e2258009": {
@@ -8068,7 +8071,7 @@
    "posted": "2025-09-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "ed5a53fd5e48": {
@@ -8151,7 +8154,7 @@
    "posted": "2026-11-03",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "066513a4040e": {
@@ -8176,7 +8179,7 @@
    "posted": "2026-10-28",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "3655ab1a85de": {
@@ -8201,7 +8204,7 @@
    "posted": "2026-10-21",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "c89eb54d7613": {
@@ -8226,7 +8229,7 @@
    "posted": "2026-11-06",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "1f7eea9ca0c8": {
@@ -8254,7 +8257,7 @@
    "posted": "2026-10-26",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "e82e2d7bd9d3": {
@@ -8283,7 +8286,7 @@
    "posted": "2026-09-11",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "ad453ab36d4c": {
@@ -8313,7 +8316,7 @@
    "posted": "2026-08-24",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "aeca362d8f23": {
@@ -8342,7 +8345,7 @@
    "posted": "2026-06-16",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "2453bb608dba": {
@@ -8371,7 +8374,7 @@
    "posted": "2026-05-08",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "19d949627c79": {
@@ -8399,7 +8402,7 @@
    "posted": "2026-04-27",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "fa101a423abf": {
@@ -8428,7 +8431,7 @@
    "posted": "2026-05-08",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "e3ec7b69eb44": {
@@ -8456,7 +8459,7 @@
    "posted": "2026-06-13",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b83b96a78e71": {
@@ -8486,7 +8489,7 @@
    "posted": "2026-06-03",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "1a74a846af61": {
@@ -8514,7 +8517,7 @@
    "posted": "2026-11-12",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "dcbbd56257b1": {
@@ -8546,7 +8549,7 @@
    "posted": "2026-11-19",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "85007e87b099": {
@@ -8575,7 +8578,7 @@
    "posted": "2026-10-06",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "c1587bb6a45e": {
@@ -8604,7 +8607,7 @@
    "posted": "2026-09-07",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "b884040c17dc": {
@@ -8633,7 +8636,7 @@
    "posted": "2026-07-22",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "82c41947234b": {
@@ -8662,7 +8665,7 @@
    "posted": "2026-07-04",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "73880d382649": {
@@ -8689,7 +8692,7 @@
    "posted": "2026-08-21",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "1cec2ce30f27": {
@@ -8718,7 +8721,7 @@
    "posted": "2026-11-17",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "01d7404e4efd": {
@@ -8747,7 +8750,7 @@
    "posted": "2026-10-26",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "c4753ef2ca98": {
@@ -8777,7 +8780,7 @@
    "posted": "2026-07-28",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "5c9211e8f432": {
@@ -8806,7 +8809,7 @@
    "posted": "2026-06-19",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "7800dc373dce": {
@@ -8833,7 +8836,7 @@
    "posted": "2026-04-16",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "43ab97a0bab4": {
@@ -8863,7 +8866,7 @@
    "posted": "2026-05-26",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "5e8dc8f0d331": {
@@ -8894,7 +8897,7 @@
    "posted": "2026-11-07",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "0a22b5f684fe": {
@@ -8925,7 +8928,7 @@
    "posted": "2026-08-04",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "081dac89ad4f": {
@@ -8984,7 +8987,7 @@
    "posted": "2026-07-30",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "f4fc586ef15a": {
@@ -9036,7 +9039,7 @@
    "posted": "2026-11-19",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "2dd12832e008": {
@@ -9095,7 +9098,7 @@
    "posted": "2026-11-20",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "e49d26c9c494": {
@@ -9155,7 +9158,7 @@
    "posted": "2026-11-03",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-23",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "status": "active"
   },
   "32916b73bdd9": {
@@ -9185,7 +9188,32 @@
    "posted": "2026-11-23",
    "tagger": "gemini-3.5-flash-lite",
    "first_seen": "2026-11-23",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
+   "status": "active"
+  },
+  "e574232b5494": {
+   "id": "e574232b5494",
+   "title": "Learning Experience Design Intern",
+   "original_title": "Learning Experience Design Intern",
+   "company": "Paytm",
+   "location": "Noida, Uttar Pradesh",
+   "cities": [
+    "Noida"
+   ],
+   "role": "design",
+   "role_label": "Design & Creative",
+   "type": "internship",
+   "type_label": "Internship",
+   "skills": [],
+   "eligibility": "",
+   "pay": "",
+   "url": "https://jobs.lever.co/paytm/c8886602-f1b7-4c08-b181-f4d36b2d0e80",
+   "source": "lever",
+   "board": "paytm",
+   "posted": "2026-11-24",
+   "tagger": "keywords",
+   "first_seen": "2026-11-24",
+   "last_seen": "2026-11-24",
    "status": "active"
   }
  }
